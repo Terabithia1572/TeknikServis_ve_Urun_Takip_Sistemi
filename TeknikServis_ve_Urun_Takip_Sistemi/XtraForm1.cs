@@ -65,5 +65,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             public string ZipCode { get; set; }
             public string Phone { get; set; }
         }
+
+        private void XtraForm1_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

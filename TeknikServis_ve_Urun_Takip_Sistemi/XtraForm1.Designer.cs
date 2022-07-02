@@ -363,6 +363,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.ribbonPage5.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup7});
+            this.ribbonPage5.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.communicate;
             this.ribbonPage5.Name = "ribbonPage5";
             this.ribbonPage5.Text = "İletişim";
             // 
@@ -375,6 +376,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.ribbonPage6.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup8});
+            this.ribbonPage6.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.computer;
             this.ribbonPage6.Name = "ribbonPage6";
             this.ribbonPage6.Text = "Araçlar";
             // 
@@ -387,6 +389,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.ribbonPage7.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup9});
+            this.ribbonPage7.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.opportunity1;
             this.ribbonPage7.Name = "ribbonPage7";
             this.ribbonPage7.Text = "İstatistikler";
             // 
@@ -413,6 +416,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.Name = "XtraForm1";
             this.Ribbon = this.ribbonControl;
             this.StatusBar = this.ribbonStatusBar;
+            this.Load += new System.EventHandler(this.XtraForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

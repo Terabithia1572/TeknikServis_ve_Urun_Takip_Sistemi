@@ -204,6 +204,9 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\opportunity1.png" />
+    <None Include="Resources\computer.png" />
+    <None Include="Resources\communicate.png" />
     <None Include="Resources\invoice.png" />
     <None Include="Resources\owner.png" />
     <None Include="Resources\product %281%29.png" />
