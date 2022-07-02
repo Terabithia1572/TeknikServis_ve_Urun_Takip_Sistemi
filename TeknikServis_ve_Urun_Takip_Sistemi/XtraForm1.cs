@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,12 +11,11 @@ using System.Windows.Forms;
 
 namespace TeknikServis_ve_Urun_Takip_Sistemi
 {
-    public partial class Form1 : MetroFramework.Forms.MetroForm
+    public partial class XtraForm1 : DevExpress.XtraEditors.XtraForm
     {
-        public Form1()
+        public XtraForm1()
         {
             InitializeComponent();
         }
-
     }
 }
