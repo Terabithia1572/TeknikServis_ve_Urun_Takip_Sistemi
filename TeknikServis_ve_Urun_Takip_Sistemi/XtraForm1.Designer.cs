@@ -208,37 +208,46 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.barButtonItem7.Caption = "Marka İstatistikleri";
             this.barButtonItem7.Id = 26;
+            this.barButtonItem7.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.brand;
             this.barButtonItem7.Name = "barButtonItem7";
+            this.barButtonItem7.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // barButtonItem8
             // 
             this.barButtonItem8.Caption = "Arızalı Ürün Listesi";
             this.barButtonItem8.Id = 27;
+            this.barButtonItem8.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.fault_tolerant_design;
             this.barButtonItem8.Name = "barButtonItem8";
             // 
             // barButtonItem9
             // 
             this.barButtonItem9.Caption = "Yeni Arızalı Ürün Kaydı";
             this.barButtonItem9.Id = 28;
+            this.barButtonItem9.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.server_check;
             this.barButtonItem9.Name = "barButtonItem9";
             // 
             // barButtonItem10
             // 
             this.barButtonItem10.Caption = "Arızalı Ürün Açıklama";
             this.barButtonItem10.Id = 29;
+            this.barButtonItem10.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.bored;
             this.barButtonItem10.Name = "barButtonItem10";
             // 
             // barButtonItem11
             // 
             this.barButtonItem11.Caption = "QR Code Oluştur";
             this.barButtonItem11.Id = 30;
+            this.barButtonItem11.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.qr_code;
             this.barButtonItem11.Name = "barButtonItem11";
+            this.barButtonItem11.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // barButtonItem12
             // 
             this.barButtonItem12.Caption = "Barkod Oluştur";
             this.barButtonItem12.Id = 31;
+            this.barButtonItem12.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.barcode_scanner;
             this.barButtonItem12.Name = "barButtonItem12";
+            this.barButtonItem12.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // ribbonPage1
             // 

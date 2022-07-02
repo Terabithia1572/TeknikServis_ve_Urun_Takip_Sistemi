@@ -204,6 +204,12 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\barcode-scanner.png" />
+    <None Include="Resources\qr-code.png" />
+    <None Include="Resources\bored.png" />
+    <None Include="Resources\server-check.png" />
+    <None Include="Resources\fault-tolerant-design.png" />
+    <None Include="Resources\brand.png" />
     <None Include="Resources\opportunity.png" />
     <None Include="Resources\product.png" />
     <None Include="Resources\process.png" />
