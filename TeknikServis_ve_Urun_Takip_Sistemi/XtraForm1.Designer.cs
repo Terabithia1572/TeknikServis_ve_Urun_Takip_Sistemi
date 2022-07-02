@@ -110,7 +110,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPage7});
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
-            this.ribbonControl.Size = new System.Drawing.Size(798, 158);
+            this.ribbonControl.Size = new System.Drawing.Size(798, 177);
             this.ribbonControl.StatusBar = this.ribbonStatusBar;
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
             // 
@@ -255,6 +255,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPageGroup1,
             this.ribbonPageGroup2,
             this.ribbonPageGroup3});
+            this.ribbonPage1.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.homepage;
             this.ribbonPage1.MergeOrder = 0;
             this.ribbonPage1.Name = "ribbonPage1";
             this.ribbonPage1.Text = "Ana Sayfa";
@@ -291,6 +292,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPageGroup11,
             this.ribbonPageGroup12,
             this.ribbonPageGroup13});
+            this.ribbonPage2.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.product__1_;
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "Ürünler";
             // 
@@ -335,6 +337,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup5});
+            this.ribbonPage3.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.owner;
             this.ribbonPage3.Name = "ribbonPage3";
             this.ribbonPage3.Text = "Cariler";
             // 
@@ -347,6 +350,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.ribbonPage4.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup6});
+            this.ribbonPage4.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.invoice;
             this.ribbonPage4.Name = "ribbonPage4";
             this.ribbonPage4.Text = "Faturalar ve Hareketler";
             // 

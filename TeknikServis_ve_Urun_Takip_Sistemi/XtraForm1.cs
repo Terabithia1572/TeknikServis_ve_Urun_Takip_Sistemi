@@ -20,12 +20,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             InitializeComponent();
 
             BindingList<Customer> dataSource = GetDataSource();
-            gridControl.DataSource = dataSource;
+            //gridControl.DataSource = dataSource;
             bsiRecordsCount.Caption = "RECORDS : " + dataSource.Count;
         }
         void bbiPrintPreview_ItemClick(object sender, ItemClickEventArgs e)
         {
-            gridControl.ShowRibbonPrintPreview();
+           // gridControl.ShowRibbonPrintPreview();
         }
         public BindingList<Customer> GetDataSource()
         {
