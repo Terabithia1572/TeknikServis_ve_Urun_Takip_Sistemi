@@ -222,6 +222,10 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\sms.png" />
+    <None Include="Resources\new-email.png" />
+    <None Include="Resources\gmail.png" />
+    <None Include="Resources\contact-us.png" />
     <None Include="Resources\gdp.png" />
     <None Include="Resources\cash copy.png" />
     <None Include="Resources\digital-economy %282%29 copy.png" />

@@ -163,6 +163,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap contact_us {
+            get {
+                object obj = ResourceManager.GetObject("contact-us", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap crowd {
             get {
                 object obj = ResourceManager.GetObject("crowd", resourceCulture);
@@ -263,6 +273,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gmail {
+            get {
+                object obj = ResourceManager.GetObject("gmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hierarchical_structure_copy {
             get {
                 object obj = ResourceManager.GetObject("hierarchical-structure copy", resourceCulture);
@@ -346,6 +366,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         internal static System.Drawing.Bitmap man {
             get {
                 object obj = ResourceManager.GetObject("man", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap new_email {
+            get {
+                object obj = ResourceManager.GetObject("new-email", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -466,6 +496,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         internal static System.Drawing.Bitmap server_check {
             get {
                 object obj = ResourceManager.GetObject("server-check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sms {
+            get {
+                object obj = ResourceManager.GetObject("sms", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

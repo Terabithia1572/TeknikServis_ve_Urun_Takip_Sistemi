@@ -73,6 +73,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem35 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem36 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem37 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem38 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -149,9 +153,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem31,
             this.barButtonItem32,
             this.barButtonItem33,
-            this.barButtonItem34});
+            this.barButtonItem34,
+            this.barButtonItem35,
+            this.barButtonItem36,
+            this.barButtonItem37,
+            this.barButtonItem38});
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 55;
+            this.ribbonControl.MaxItemId = 59;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -493,6 +501,38 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem34.Name = "barButtonItem34";
             this.barButtonItem34.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
+            // barButtonItem35
+            // 
+            this.barButtonItem35.Caption = "Rehber";
+            this.barButtonItem35.Id = 55;
+            this.barButtonItem35.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.contact_us;
+            this.barButtonItem35.Name = "barButtonItem35";
+            this.barButtonItem35.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem36
+            // 
+            this.barButtonItem36.Caption = "Mail Kutusu";
+            this.barButtonItem36.Id = 56;
+            this.barButtonItem36.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.gmail;
+            this.barButtonItem36.Name = "barButtonItem36";
+            this.barButtonItem36.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem37
+            // 
+            this.barButtonItem37.Caption = "Yeni Mail";
+            this.barButtonItem37.Id = 57;
+            this.barButtonItem37.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.new_email;
+            this.barButtonItem37.Name = "barButtonItem37";
+            this.barButtonItem37.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // barButtonItem38
+            // 
+            this.barButtonItem38.Caption = "Sms Gönderme";
+            this.barButtonItem38.Id = 58;
+            this.barButtonItem38.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.sms;
+            this.barButtonItem38.Name = "barButtonItem38";
+            this.barButtonItem38.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -652,6 +692,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             // ribbonPageGroup7
             // 
+            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem35);
+            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem36);
+            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem37);
+            this.ribbonPageGroup7.ItemLinks.Add(this.barButtonItem38);
             this.ribbonPageGroup7.Name = "ribbonPageGroup7";
             this.ribbonPageGroup7.Text = "ribbonPageGroup7";
             // 
@@ -790,5 +834,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem barButtonItem32;
         private DevExpress.XtraBars.BarButtonItem barButtonItem33;
         private DevExpress.XtraBars.BarButtonItem barButtonItem34;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem35;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem36;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem37;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem38;
     }
 }
