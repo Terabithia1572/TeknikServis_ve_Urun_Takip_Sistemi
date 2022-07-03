@@ -66,9 +66,27 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             public string Phone { get; set; }
         }
 
+
         private void XtraForm1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void btn_UrunlerListesi_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.FrmUrunListesi fr = new NewFolder1.FrmUrunListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem13_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
         }
     }
 }
