@@ -88,5 +88,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         {
 
         }
+
+        private void barButtonItem23_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem27_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
     }
 }

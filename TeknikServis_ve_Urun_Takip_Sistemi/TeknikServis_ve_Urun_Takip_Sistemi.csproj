@@ -222,6 +222,22 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\technical-support.png" />
+    <None Include="Resources\excel.png" />
+    <None Include="Resources\word.png" />
+    <None Include="Resources\currency %283%29 copy.png" />
+    <None Include="Resources\newspaper %281%29 copy.png" />
+    <None Include="Resources\currency %282%29 copy.png" />
+    <None Include="Resources\currency %281%29 copy.png" />
+    <None Include="Resources\notebook.png" />
+    <None Include="Resources\calculator.png" />
+    <None Include="Resources\hierarchical-structure copy.png" />
+    <None Include="Resources\hierarchy.png" />
+    <None Include="Resources\hire.png" />
+    <None Include="Resources\crowd.png" />
+    <None Include="Resources\process %281%29.png" />
+    <None Include="Resources\cancel copy.png" />
+    <None Include="Resources\file.png" />
     <None Include="Resources\bill copy.png" />
     <None Include="Resources\invoicepencil.png" />
     <None Include="Resources\invoice %28tl%29 copy.png" />
