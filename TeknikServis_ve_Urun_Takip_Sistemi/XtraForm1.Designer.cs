@@ -218,6 +218,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem8.Id = 27;
             this.barButtonItem8.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.fault_tolerant_design;
             this.barButtonItem8.Name = "barButtonItem8";
+            this.barButtonItem8.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // barButtonItem9
             // 
@@ -225,6 +226,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem9.Id = 28;
             this.barButtonItem9.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.server_check;
             this.barButtonItem9.Name = "barButtonItem9";
+            this.barButtonItem9.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // barButtonItem10
             // 
@@ -232,6 +234,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem10.Id = 29;
             this.barButtonItem10.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.bored;
             this.barButtonItem10.Name = "barButtonItem10";
+            this.barButtonItem10.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // barButtonItem11
             // 
