@@ -127,6 +127,9 @@
   <data name="receipt copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\receipt copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cash copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cash copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="crowd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\crowd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,8 +187,8 @@
   <data name="newspaper (1) copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newspaper (1) copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="invoice (tl) copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\invoice (tl) copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="currency (2) copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\currency (2) copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="owner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\owner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +199,8 @@
   <data name="qr-code" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\qr-code.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="currency (2) copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\currency (2) copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="invoice (tl) copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\invoice (tl) copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="currency (3) copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\currency (3) copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -213,6 +216,12 @@
   </data>
   <data name="opportunity1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\opportunity1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="technical-support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\technical-support.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="digital-economy (2) copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\digital-economy (2) copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="process" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\process.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,7 +244,7 @@
   <data name="barcode-scanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\barcode-scanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="technical-support" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\technical-support.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="gdp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gdp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -133,6 +133,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cash_copy {
+            get {
+                object obj = ResourceManager.GetObject("cash copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap communicate {
             get {
                 object obj = ResourceManager.GetObject("communicate", resourceCulture);
@@ -193,6 +203,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap digital_economy__2__copy {
+            get {
+                object obj = ResourceManager.GetObject("digital-economy (2) copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap distributed {
             get {
                 object obj = ResourceManager.GetObject("distributed", resourceCulture);
@@ -226,6 +246,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         internal static System.Drawing.Bitmap file {
             get {
                 object obj = ResourceManager.GetObject("file", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gdp {
+            get {
+                object obj = ResourceManager.GetObject("gdp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

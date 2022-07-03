@@ -311,21 +311,27 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.barButtonItem3.Caption = "Yeni Cari";
             this.barButtonItem3.Id = 32;
+            this.barButtonItem3.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.digital_economy__2__copy;
             this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem13
             // 
             this.barButtonItem13.Caption = "Cari Listesi";
             this.barButtonItem13.Id = 33;
+            this.barButtonItem13.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.gdp;
             this.barButtonItem13.Name = "barButtonItem13";
+            this.barButtonItem13.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.barButtonItem13.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem13_ItemClick);
             // 
             // barButtonItem14
             // 
             this.barButtonItem14.Caption = "Cari İL İstatistikleri";
             this.barButtonItem14.Id = 34;
+            this.barButtonItem14.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.cash_copy;
             this.barButtonItem14.Name = "barButtonItem14";
+            this.barButtonItem14.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // barButtonItem15
             // 
