@@ -63,6 +63,26 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap add_to_basket {
+            get {
+                object obj = ResourceManager.GetObject("add-to-basket", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_to_cart {
+            get {
+                object obj = ResourceManager.GetObject("add-to-cart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap assets {
             get {
                 object obj = ResourceManager.GetObject("assets", resourceCulture);
@@ -483,6 +503,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap purchase {
+            get {
+                object obj = ResourceManager.GetObject("purchase", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap qr_code {
             get {
                 object obj = ResourceManager.GetObject("qr-code", resourceCulture);
@@ -496,6 +526,26 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         internal static System.Drawing.Bitmap receipt_copy {
             get {
                 object obj = ResourceManager.GetObject("receipt copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap remove_from_cart {
+            get {
+                object obj = ResourceManager.GetObject("remove-from-cart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap remove_from_cart__1_ {
+            get {
+                object obj = ResourceManager.GetObject("remove-from-cart (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
