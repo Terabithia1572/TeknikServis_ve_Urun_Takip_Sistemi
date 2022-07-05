@@ -222,6 +222,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\shopping-cart %282%29.png" />
     <None Include="Resources\purchase.png" />
     <None Include="Resources\add-to-cart.png" />
     <None Include="Resources\remove-from-cart %281%29.png" />
