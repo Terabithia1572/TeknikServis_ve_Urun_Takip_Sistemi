@@ -21,17 +21,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         Db_TeknikServisEntities db = new Db_TeknikServisEntities();
         private void FrmUrunListesi_Load(object sender, EventArgs e)
         {
-            //Listeleme ToList Add Remove
+            //Listeleme ToList Add Remove 
 
             var degerler = db.Tbl_Urun.ToList();
             dgv_UrunListesi.DataSource = degerler;
+            //dgv_UrunListesi.OptionsBehavior.Editable = false;    
 
         }
 
-        private void metroTabControl1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn_Ekle_Click(object sender, EventArgs e)
         {
@@ -57,6 +54,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             var degerler = db.Tbl_Urun.ToList();
             dgv_UrunListesi.DataSource = degerler;
             MessageBox.Show("Liste Başarıyla Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void dgv_UrunListesi_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+          //  tx_UrunAdi.Text = dgv_UrunListesi.RowHeaderCellChanged("").ToString();
         }
     }
 }
