@@ -252,6 +252,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem4.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.process;
             this.barButtonItem4.Name = "barButtonItem4";
             this.barButtonItem4.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // barButtonItem5
             // 
@@ -324,7 +325,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem3.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.digital_economy__2__copy;
             this.barButtonItem3.Name = "barButtonItem3";
             this.barButtonItem3.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem13
             // 
@@ -333,7 +333,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem13.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.gdp;
             this.barButtonItem13.Name = "barButtonItem13";
             this.barButtonItem13.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            this.barButtonItem13.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem13_ItemClick);
             // 
             // barButtonItem14
             // 
@@ -412,7 +411,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem23.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.crowd;
             this.barButtonItem23.Name = "barButtonItem23";
             this.barButtonItem23.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            this.barButtonItem23.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem23_ItemClick);
             // 
             // barButtonItem24
             // 
@@ -445,7 +443,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem27.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.calculator;
             this.barButtonItem27.Name = "barButtonItem27";
             this.barButtonItem27.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            this.barButtonItem27.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem27_ItemClick);
             // 
             // barButtonItem28
             // 

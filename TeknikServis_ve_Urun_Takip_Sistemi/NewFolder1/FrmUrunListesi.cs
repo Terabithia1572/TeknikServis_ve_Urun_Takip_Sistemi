@@ -27,8 +27,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             dgv_UrunListesi.DataSource = degerler;
             //var degerler2 = db.Tbl_Kategori.ToList();
             cbx_Kategoriler.DataSource = db.Tbl_Kategori.ToList();
-            cbx_Kategoriler.DisplayMember = "Ad";
             cbx_Kategoriler.ValueMember = "ID";
+            cbx_Kategoriler.DisplayMember = "Ad";
+           
             //dgv_UrunListesi.OptionsBehavior.Editable = false;    
 
         }
@@ -58,6 +59,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         {
             var degerler = db.Tbl_Urun.ToList();
             dgv_UrunListesi.DataSource = degerler;
+            cbx_Kategoriler.DataSource = db.Tbl_Kategori.ToList();
+            cbx_Kategoriler.ValueMember = "ID";
+            cbx_Kategoriler.DisplayMember = "Ad";
             MessageBox.Show("Liste Başarıyla Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
 
@@ -72,7 +76,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             tx_Stok.Text = dgv_UrunListesi.SelectedRows[0].Cells["Stok"].Value.ToString();
             tx_ID.Text = dgv_UrunListesi.SelectedRows[0].Cells["ID"].Value.ToString();
             cbx_Kategoriler.Text = dgv_UrunListesi.SelectedRows[0].Cells["Kategori"].Value.ToString();
-
 
         }
 
@@ -121,6 +124,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             deger.SatisFiyat = decimal.Parse(tx_SatisFiyat.Text);
             deger.Stok = short.Parse(tx_Stok.Text);
             deger.Kategori = byte.Parse(cbx_Kategoriler.SelectedValue.ToString());
+            deger.Durum = false;
             db.SaveChanges();
             MessageBox.Show("Ürün Başarıyla Güncellendi..", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             FrmUrunListesi_Load(null, null);

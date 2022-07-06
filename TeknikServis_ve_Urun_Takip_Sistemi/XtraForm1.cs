@@ -79,24 +79,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             fr.Show();
         }
 
-        private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
+        private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
         {
-
-        }
-
-        private void barButtonItem13_ItemClick(object sender, ItemClickEventArgs e)
-        {
-
-        }
-
-        private void barButtonItem23_ItemClick(object sender, ItemClickEventArgs e)
-        {
-
-        }
-
-        private void barButtonItem27_ItemClick(object sender, ItemClickEventArgs e)
-        {
-
+            NewFolder1.YeniUrunEkleme yu = new NewFolder1.YeniUrunEkleme();
+            yu.MdiParent = this;
+            yu.Show();
         }
     }
 }
