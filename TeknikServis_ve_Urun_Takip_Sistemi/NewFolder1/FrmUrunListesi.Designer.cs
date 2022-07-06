@@ -29,11 +29,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_UrunListesi = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
@@ -51,38 +53,40 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Marka = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tx_UrunAdi = new Guna.UI2.WinForms.Guna2TextBox();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_UrunListesi)).BeginInit();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgv_UrunListesi
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_UrunListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgv_UrunListesi.AllowUserToAddRows = false;
+            this.dgv_UrunListesi.AllowUserToDeleteRows = false;
+            this.dgv_UrunListesi.AllowUserToResizeColumns = false;
+            this.dgv_UrunListesi.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_UrunListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_UrunListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_UrunListesi.BackgroundColor = System.Drawing.Color.White;
             this.dgv_UrunListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_UrunListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_UrunListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_UrunListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_UrunListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_UrunListesi.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_UrunListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_UrunListesi.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_UrunListesi.EnableHeadersVisualStyles = false;
             this.dgv_UrunListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_UrunListesi.Location = new System.Drawing.Point(1, -3);
@@ -119,6 +123,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_UrunListesi.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
             this.dgv_UrunListesi.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dgv_UrunListesi.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_UrunListesi_CellContentDoubleClick);
+            this.dgv_UrunListesi.Click += new System.EventHandler(this.dgv_UrunListesi_Click);
             // 
             // guna2GroupBox1
             // 
@@ -150,6 +155,38 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Size = new System.Drawing.Size(267, 739);
             this.guna2GroupBox1.TabIndex = 2;
             this.guna2GroupBox1.Text = "Ürün İşlem Menüsü";
+            // 
+            // tx_ID
+            // 
+            this.tx_ID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_ID.DefaultText = "";
+            this.tx_ID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_ID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_ID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_ID.DisabledState.Parent = this.tx_ID;
+            this.tx_ID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_ID.Enabled = false;
+            this.tx_ID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_ID.FocusedState.Parent = this.tx_ID;
+            this.tx_ID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_ID.HoverState.Parent = this.tx_ID;
+            this.tx_ID.Location = new System.Drawing.Point(230, 42);
+            this.tx_ID.Name = "tx_ID";
+            this.tx_ID.PasswordChar = '\0';
+            this.tx_ID.PlaceholderText = "";
+            this.tx_ID.SelectedText = "";
+            this.tx_ID.ShadowDecoration.Parent = this.tx_ID;
+            this.tx_ID.Size = new System.Drawing.Size(34, 29);
+            this.tx_ID.TabIndex = 16;
+            // 
+            // metroLabel7
+            // 
+            this.metroLabel7.AutoSize = true;
+            this.metroLabel7.Location = new System.Drawing.Point(236, 74);
+            this.metroLabel7.Name = "metroLabel7";
+            this.metroLabel7.Size = new System.Drawing.Size(21, 19);
+            this.metroLabel7.TabIndex = 15;
+            this.metroLabel7.Text = "ID";
             // 
             // btn_Temizle
             // 
@@ -203,6 +240,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Guncelle.Size = new System.Drawing.Size(139, 40);
             this.btn_Guncelle.TabIndex = 13;
             this.btn_Guncelle.Text = "Güncelle";
+            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
             // 
             // btn_Sil
             // 
@@ -423,38 +461,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_UrunAdi.ShadowDecoration.Parent = this.tx_UrunAdi;
             this.tx_UrunAdi.Size = new System.Drawing.Size(139, 28);
             this.tx_UrunAdi.TabIndex = 1;
-            // 
-            // metroLabel7
-            // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(243, 73);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(21, 19);
-            this.metroLabel7.TabIndex = 15;
-            this.metroLabel7.Text = "ID";
-            // 
-            // tx_ID
-            // 
-            this.tx_ID.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_ID.DefaultText = "";
-            this.tx_ID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_ID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_ID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_ID.DisabledState.Parent = this.tx_ID;
-            this.tx_ID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_ID.Enabled = false;
-            this.tx_ID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_ID.FocusedState.Parent = this.tx_ID;
-            this.tx_ID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_ID.HoverState.Parent = this.tx_ID;
-            this.tx_ID.Location = new System.Drawing.Point(239, 42);
-            this.tx_ID.Name = "tx_ID";
-            this.tx_ID.PasswordChar = '\0';
-            this.tx_ID.PlaceholderText = "";
-            this.tx_ID.SelectedText = "";
-            this.tx_ID.ShadowDecoration.Parent = this.tx_ID;
-            this.tx_ID.Size = new System.Drawing.Size(25, 28);
-            this.tx_ID.TabIndex = 16;
             // 
             // FrmUrunListesi
             // 
