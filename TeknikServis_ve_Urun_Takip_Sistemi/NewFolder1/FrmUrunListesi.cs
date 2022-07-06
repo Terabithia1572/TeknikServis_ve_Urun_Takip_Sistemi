@@ -58,7 +58,35 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
 
         private void dgv_UrunListesi_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-          //  tx_UrunAdi.Text = dgv_UrunListesi.RowHeaderCellChanged("").ToString();
+            if (dgv_UrunListesi.SelectedRows.Count == 0)
+                return;
+            tx_UrunAdi.Text = dgv_UrunListesi.SelectedRows[0].Cells["Ad"].Value.ToString();
+            tx_Marka.Text = dgv_UrunListesi.SelectedRows[0].Cells["Marka"].Value.ToString();
+            tx_AlisFiyat.Text = dgv_UrunListesi.SelectedRows[0].Cells["AlisFiyat"].Value.ToString();
+            tx_SatisFiyat.Text = dgv_UrunListesi.SelectedRows[0].Cells["SatisFiyat"].Value.ToString();
+            tx_Stok.Text = dgv_UrunListesi.SelectedRows[0].Cells["Stok"].Value.ToString();
+            tx_ID.Text = dgv_UrunListesi.SelectedRows[0].Cells["ID"].Value.ToString();
+        }
+
+        private void btn_Temizle_Click(object sender, EventArgs e)
+        {
+            tx_UrunAdi.Text = "";
+            tx_Marka.Text = "";
+            tx_SatisFiyat.Text = "";
+            tx_AlisFiyat.Text = "";
+            tx_SatisFiyat.Text = "";
+            tx_Stok.Text = "";
+            tx_ID.Text = "";
+        }
+
+        private void btn_Sil_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(tx_ID.Text);
+            var deger = db.Tbl_Urun.Find(id);
+            db.Tbl_Urun.Remove(deger);
+            db.SaveChanges();
+            MessageBox.Show("Ürün Başarıyla Silindi...", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            FrmUrunListesi_Load(null, null);
         }
     }
 }
