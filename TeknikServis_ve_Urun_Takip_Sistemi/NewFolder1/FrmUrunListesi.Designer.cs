@@ -29,9 +29,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_UrunListesi = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
@@ -41,7 +41,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
-            this.cbx_Kategoriler = new Guna.UI2.WinForms.Guna2ComboBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
@@ -53,6 +52,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Marka = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tx_UrunAdi = new Guna.UI2.WinForms.Guna2TextBox();
+            this.cbx_Kategoriler = new MetroFramework.Controls.MetroComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_UrunListesi)).BeginInit();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -63,30 +63,30 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_UrunListesi.AllowUserToDeleteRows = false;
             this.dgv_UrunListesi.AllowUserToResizeColumns = false;
             this.dgv_UrunListesi.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_UrunListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_UrunListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_UrunListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_UrunListesi.BackgroundColor = System.Drawing.Color.White;
             this.dgv_UrunListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_UrunListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_UrunListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_UrunListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_UrunListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_UrunListesi.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_UrunListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_UrunListesi.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgv_UrunListesi.EnableHeadersVisualStyles = false;
             this.dgv_UrunListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_UrunListesi.Location = new System.Drawing.Point(1, -3);
@@ -127,6 +127,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // guna2GroupBox1
             // 
+            this.guna2GroupBox1.Controls.Add(this.cbx_Kategoriler);
             this.guna2GroupBox1.Controls.Add(this.tx_ID);
             this.guna2GroupBox1.Controls.Add(this.metroLabel7);
             this.guna2GroupBox1.Controls.Add(this.btn_Temizle);
@@ -134,7 +135,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Controls.Add(this.btn_Guncelle);
             this.guna2GroupBox1.Controls.Add(this.btn_Sil);
             this.guna2GroupBox1.Controls.Add(this.btn_Ekle);
-            this.guna2GroupBox1.Controls.Add(this.cbx_Kategoriler);
             this.guna2GroupBox1.Controls.Add(this.metroLabel6);
             this.guna2GroupBox1.Controls.Add(this.metroLabel5);
             this.guna2GroupBox1.Controls.Add(this.metroLabel4);
@@ -277,26 +277,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Ekle.TabIndex = 13;
             this.btn_Ekle.Text = "Ekle";
             this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
-            // 
-            // cbx_Kategoriler
-            // 
-            this.cbx_Kategoriler.BackColor = System.Drawing.Color.Transparent;
-            this.cbx_Kategoriler.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbx_Kategoriler.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbx_Kategoriler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cbx_Kategoriler.FocusedColor = System.Drawing.Color.Empty;
-            this.cbx_Kategoriler.FocusedState.Parent = this.cbx_Kategoriler;
-            this.cbx_Kategoriler.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbx_Kategoriler.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cbx_Kategoriler.FormattingEnabled = true;
-            this.cbx_Kategoriler.HoverState.Parent = this.cbx_Kategoriler;
-            this.cbx_Kategoriler.ItemHeight = 30;
-            this.cbx_Kategoriler.ItemsAppearance.Parent = this.cbx_Kategoriler;
-            this.cbx_Kategoriler.Location = new System.Drawing.Point(84, 288);
-            this.cbx_Kategoriler.Name = "cbx_Kategoriler";
-            this.cbx_Kategoriler.ShadowDecoration.Parent = this.cbx_Kategoriler;
-            this.cbx_Kategoriler.Size = new System.Drawing.Size(139, 36);
-            this.cbx_Kategoriler.TabIndex = 6;
             // 
             // metroLabel6
             // 
@@ -462,6 +442,17 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_UrunAdi.Size = new System.Drawing.Size(139, 28);
             this.tx_UrunAdi.TabIndex = 1;
             // 
+            // cbx_Kategoriler
+            // 
+            this.cbx_Kategoriler.FormattingEnabled = true;
+            this.cbx_Kategoriler.ItemHeight = 23;
+            this.cbx_Kategoriler.Location = new System.Drawing.Point(84, 288);
+            this.cbx_Kategoriler.Name = "cbx_Kategoriler";
+            this.cbx_Kategoriler.Size = new System.Drawing.Size(139, 29);
+            this.cbx_Kategoriler.Style = MetroFramework.MetroColorStyle.Lime;
+            this.cbx_Kategoriler.TabIndex = 17;
+            this.cbx_Kategoriler.UseSelectable = true;
+            // 
             // FrmUrunListesi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -493,7 +484,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2TextBox tx_Marka;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private Guna.UI2.WinForms.Guna2TextBox tx_UrunAdi;
-        private Guna.UI2.WinForms.Guna2ComboBox cbx_Kategoriler;
         private MetroFramework.Controls.MetroLabel metroLabel6;
         private Guna.UI2.WinForms.Guna2Button btn_Sil;
         private Guna.UI2.WinForms.Guna2Button btn_Ekle;
@@ -502,5 +492,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2Button btn_Temizle;
         private Guna.UI2.WinForms.Guna2TextBox tx_ID;
         private MetroFramework.Controls.MetroLabel metroLabel7;
+        private MetroFramework.Controls.MetroComboBox cbx_Kategoriler;
     }
 }

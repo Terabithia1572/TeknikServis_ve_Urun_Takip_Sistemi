@@ -71,6 +71,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             tx_SatisFiyat.Text = dgv_UrunListesi.SelectedRows[0].Cells["SatisFiyat"].Value.ToString();
             tx_Stok.Text = dgv_UrunListesi.SelectedRows[0].Cells["Stok"].Value.ToString();
             tx_ID.Text = dgv_UrunListesi.SelectedRows[0].Cells["ID"].Value.ToString();
+            cbx_Kategoriler.Text = dgv_UrunListesi.SelectedRows[0].Cells["Kategori"].Value.ToString();
 
 
         }
