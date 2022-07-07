@@ -38,7 +38,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.bbiEdit = new DevExpress.XtraBars.BarButtonItem();
             this.bbiDelete = new DevExpress.XtraBars.BarButtonItem();
             this.bbiRefresh = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_Kategoriler = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_UrunlerListesi = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
@@ -120,7 +120,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.bbiEdit,
             this.bbiDelete,
             this.bbiRefresh,
-            this.barButtonItem1,
+            this.btn_Kategoriler,
             this.barButtonItem2,
             this.btn_UrunlerListesi,
             this.barButtonItem4,
@@ -220,13 +220,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.bbiRefresh.ImageOptions.ImageUri.Uri = "Refresh";
             this.bbiRefresh.Name = "bbiRefresh";
             // 
-            // barButtonItem1
+            // btn_Kategoriler
             // 
-            this.barButtonItem1.Caption = "Kategori Listesi";
-            this.barButtonItem1.Id = 20;
-            this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
-            this.barButtonItem1.Name = "barButtonItem1";
-            this.barButtonItem1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_Kategoriler.Caption = "Kategori Listesi";
+            this.btn_Kategoriler.Id = 20;
+            this.btn_Kategoriler.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
+            this.btn_Kategoriler.Name = "btn_Kategoriler";
+            this.btn_Kategoriler.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_Kategoriler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_Kategoriler_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -589,7 +590,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             // ribbonPageGroup4
             // 
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem1);
+            this.ribbonPageGroup4.ItemLinks.Add(this.btn_Kategoriler);
             this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem2);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             this.ribbonPageGroup4.Text = "Kategoriler";
@@ -785,7 +786,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem bbiEdit;
         private DevExpress.XtraBars.BarButtonItem bbiDelete;
         private DevExpress.XtraBars.BarButtonItem bbiRefresh;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem btn_Kategoriler;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
         private DevExpress.XtraBars.BarButtonItem btn_UrunlerListesi;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;

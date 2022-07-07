@@ -78,12 +78,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -98,6 +92,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder1\frmKategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmKategori.Designer.cs">
+      <DependentUpon>frmKategori.cs</DependentUpon>
     </Compile>
     <Compile Include="NewFolder1\FrmUrunListesi.cs">
       <SubType>Form</SubType>
@@ -173,8 +173,8 @@
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="NewFolder1\frmKategori.resx">
+      <DependentUpon>frmKategori.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>

@@ -85,5 +85,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             yu.MdiParent = this;
             yu.Show();
         }
+
+        private void btn_Kategoriler_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmKategori fk = new NewFolder1.frmKategori();
+            fk.MdiParent=this;
+            fk.Show();
+        }
     }
 }
