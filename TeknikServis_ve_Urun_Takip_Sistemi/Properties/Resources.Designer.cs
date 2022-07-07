@@ -243,6 +243,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Custom_Water_Cooling_EKWB {
+            get {
+                object obj = ResourceManager.GetObject("Custom-Water-Cooling-EKWB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap digital_economy__2__copy {
             get {
                 object obj = ResourceManager.GetObject("digital-economy (2) copy", resourceCulture);
@@ -566,6 +576,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.Properties {
         internal static System.Drawing.Bitmap server_check {
             get {
                 object obj = ResourceManager.GetObject("server-check", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Setup_Liquidsama_1_March_15_2021 {
+            get {
+                object obj = ResourceManager.GetObject("Setup-Liquidsama-1-March-15-2021", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

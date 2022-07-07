@@ -29,22 +29,33 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.tx_Kategori = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.dgv_KategoriListesi = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.gp_Bilgisayar = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.gp_Buzdolabı = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.gp_Oyun = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.gp_KucukEvAleteri = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.gp_Utu = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.gp_Supurge = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.gp_Saat = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.gp_Televizyon = new Guna.UI2.WinForms.Guna2GroupBox();
             this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.tx_Kategori = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.dgv_KategoriListesi = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_KategoriListesi)).BeginInit();
+            this.gp_Bilgisayar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tx_ID
@@ -78,6 +89,214 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel7.Size = new System.Drawing.Size(24, 19);
             this.metroLabel7.TabIndex = 15;
             this.metroLabel7.Text = "ID:";
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.Location = new System.Drawing.Point(5, 93);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(85, 19);
+            this.metroLabel1.TabIndex = 7;
+            this.metroLabel1.Text = "Kategori Adı:";
+            // 
+            // tx_Kategori
+            // 
+            this.tx_Kategori.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Kategori.DefaultText = "";
+            this.tx_Kategori.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Kategori.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Kategori.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Kategori.DisabledState.Parent = this.tx_Kategori;
+            this.tx_Kategori.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Kategori.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Kategori.FocusedState.Parent = this.tx_Kategori;
+            this.tx_Kategori.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Kategori.HoverState.Parent = this.tx_Kategori;
+            this.tx_Kategori.Location = new System.Drawing.Point(96, 93);
+            this.tx_Kategori.Name = "tx_Kategori";
+            this.tx_Kategori.PasswordChar = '\0';
+            this.tx_Kategori.PlaceholderText = "";
+            this.tx_Kategori.SelectedText = "";
+            this.tx_Kategori.ShadowDecoration.Parent = this.tx_Kategori;
+            this.tx_Kategori.Size = new System.Drawing.Size(139, 29);
+            this.tx_Kategori.TabIndex = 1;
+            // 
+            // guna2GroupBox1
+            // 
+            this.guna2GroupBox1.Controls.Add(this.tx_ID);
+            this.guna2GroupBox1.Controls.Add(this.metroLabel7);
+            this.guna2GroupBox1.Controls.Add(this.btn_Temizle);
+            this.guna2GroupBox1.Controls.Add(this.btn_Listele);
+            this.guna2GroupBox1.Controls.Add(this.btn_Guncelle);
+            this.guna2GroupBox1.Controls.Add(this.btn_Sil);
+            this.guna2GroupBox1.Controls.Add(this.btn_Ekle);
+            this.guna2GroupBox1.Controls.Add(this.metroLabel1);
+            this.guna2GroupBox1.Controls.Add(this.tx_Kategori);
+            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.PowderBlue;
+            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.guna2GroupBox1.Location = new System.Drawing.Point(1089, -115);
+            this.guna2GroupBox1.Name = "guna2GroupBox1";
+            this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
+            this.guna2GroupBox1.Size = new System.Drawing.Size(267, 739);
+            this.guna2GroupBox1.TabIndex = 4;
+            this.guna2GroupBox1.Text = "Kategori İşlem Menüsü";
+            // 
+            // dgv_KategoriListesi
+            // 
+            this.dgv_KategoriListesi.AllowUserToAddRows = false;
+            this.dgv_KategoriListesi.AllowUserToDeleteRows = false;
+            this.dgv_KategoriListesi.AllowUserToResizeColumns = false;
+            this.dgv_KategoriListesi.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_KategoriListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgv_KategoriListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv_KategoriListesi.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_KategoriListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgv_KategoriListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgv_KategoriListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
+            this.dgv_KategoriListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_KategoriListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_KategoriListesi.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgv_KategoriListesi.EnableHeadersVisualStyles = false;
+            this.dgv_KategoriListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
+            this.dgv_KategoriListesi.Location = new System.Drawing.Point(3, 9);
+            this.dgv_KategoriListesi.Name = "dgv_KategoriListesi";
+            this.dgv_KategoriListesi.ReadOnly = true;
+            this.dgv_KategoriListesi.RowHeadersVisible = false;
+            this.dgv_KategoriListesi.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgv_KategoriListesi.ShowCellErrors = false;
+            this.dgv_KategoriListesi.ShowCellToolTips = false;
+            this.dgv_KategoriListesi.ShowEditingIcon = false;
+            this.dgv_KategoriListesi.ShowRowErrors = false;
+            this.dgv_KategoriListesi.Size = new System.Drawing.Size(1088, 248);
+            this.dgv_KategoriListesi.TabIndex = 3;
+            this.dgv_KategoriListesi.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
+            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgv_KategoriListesi.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgv_KategoriListesi.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
+            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.Height = 23;
+            this.dgv_KategoriListesi.ThemeStyle.ReadOnly = true;
+            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.Height = 22;
+            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgv_KategoriListesi.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv_KategoriListesi_MouseClick);
+            // 
+            // gp_Bilgisayar
+            // 
+            this.gp_Bilgisayar.Controls.Add(this.pictureEdit1);
+            this.gp_Bilgisayar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gp_Bilgisayar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.gp_Bilgisayar.Location = new System.Drawing.Point(4, 263);
+            this.gp_Bilgisayar.Name = "gp_Bilgisayar";
+            this.gp_Bilgisayar.ShadowDecoration.Parent = this.gp_Bilgisayar;
+            this.gp_Bilgisayar.Size = new System.Drawing.Size(235, 179);
+            this.gp_Bilgisayar.TabIndex = 5;
+            this.gp_Bilgisayar.Text = "Bilgisayar";
+            // 
+            // gp_Buzdolabı
+            // 
+            this.gp_Buzdolabı.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gp_Buzdolabı.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.gp_Buzdolabı.Location = new System.Drawing.Point(4, 448);
+            this.gp_Buzdolabı.Name = "gp_Buzdolabı";
+            this.gp_Buzdolabı.ShadowDecoration.Parent = this.gp_Buzdolabı;
+            this.gp_Buzdolabı.Size = new System.Drawing.Size(235, 179);
+            this.gp_Buzdolabı.TabIndex = 6;
+            this.gp_Buzdolabı.Text = "Buzdolabı";
+            // 
+            // gp_Oyun
+            // 
+            this.gp_Oyun.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gp_Oyun.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.gp_Oyun.Location = new System.Drawing.Point(245, 448);
+            this.gp_Oyun.Name = "gp_Oyun";
+            this.gp_Oyun.ShadowDecoration.Parent = this.gp_Oyun;
+            this.gp_Oyun.Size = new System.Drawing.Size(235, 179);
+            this.gp_Oyun.TabIndex = 8;
+            this.gp_Oyun.Text = "Oyunlar";
+            // 
+            // gp_KucukEvAleteri
+            // 
+            this.gp_KucukEvAleteri.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gp_KucukEvAleteri.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.gp_KucukEvAleteri.Location = new System.Drawing.Point(245, 263);
+            this.gp_KucukEvAleteri.Name = "gp_KucukEvAleteri";
+            this.gp_KucukEvAleteri.ShadowDecoration.Parent = this.gp_KucukEvAleteri;
+            this.gp_KucukEvAleteri.Size = new System.Drawing.Size(235, 179);
+            this.gp_KucukEvAleteri.TabIndex = 7;
+            this.gp_KucukEvAleteri.Text = "Küçük Ev Aletleri";
+            // 
+            // gp_Utu
+            // 
+            this.gp_Utu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gp_Utu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.gp_Utu.Location = new System.Drawing.Point(486, 448);
+            this.gp_Utu.Name = "gp_Utu";
+            this.gp_Utu.ShadowDecoration.Parent = this.gp_Utu;
+            this.gp_Utu.Size = new System.Drawing.Size(235, 179);
+            this.gp_Utu.TabIndex = 10;
+            this.gp_Utu.Text = "Ütüler";
+            // 
+            // gp_Supurge
+            // 
+            this.gp_Supurge.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gp_Supurge.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.gp_Supurge.Location = new System.Drawing.Point(486, 263);
+            this.gp_Supurge.Name = "gp_Supurge";
+            this.gp_Supurge.ShadowDecoration.Parent = this.gp_Supurge;
+            this.gp_Supurge.Size = new System.Drawing.Size(235, 179);
+            this.gp_Supurge.TabIndex = 9;
+            this.gp_Supurge.Text = "Süpürgeler";
+            // 
+            // gp_Saat
+            // 
+            this.gp_Saat.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gp_Saat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.gp_Saat.Location = new System.Drawing.Point(727, 448);
+            this.gp_Saat.Name = "gp_Saat";
+            this.gp_Saat.ShadowDecoration.Parent = this.gp_Saat;
+            this.gp_Saat.Size = new System.Drawing.Size(235, 179);
+            this.gp_Saat.TabIndex = 12;
+            this.gp_Saat.Text = "Saatler";
+            // 
+            // gp_Televizyon
+            // 
+            this.gp_Televizyon.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gp_Televizyon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.gp_Televizyon.Location = new System.Drawing.Point(727, 263);
+            this.gp_Televizyon.Name = "gp_Televizyon";
+            this.gp_Televizyon.ShadowDecoration.Parent = this.gp_Televizyon;
+            this.gp_Televizyon.Size = new System.Drawing.Size(235, 179);
+            this.gp_Televizyon.TabIndex = 11;
+            this.gp_Televizyon.Text = "Televizyonlar";
             // 
             // btn_Temizle
             // 
@@ -169,130 +388,28 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Ekle.Text = "Ekle";
             this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
-            // metroLabel1
+            // pictureEdit1
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(5, 93);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(85, 19);
-            this.metroLabel1.TabIndex = 7;
-            this.metroLabel1.Text = "Kategori Adı:";
-            // 
-            // tx_Kategori
-            // 
-            this.tx_Kategori.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Kategori.DefaultText = "";
-            this.tx_Kategori.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Kategori.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Kategori.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Kategori.DisabledState.Parent = this.tx_Kategori;
-            this.tx_Kategori.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Kategori.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Kategori.FocusedState.Parent = this.tx_Kategori;
-            this.tx_Kategori.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Kategori.HoverState.Parent = this.tx_Kategori;
-            this.tx_Kategori.Location = new System.Drawing.Point(96, 93);
-            this.tx_Kategori.Name = "tx_Kategori";
-            this.tx_Kategori.PasswordChar = '\0';
-            this.tx_Kategori.PlaceholderText = "";
-            this.tx_Kategori.SelectedText = "";
-            this.tx_Kategori.ShadowDecoration.Parent = this.tx_Kategori;
-            this.tx_Kategori.Size = new System.Drawing.Size(139, 29);
-            this.tx_Kategori.TabIndex = 1;
-            // 
-            // guna2GroupBox1
-            // 
-            this.guna2GroupBox1.Controls.Add(this.tx_ID);
-            this.guna2GroupBox1.Controls.Add(this.metroLabel7);
-            this.guna2GroupBox1.Controls.Add(this.btn_Temizle);
-            this.guna2GroupBox1.Controls.Add(this.btn_Listele);
-            this.guna2GroupBox1.Controls.Add(this.btn_Guncelle);
-            this.guna2GroupBox1.Controls.Add(this.btn_Sil);
-            this.guna2GroupBox1.Controls.Add(this.btn_Ekle);
-            this.guna2GroupBox1.Controls.Add(this.metroLabel1);
-            this.guna2GroupBox1.Controls.Add(this.tx_Kategori);
-            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.PowderBlue;
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(1097, 9);
-            this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(267, 739);
-            this.guna2GroupBox1.TabIndex = 4;
-            this.guna2GroupBox1.Text = "Kategori İşlem Menüsü";
-            // 
-            // dgv_KategoriListesi
-            // 
-            this.dgv_KategoriListesi.AllowUserToAddRows = false;
-            this.dgv_KategoriListesi.AllowUserToDeleteRows = false;
-            this.dgv_KategoriListesi.AllowUserToResizeColumns = false;
-            this.dgv_KategoriListesi.AllowUserToResizeRows = false;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_KategoriListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
-            this.dgv_KategoriListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgv_KategoriListesi.BackgroundColor = System.Drawing.Color.White;
-            this.dgv_KategoriListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgv_KategoriListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgv_KategoriListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
-            this.dgv_KategoriListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_KategoriListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_KategoriListesi.DefaultCellStyle = dataGridViewCellStyle18;
-            this.dgv_KategoriListesi.EnableHeadersVisualStyles = false;
-            this.dgv_KategoriListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
-            this.dgv_KategoriListesi.Location = new System.Drawing.Point(3, 9);
-            this.dgv_KategoriListesi.Name = "dgv_KategoriListesi";
-            this.dgv_KategoriListesi.ReadOnly = true;
-            this.dgv_KategoriListesi.RowHeadersVisible = false;
-            this.dgv_KategoriListesi.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_KategoriListesi.ShowCellErrors = false;
-            this.dgv_KategoriListesi.ShowCellToolTips = false;
-            this.dgv_KategoriListesi.ShowEditingIcon = false;
-            this.dgv_KategoriListesi.ShowRowErrors = false;
-            this.dgv_KategoriListesi.Size = new System.Drawing.Size(1088, 751);
-            this.dgv_KategoriListesi.TabIndex = 3;
-            this.dgv_KategoriListesi.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
-            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dgv_KategoriListesi.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgv_KategoriListesi.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dgv_KategoriListesi.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
-            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dgv_KategoriListesi.ThemeStyle.HeaderStyle.Height = 23;
-            this.dgv_KategoriListesi.ThemeStyle.ReadOnly = true;
-            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.Height = 22;
-            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            this.dgv_KategoriListesi.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgv_KategoriListesi.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv_KategoriListesi_MouseClick);
+            this.pictureEdit1.Location = new System.Drawing.Point(3, 42);
+            this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit1.Size = new System.Drawing.Size(229, 134);
+            this.pictureEdit1.TabIndex = 0;
             // 
             // frmKategori
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1366, 756);
+            this.Controls.Add(this.gp_Saat);
+            this.Controls.Add(this.gp_Televizyon);
+            this.Controls.Add(this.gp_Utu);
+            this.Controls.Add(this.gp_Supurge);
+            this.Controls.Add(this.gp_Oyun);
+            this.Controls.Add(this.gp_KucukEvAleteri);
+            this.Controls.Add(this.gp_Buzdolabı);
+            this.Controls.Add(this.gp_Bilgisayar);
             this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.dgv_KategoriListesi);
             this.Name = "frmKategori";
@@ -301,6 +418,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_KategoriListesi)).EndInit();
+            this.gp_Bilgisayar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -317,5 +436,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2TextBox tx_Kategori;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
         private Guna.UI2.WinForms.Guna2DataGridView dgv_KategoriListesi;
+        private Guna.UI2.WinForms.Guna2GroupBox gp_Bilgisayar;
+        private Guna.UI2.WinForms.Guna2GroupBox gp_Buzdolabı;
+        private Guna.UI2.WinForms.Guna2GroupBox gp_Oyun;
+        private Guna.UI2.WinForms.Guna2GroupBox gp_KucukEvAleteri;
+        private Guna.UI2.WinForms.Guna2GroupBox gp_Utu;
+        private Guna.UI2.WinForms.Guna2GroupBox gp_Supurge;
+        private Guna.UI2.WinForms.Guna2GroupBox gp_Saat;
+        private Guna.UI2.WinForms.Guna2GroupBox gp_Televizyon;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
     }
 }

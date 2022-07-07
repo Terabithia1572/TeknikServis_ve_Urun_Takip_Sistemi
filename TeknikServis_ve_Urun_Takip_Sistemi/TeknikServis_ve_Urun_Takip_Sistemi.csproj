@@ -231,6 +231,8 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Setup-Liquidsama-1-March-15-2021.jpg" />
+    <None Include="Resources\Custom-Water-Cooling-EKWB.jpg" />
     <None Include="Resources\remove-cart.png" />
     <None Include="Resources\shopping-cart %282%29.png" />
     <None Include="Resources\purchase.png" />
