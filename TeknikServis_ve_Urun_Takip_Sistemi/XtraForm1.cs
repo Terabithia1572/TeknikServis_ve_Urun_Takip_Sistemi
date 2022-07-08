@@ -99,5 +99,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             yk.MdiParent = this;
             yk.Show();
         }
+
+        private void btn_UrunIstatistik_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.UrunIstatistik ui = new NewFolder1.UrunIstatistik();
+            ui.MdiParent = this;
+            ui.Show();
+        }
     }
 }

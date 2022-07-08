@@ -43,7 +43,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_UrunlerListesi = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_UrunIstatistik = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
@@ -125,7 +125,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_UrunlerListesi,
             this.barButtonItem4,
             this.barButtonItem5,
-            this.barButtonItem6,
+            this.btn_UrunIstatistik,
             this.barButtonItem7,
             this.barButtonItem8,
             this.barButtonItem9,
@@ -264,13 +264,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem5.Name = "barButtonItem5";
             this.barButtonItem5.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
-            // barButtonItem6
+            // btn_UrunIstatistik
             // 
-            this.barButtonItem6.Caption = "Ürün İstatistikleri";
-            this.barButtonItem6.Id = 25;
-            this.barButtonItem6.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.opportunity;
-            this.barButtonItem6.Name = "barButtonItem6";
-            this.barButtonItem6.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_UrunIstatistik.Caption = "Ürün İstatistikleri";
+            this.btn_UrunIstatistik.Id = 25;
+            this.btn_UrunIstatistik.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.opportunity;
+            this.btn_UrunIstatistik.Name = "btn_UrunIstatistik";
+            this.btn_UrunIstatistik.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_UrunIstatistik.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_UrunIstatistik_ItemClick);
             // 
             // barButtonItem7
             // 
@@ -606,7 +607,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             // ribbonPageGroup11
             // 
-            this.ribbonPageGroup11.ItemLinks.Add(this.barButtonItem6);
+            this.ribbonPageGroup11.ItemLinks.Add(this.btn_UrunIstatistik);
             this.ribbonPageGroup11.ItemLinks.Add(this.barButtonItem7);
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
             this.ribbonPageGroup11.Text = "İstatistikler";
@@ -792,7 +793,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem btn_UrunlerListesi;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
+        private DevExpress.XtraBars.BarButtonItem btn_UrunIstatistik;
         private DevExpress.XtraBars.BarButtonItem barButtonItem7;
         private DevExpress.XtraBars.BarButtonItem barButtonItem8;
         private DevExpress.XtraBars.BarButtonItem barButtonItem9;

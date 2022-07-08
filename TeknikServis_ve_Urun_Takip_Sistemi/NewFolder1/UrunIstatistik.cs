@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TeknikServis_ve_Urun_Takip_Sistemi
+namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
 {
-    public partial class UrunListesi : DevExpress.XtraEditors.XtraForm
+    public partial class UrunIstatistik : DevExpress.XtraEditors.XtraForm
     {
-        public UrunListesi()
+        public UrunIstatistik()
         {
             InitializeComponent();
         }
