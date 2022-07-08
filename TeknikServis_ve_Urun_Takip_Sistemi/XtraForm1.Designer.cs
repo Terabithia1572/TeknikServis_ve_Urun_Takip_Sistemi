@@ -224,7 +224,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.btn_Kategoriler.Caption = "Kategori Listesi";
             this.btn_Kategoriler.Id = 20;
-            this.btn_Kategoriler.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
+            this.btn_Kategoriler.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Kategoriler.ImageOptions.Image")));
             this.btn_Kategoriler.Name = "btn_Kategoriler";
             this.btn_Kategoriler.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_Kategoriler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_Kategoriler_ItemClick);
@@ -236,6 +236,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem2.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.interaction;
             this.barButtonItem2.Name = "barButtonItem2";
             this.barButtonItem2.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
             // btn_UrunlerListesi
             // 

@@ -32,6 +32,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKategori));
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
@@ -46,16 +47,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.gp_Supurge = new Guna.UI2.WinForms.Guna2GroupBox();
             this.gp_Saat = new Guna.UI2.WinForms.Guna2GroupBox();
             this.gp_Televizyon = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.Img_Slider = new DevExpress.XtraEditors.Controls.ImageSlider();
             this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
             this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_KategoriListesi)).BeginInit();
             this.gp_Bilgisayar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Img_Slider)).BeginInit();
             this.SuspendLayout();
             // 
             // tx_ID
@@ -72,7 +73,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_ID.FocusedState.Parent = this.tx_ID;
             this.tx_ID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_ID.HoverState.Parent = this.tx_ID;
-            this.tx_ID.Location = new System.Drawing.Point(96, 58);
+            this.tx_ID.Location = new System.Drawing.Point(96, 129);
             this.tx_ID.Name = "tx_ID";
             this.tx_ID.PasswordChar = '\0';
             this.tx_ID.PlaceholderText = "";
@@ -84,7 +85,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // metroLabel7
             // 
             this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(12, 67);
+            this.metroLabel7.Location = new System.Drawing.Point(12, 138);
             this.metroLabel7.Name = "metroLabel7";
             this.metroLabel7.Size = new System.Drawing.Size(24, 19);
             this.metroLabel7.TabIndex = 15;
@@ -93,7 +94,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(5, 93);
+            this.metroLabel1.Location = new System.Drawing.Point(5, 164);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(85, 19);
             this.metroLabel1.TabIndex = 7;
@@ -112,7 +113,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Kategori.FocusedState.Parent = this.tx_Kategori;
             this.tx_Kategori.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Kategori.HoverState.Parent = this.tx_Kategori;
-            this.tx_Kategori.Location = new System.Drawing.Point(96, 93);
+            this.tx_Kategori.Location = new System.Drawing.Point(96, 164);
             this.tx_Kategori.Name = "tx_Kategori";
             this.tx_Kategori.PasswordChar = '\0';
             this.tx_Kategori.PlaceholderText = "";
@@ -211,7 +212,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // gp_Bilgisayar
             // 
-            this.gp_Bilgisayar.Controls.Add(this.pictureEdit1);
+            this.gp_Bilgisayar.Controls.Add(this.Img_Slider);
             this.gp_Bilgisayar.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gp_Bilgisayar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.gp_Bilgisayar.Location = new System.Drawing.Point(4, 263);
@@ -298,6 +299,20 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.gp_Televizyon.TabIndex = 11;
             this.gp_Televizyon.Text = "Televizyonlar";
             // 
+            // Img_Slider
+            // 
+            this.Img_Slider.AnimationTime = 100;
+            this.Img_Slider.AutoSlide = DevExpress.XtraEditors.Controls.AutoSlide.Forward;
+            this.Img_Slider.CurrentImageIndex = 0;
+            this.Img_Slider.Images.Add(((System.Drawing.Image)(resources.GetObject("Img_Slider.Images"))));
+            this.Img_Slider.Images.Add(((System.Drawing.Image)(resources.GetObject("Img_Slider.Images1"))));
+            this.Img_Slider.Location = new System.Drawing.Point(3, 42);
+            this.Img_Slider.Name = "Img_Slider";
+            this.Img_Slider.ScrollButtonFadeAnimationTime = 100;
+            this.Img_Slider.Size = new System.Drawing.Size(229, 134);
+            this.Img_Slider.TabIndex = 0;
+            this.Img_Slider.Text = "ımageSlider1";
+            // 
             // btn_Temizle
             // 
             this.btn_Temizle.CheckedState.Parent = this.btn_Temizle;
@@ -308,7 +323,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Temizle.HoverState.Parent = this.btn_Temizle;
             this.btn_Temizle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_cart;
             this.btn_Temizle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Temizle.Location = new System.Drawing.Point(96, 332);
+            this.btn_Temizle.Location = new System.Drawing.Point(96, 403);
             this.btn_Temizle.Name = "btn_Temizle";
             this.btn_Temizle.ShadowDecoration.Parent = this.btn_Temizle;
             this.btn_Temizle.Size = new System.Drawing.Size(139, 40);
@@ -326,7 +341,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Listele.HoverState.Parent = this.btn_Listele;
             this.btn_Listele.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.shopping_cart__2_;
             this.btn_Listele.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Listele.Location = new System.Drawing.Point(96, 286);
+            this.btn_Listele.Location = new System.Drawing.Point(96, 357);
             this.btn_Listele.Name = "btn_Listele";
             this.btn_Listele.ShadowDecoration.Parent = this.btn_Listele;
             this.btn_Listele.Size = new System.Drawing.Size(139, 40);
@@ -344,7 +359,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
             this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
             this.btn_Guncelle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Guncelle.Location = new System.Drawing.Point(96, 240);
+            this.btn_Guncelle.Location = new System.Drawing.Point(96, 311);
             this.btn_Guncelle.Name = "btn_Guncelle";
             this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
             this.btn_Guncelle.Size = new System.Drawing.Size(139, 40);
@@ -362,7 +377,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Sil.HoverState.Parent = this.btn_Sil;
             this.btn_Sil.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_from_cart__1_;
             this.btn_Sil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Sil.Location = new System.Drawing.Point(96, 194);
+            this.btn_Sil.Location = new System.Drawing.Point(96, 265);
             this.btn_Sil.Name = "btn_Sil";
             this.btn_Sil.ShadowDecoration.Parent = this.btn_Sil;
             this.btn_Sil.Size = new System.Drawing.Size(139, 40);
@@ -380,22 +395,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Ekle.HoverState.Parent = this.btn_Ekle;
             this.btn_Ekle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
             this.btn_Ekle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Ekle.Location = new System.Drawing.Point(96, 148);
+            this.btn_Ekle.Location = new System.Drawing.Point(96, 219);
             this.btn_Ekle.Name = "btn_Ekle";
             this.btn_Ekle.ShadowDecoration.Parent = this.btn_Ekle;
             this.btn_Ekle.Size = new System.Drawing.Size(139, 40);
             this.btn_Ekle.TabIndex = 13;
             this.btn_Ekle.Text = "Ekle";
             this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
-            // 
-            // pictureEdit1
-            // 
-            this.pictureEdit1.Location = new System.Drawing.Point(3, 42);
-            this.pictureEdit1.Name = "pictureEdit1";
-            this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit1.Size = new System.Drawing.Size(229, 134);
-            this.pictureEdit1.TabIndex = 0;
             // 
             // frmKategori
             // 
@@ -419,7 +425,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_KategoriListesi)).EndInit();
             this.gp_Bilgisayar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Img_Slider)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -444,6 +450,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2GroupBox gp_Supurge;
         private Guna.UI2.WinForms.Guna2GroupBox gp_Saat;
         private Guna.UI2.WinForms.Guna2GroupBox gp_Televizyon;
-        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
+        private DevExpress.XtraEditors.Controls.ImageSlider Img_Slider;
     }
 }

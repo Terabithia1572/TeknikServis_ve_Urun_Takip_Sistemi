@@ -1,5 +1,6 @@
 ﻿using DevExpress.XtraEditors;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +22,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         Db_TeknikServisEntities db = new Db_TeknikServisEntities();
         private void frmKategori_Load(object sender, EventArgs e)
         {
+           
+            
             var degerler = from k in db.Tbl_Kategori
                            select new
                            {

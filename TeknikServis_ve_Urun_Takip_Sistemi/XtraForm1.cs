@@ -92,5 +92,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             fk.MdiParent=this;
             fk.Show();
         }
+
+        private void barButtonItem2_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.YeniKategori yk = new NewFolder1.YeniKategori();
+            yk.MdiParent = this;
+            yk.Show();
+        }
     }
 }
