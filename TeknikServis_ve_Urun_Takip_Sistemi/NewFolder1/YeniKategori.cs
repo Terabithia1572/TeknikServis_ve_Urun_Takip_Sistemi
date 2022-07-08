@@ -68,6 +68,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
 
         private void btn_Guncelle_Click(object sender, EventArgs e)
         {
+            if(tx_ID.Text==""||tx_Kategori.Text=="")
+            {
+                MessageBox.Show("Lütfen Boş Alan Bırakmayınız.. Alan Seçtikten Sonra Tekrar Deneyiniz..","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                return;
+            }
             int id = int.Parse(tx_ID.Text);
             var deger = db.Tbl_Kategori.Find(id);
             deger.ID = byte.Parse(tx_ID.Text);
