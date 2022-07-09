@@ -30,8 +30,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label1 = new MetroFramework.Controls.MetroLabel();
             this.lbl_ToplamUrunSayisi = new MetroFramework.Controls.MetroLabel();
+            this.label1 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.lbl_ToplamKategoriSayisi = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
@@ -48,16 +48,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.lbl_EnFazlaStokluUrun = new MetroFramework.Controls.MetroLabel();
             this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
+            this.lbl_EnAzStokluUrun = new MetroFramework.Controls.MetroLabel();
             this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
-            this.metroLabel16 = new MetroFramework.Controls.MetroLabel();
+            this.lbl_EnYuksekFiyatliUrun = new MetroFramework.Controls.MetroLabel();
             this.metroLabel17 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
-            this.metroLabel18 = new MetroFramework.Controls.MetroLabel();
+            this.lbl_EnAzFiyatliUrun = new MetroFramework.Controls.MetroLabel();
             this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel20 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
@@ -122,19 +122,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel1.Size = new System.Drawing.Size(241, 110);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(9, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 77);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Toplam Ürün Sayısı";
-            this.label1.UseCustomBackColor = true;
-            this.label1.UseCustomForeColor = true;
-            this.label1.UseStyleColors = true;
-            // 
             // lbl_ToplamUrunSayisi
             // 
             this.lbl_ToplamUrunSayisi.BackColor = System.Drawing.Color.Transparent;
@@ -151,6 +138,19 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.lbl_ToplamUrunSayisi.UseCustomBackColor = true;
             this.lbl_ToplamUrunSayisi.UseCustomForeColor = true;
             this.lbl_ToplamUrunSayisi.UseStyleColors = true;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label1.Location = new System.Drawing.Point(9, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(184, 77);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Toplam Ürün Sayısı";
+            this.label1.UseCustomBackColor = true;
+            this.label1.UseCustomForeColor = true;
+            this.label1.UseStyleColors = true;
             // 
             // guna2Panel2
             // 
@@ -365,7 +365,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // guna2Panel7
             // 
             this.guna2Panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.guna2Panel7.Controls.Add(this.metroLabel12);
+            this.guna2Panel7.Controls.Add(this.lbl_EnAzStokluUrun);
             this.guna2Panel7.Controls.Add(this.metroLabel13);
             this.guna2Panel7.Location = new System.Drawing.Point(249, 119);
             this.guna2Panel7.Name = "guna2Panel7";
@@ -373,22 +373,22 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel7.Size = new System.Drawing.Size(241, 110);
             this.guna2Panel7.TabIndex = 6;
             // 
-            // metroLabel12
+            // lbl_EnAzStokluUrun
             // 
-            this.metroLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel12.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel12.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.metroLabel12.Location = new System.Drawing.Point(9, 51);
-            this.metroLabel12.Name = "metroLabel12";
-            this.metroLabel12.Size = new System.Drawing.Size(152, 59);
-            this.metroLabel12.Style = MetroFramework.MetroColorStyle.Lime;
-            this.metroLabel12.TabIndex = 1;
-            this.metroLabel12.Text = "Televizyon";
-            this.metroLabel12.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroLabel12.UseCustomBackColor = true;
-            this.metroLabel12.UseCustomForeColor = true;
-            this.metroLabel12.UseStyleColors = true;
+            this.lbl_EnAzStokluUrun.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_EnAzStokluUrun.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lbl_EnAzStokluUrun.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.lbl_EnAzStokluUrun.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_EnAzStokluUrun.Location = new System.Drawing.Point(9, 51);
+            this.lbl_EnAzStokluUrun.Name = "lbl_EnAzStokluUrun";
+            this.lbl_EnAzStokluUrun.Size = new System.Drawing.Size(152, 59);
+            this.lbl_EnAzStokluUrun.Style = MetroFramework.MetroColorStyle.Lime;
+            this.lbl_EnAzStokluUrun.TabIndex = 1;
+            this.lbl_EnAzStokluUrun.Text = "Televizyon";
+            this.lbl_EnAzStokluUrun.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.lbl_EnAzStokluUrun.UseCustomBackColor = true;
+            this.lbl_EnAzStokluUrun.UseCustomForeColor = true;
+            this.lbl_EnAzStokluUrun.UseStyleColors = true;
             // 
             // metroLabel13
             // 
@@ -449,7 +449,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // guna2Panel9
             // 
             this.guna2Panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(126)))), ((int)(((byte)(34)))));
-            this.guna2Panel9.Controls.Add(this.metroLabel16);
+            this.guna2Panel9.Controls.Add(this.lbl_EnYuksekFiyatliUrun);
             this.guna2Panel9.Controls.Add(this.metroLabel17);
             this.guna2Panel9.Location = new System.Drawing.Point(743, 119);
             this.guna2Panel9.Name = "guna2Panel9";
@@ -457,22 +457,22 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel9.Size = new System.Drawing.Size(241, 110);
             this.guna2Panel9.TabIndex = 8;
             // 
-            // metroLabel16
+            // lbl_EnYuksekFiyatliUrun
             // 
-            this.metroLabel16.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel16.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel16.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.metroLabel16.Location = new System.Drawing.Point(9, 51);
-            this.metroLabel16.Name = "metroLabel16";
-            this.metroLabel16.Size = new System.Drawing.Size(152, 59);
-            this.metroLabel16.Style = MetroFramework.MetroColorStyle.Lime;
-            this.metroLabel16.TabIndex = 1;
-            this.metroLabel16.Text = "Bilgisayar";
-            this.metroLabel16.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroLabel16.UseCustomBackColor = true;
-            this.metroLabel16.UseCustomForeColor = true;
-            this.metroLabel16.UseStyleColors = true;
+            this.lbl_EnYuksekFiyatliUrun.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_EnYuksekFiyatliUrun.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lbl_EnYuksekFiyatliUrun.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.lbl_EnYuksekFiyatliUrun.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_EnYuksekFiyatliUrun.Location = new System.Drawing.Point(9, 51);
+            this.lbl_EnYuksekFiyatliUrun.Name = "lbl_EnYuksekFiyatliUrun";
+            this.lbl_EnYuksekFiyatliUrun.Size = new System.Drawing.Size(152, 59);
+            this.lbl_EnYuksekFiyatliUrun.Style = MetroFramework.MetroColorStyle.Lime;
+            this.lbl_EnYuksekFiyatliUrun.TabIndex = 1;
+            this.lbl_EnYuksekFiyatliUrun.Text = "Bilgisayar";
+            this.lbl_EnYuksekFiyatliUrun.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.lbl_EnYuksekFiyatliUrun.UseCustomBackColor = true;
+            this.lbl_EnYuksekFiyatliUrun.UseCustomForeColor = true;
+            this.lbl_EnYuksekFiyatliUrun.UseStyleColors = true;
             // 
             // metroLabel17
             // 
@@ -491,7 +491,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // guna2Panel10
             // 
             this.guna2Panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(165)))), ((int)(((byte)(166)))));
-            this.guna2Panel10.Controls.Add(this.metroLabel18);
+            this.guna2Panel10.Controls.Add(this.lbl_EnAzFiyatliUrun);
             this.guna2Panel10.Controls.Add(this.metroLabel19);
             this.guna2Panel10.Location = new System.Drawing.Point(990, 119);
             this.guna2Panel10.Name = "guna2Panel10";
@@ -499,22 +499,22 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel10.Size = new System.Drawing.Size(241, 110);
             this.guna2Panel10.TabIndex = 9;
             // 
-            // metroLabel18
+            // lbl_EnAzFiyatliUrun
             // 
-            this.metroLabel18.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel18.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel18.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.metroLabel18.Location = new System.Drawing.Point(9, 51);
-            this.metroLabel18.Name = "metroLabel18";
-            this.metroLabel18.Size = new System.Drawing.Size(152, 59);
-            this.metroLabel18.Style = MetroFramework.MetroColorStyle.Teal;
-            this.metroLabel18.TabIndex = 1;
-            this.metroLabel18.Text = "Ütü";
-            this.metroLabel18.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroLabel18.UseCustomBackColor = true;
-            this.metroLabel18.UseCustomForeColor = true;
-            this.metroLabel18.UseStyleColors = true;
+            this.lbl_EnAzFiyatliUrun.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_EnAzFiyatliUrun.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lbl_EnAzFiyatliUrun.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.lbl_EnAzFiyatliUrun.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_EnAzFiyatliUrun.Location = new System.Drawing.Point(9, 51);
+            this.lbl_EnAzFiyatliUrun.Name = "lbl_EnAzFiyatliUrun";
+            this.lbl_EnAzFiyatliUrun.Size = new System.Drawing.Size(152, 59);
+            this.lbl_EnAzFiyatliUrun.Style = MetroFramework.MetroColorStyle.Teal;
+            this.lbl_EnAzFiyatliUrun.TabIndex = 1;
+            this.lbl_EnAzFiyatliUrun.Text = "Ütü";
+            this.lbl_EnAzFiyatliUrun.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.lbl_EnAzFiyatliUrun.UseCustomBackColor = true;
+            this.lbl_EnAzFiyatliUrun.UseCustomForeColor = true;
+            this.lbl_EnAzFiyatliUrun.UseStyleColors = true;
             // 
             // metroLabel19
             // 
@@ -1043,16 +1043,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private MetroFramework.Controls.MetroLabel lbl_EnFazlaStokluUrun;
         private MetroFramework.Controls.MetroLabel metroLabel11;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
-        private MetroFramework.Controls.MetroLabel metroLabel12;
+        private MetroFramework.Controls.MetroLabel lbl_EnAzStokluUrun;
         private MetroFramework.Controls.MetroLabel metroLabel13;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
         private MetroFramework.Controls.MetroLabel metroLabel14;
         private MetroFramework.Controls.MetroLabel metroLabel15;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
-        private MetroFramework.Controls.MetroLabel metroLabel16;
+        private MetroFramework.Controls.MetroLabel lbl_EnYuksekFiyatliUrun;
         private MetroFramework.Controls.MetroLabel metroLabel17;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
-        private MetroFramework.Controls.MetroLabel metroLabel18;
+        private MetroFramework.Controls.MetroLabel lbl_EnAzFiyatliUrun;
         private MetroFramework.Controls.MetroLabel metroLabel19;
         private MetroFramework.Controls.MetroLabel metroLabel20;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
