@@ -41,6 +41,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
                                         orderby x.SatisFiyat ascending
                                         select x.Ad).FirstOrDefault();
 
+         //   lbl_ToplamMarkaSayisi.Text = db.Tbl_Urun.Sum(x => long.Parse(x.Marka)).ToString();
+                                          
+                                        
+
         }
     }
 }

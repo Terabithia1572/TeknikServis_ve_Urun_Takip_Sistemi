@@ -86,7 +86,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel36 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel37 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel19 = new Guna.UI2.WinForms.Guna2Panel();
-            this.metroLabel38 = new MetroFramework.Controls.MetroLabel();
+            this.lbl_ToplamMarkaSayisi = new MetroFramework.Controls.MetroLabel();
             this.metroLabel39 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel20 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
@@ -908,22 +908,22 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel19.Size = new System.Drawing.Size(241, 110);
             this.guna2Panel19.TabIndex = 11;
             // 
-            // metroLabel38
+            // lbl_ToplamMarkaSayisi
             // 
-            this.metroLabel38.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel38.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel38.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel38.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.metroLabel38.Location = new System.Drawing.Point(9, 51);
-            this.metroLabel38.Name = "metroLabel38";
-            this.metroLabel38.Size = new System.Drawing.Size(152, 59);
-            this.metroLabel38.Style = MetroFramework.MetroColorStyle.Lime;
-            this.metroLabel38.TabIndex = 1;
-            this.metroLabel38.Text = "569";
-            this.metroLabel38.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroLabel38.UseCustomBackColor = true;
-            this.metroLabel38.UseCustomForeColor = true;
-            this.metroLabel38.UseStyleColors = true;
+            this.lbl_ToplamMarkaSayisi.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_ToplamMarkaSayisi.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lbl_ToplamMarkaSayisi.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.lbl_ToplamMarkaSayisi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_ToplamMarkaSayisi.Location = new System.Drawing.Point(9, 51);
+            this.lbl_ToplamMarkaSayisi.Name = "lbl_ToplamMarkaSayisi";
+            this.lbl_ToplamMarkaSayisi.Size = new System.Drawing.Size(152, 59);
+            this.lbl_ToplamMarkaSayisi.Style = MetroFramework.MetroColorStyle.Lime;
+            this.lbl_ToplamMarkaSayisi.TabIndex = 1;
+            this.lbl_ToplamMarkaSayisi.Text = "569";
+            this.lbl_ToplamMarkaSayisi.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.lbl_ToplamMarkaSayisi.UseCustomBackColor = true;
+            this.lbl_ToplamMarkaSayisi.UseCustomForeColor = true;
+            this.lbl_ToplamMarkaSayisi.UseStyleColors = true;
             // 
             // metroLabel39
             // 
@@ -942,7 +942,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // guna2Panel20
             // 
             this.guna2Panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
-            this.guna2Panel20.Controls.Add(this.metroLabel38);
+            this.guna2Panel20.Controls.Add(this.lbl_ToplamMarkaSayisi);
             this.guna2Panel20.Controls.Add(this.metroLabel39);
             this.guna2Panel20.Location = new System.Drawing.Point(2, 235);
             this.guna2Panel20.Name = "guna2Panel20";
@@ -1081,7 +1081,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private MetroFramework.Controls.MetroLabel metroLabel36;
         private MetroFramework.Controls.MetroLabel metroLabel37;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel19;
-        private MetroFramework.Controls.MetroLabel metroLabel38;
+        private MetroFramework.Controls.MetroLabel lbl_ToplamMarkaSayisi;
         private MetroFramework.Controls.MetroLabel metroLabel39;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel20;
     }
