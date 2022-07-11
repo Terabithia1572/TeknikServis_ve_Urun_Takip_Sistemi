@@ -45,6 +45,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             lbl_BeyazEsyaStokSayisi.Text = db.Tbl_Urun.Count(x => x.Kategori == 4).ToString();
             lbl_BilgisayarStokSayisi.Text = db.Tbl_Urun.Count(x => x.Kategori == 1).ToString();
             lbl_KucukEvAleteriUrunSayisi.Text = db.Tbl_Urun.Count(x => x.Kategori ==3).ToString();
+            lbl_ToplamMarkaSayisi.Text = (from x in db.Tbl_Urun
+                                          select x.Marka)
+                                          .Distinct().Count().ToString();
+                                         
+           
                                           
                                         
 
