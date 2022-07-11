@@ -41,7 +41,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
                                         orderby x.SatisFiyat ascending
                                         select x.Ad).FirstOrDefault();
 
-         //   lbl_ToplamMarkaSayisi.Text = db.Tbl_Urun.Sum(x => long.Parse(x.Marka)).ToString();
+            //   lbl_ToplamMarkaSayisi.Text = db.Tbl_Urun.Sum(x => long.Parse(x.Marka)).ToString();
+            lbl_BeyazEsyaStokSayisi.Text = db.Tbl_Urun.Count(x => x.Kategori == 4).ToString();
+            lbl_BilgisayarStokSayisi.Text = db.Tbl_Urun.Count(x => x.Kategori == 1).ToString();
+            lbl_KucukEvAleteriUrunSayisi.Text = db.Tbl_Urun.Count(x => x.Kategori ==3).ToString();
                                           
                                         
 
