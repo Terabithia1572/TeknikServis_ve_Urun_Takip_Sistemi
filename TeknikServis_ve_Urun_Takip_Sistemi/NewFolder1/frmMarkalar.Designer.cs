@@ -29,15 +29,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_MarkaListesi = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.lbl_EnFazlaStokluUrun = new MetroFramework.Controls.MetroLabel();
             this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.lbl_ToplamMarkaSayisi = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
@@ -58,30 +58,30 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_MarkaListesi.AllowUserToDeleteRows = false;
             this.dgv_MarkaListesi.AllowUserToResizeColumns = false;
             this.dgv_MarkaListesi.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_MarkaListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_MarkaListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_MarkaListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_MarkaListesi.BackgroundColor = System.Drawing.Color.White;
             this.dgv_MarkaListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_MarkaListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_MarkaListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_MarkaListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_MarkaListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_MarkaListesi.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_MarkaListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_MarkaListesi.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_MarkaListesi.EnableHeadersVisualStyles = false;
             this.dgv_MarkaListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_MarkaListesi.Location = new System.Drawing.Point(3, -1);
@@ -163,7 +163,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(168)))), ((int)(((byte)(1)))));
-            this.guna2Panel1.Controls.Add(this.metroLabel1);
+            this.guna2Panel1.Controls.Add(this.lbl_ToplamMarkaSayisi);
             this.guna2Panel1.Controls.Add(this.metroLabel2);
             this.guna2Panel1.Location = new System.Drawing.Point(670, -1);
             this.guna2Panel1.Name = "guna2Panel1";
@@ -171,22 +171,22 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel1.Size = new System.Drawing.Size(215, 110);
             this.guna2Panel1.TabIndex = 7;
             // 
-            // metroLabel1
+            // lbl_ToplamMarkaSayisi
             // 
-            this.metroLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.metroLabel1.Location = new System.Drawing.Point(9, 51);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(152, 59);
-            this.metroLabel1.Style = MetroFramework.MetroColorStyle.Lime;
-            this.metroLabel1.TabIndex = 1;
-            this.metroLabel1.Text = "Bilgisayar";
-            this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroLabel1.UseCustomBackColor = true;
-            this.metroLabel1.UseCustomForeColor = true;
-            this.metroLabel1.UseStyleColors = true;
+            this.lbl_ToplamMarkaSayisi.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_ToplamMarkaSayisi.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.lbl_ToplamMarkaSayisi.FontWeight = MetroFramework.MetroLabelWeight.Bold;
+            this.lbl_ToplamMarkaSayisi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_ToplamMarkaSayisi.Location = new System.Drawing.Point(9, 51);
+            this.lbl_ToplamMarkaSayisi.Name = "lbl_ToplamMarkaSayisi";
+            this.lbl_ToplamMarkaSayisi.Size = new System.Drawing.Size(152, 59);
+            this.lbl_ToplamMarkaSayisi.Style = MetroFramework.MetroColorStyle.Lime;
+            this.lbl_ToplamMarkaSayisi.TabIndex = 1;
+            this.lbl_ToplamMarkaSayisi.Text = "Bilgisayar";
+            this.lbl_ToplamMarkaSayisi.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.lbl_ToplamMarkaSayisi.UseCustomBackColor = true;
+            this.lbl_ToplamMarkaSayisi.UseCustomForeColor = true;
+            this.lbl_ToplamMarkaSayisi.UseStyleColors = true;
             // 
             // metroLabel2
             // 
@@ -319,7 +319,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private MetroFramework.Controls.MetroLabel lbl_EnFazlaStokluUrun;
         private MetroFramework.Controls.MetroLabel metroLabel11;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private MetroFramework.Controls.MetroLabel lbl_ToplamMarkaSayisi;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private MetroFramework.Controls.MetroLabel metroLabel3;

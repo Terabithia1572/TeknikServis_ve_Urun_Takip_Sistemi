@@ -31,6 +31,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             });
 
             dgv_MarkaListesi.DataSource = listele.ToList();
+            lbl_ToplamMarkaSayisi.Text = db.Tbl_Urun.Count().ToString();
+            lbl_EnFazlaStokluUrun.Text = (from x in db.Tbl_Urun
+                                          select x.Marka)
+                                          .Distinct().Count().ToString();
         }
     }
 }
