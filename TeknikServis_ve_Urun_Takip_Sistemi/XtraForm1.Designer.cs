@@ -44,7 +44,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_UrunIstatistik = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_MarkaIstatistik = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
@@ -126,7 +126,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem4,
             this.barButtonItem5,
             this.btn_UrunIstatistik,
-            this.barButtonItem7,
+            this.btn_MarkaIstatistik,
             this.barButtonItem8,
             this.barButtonItem9,
             this.barButtonItem10,
@@ -273,13 +273,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_UrunIstatistik.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_UrunIstatistik.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_UrunIstatistik_ItemClick);
             // 
-            // barButtonItem7
+            // btn_MarkaIstatistik
             // 
-            this.barButtonItem7.Caption = "Marka İstatistikleri";
-            this.barButtonItem7.Id = 26;
-            this.barButtonItem7.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.brand;
-            this.barButtonItem7.Name = "barButtonItem7";
-            this.barButtonItem7.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_MarkaIstatistik.Caption = "Marka İstatistikleri";
+            this.btn_MarkaIstatistik.Id = 26;
+            this.btn_MarkaIstatistik.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.brand;
+            this.btn_MarkaIstatistik.Name = "btn_MarkaIstatistik";
+            this.btn_MarkaIstatistik.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_MarkaIstatistik.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_MarkaIstatistik_ItemClick);
             // 
             // barButtonItem8
             // 
@@ -608,7 +609,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // ribbonPageGroup11
             // 
             this.ribbonPageGroup11.ItemLinks.Add(this.btn_UrunIstatistik);
-            this.ribbonPageGroup11.ItemLinks.Add(this.barButtonItem7);
+            this.ribbonPageGroup11.ItemLinks.Add(this.btn_MarkaIstatistik);
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
             this.ribbonPageGroup11.Text = "İstatistikler";
             // 
@@ -794,7 +795,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
         private DevExpress.XtraBars.BarButtonItem btn_UrunIstatistik;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
+        private DevExpress.XtraBars.BarButtonItem btn_MarkaIstatistik;
         private DevExpress.XtraBars.BarButtonItem barButtonItem8;
         private DevExpress.XtraBars.BarButtonItem barButtonItem9;
         private DevExpress.XtraBars.BarButtonItem barButtonItem10;

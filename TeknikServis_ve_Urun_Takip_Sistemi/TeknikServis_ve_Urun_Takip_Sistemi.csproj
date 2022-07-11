@@ -99,6 +99,12 @@
     <Compile Include="NewFolder1\frmKategori.Designer.cs">
       <DependentUpon>frmKategori.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmMarkalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmMarkalar.Designer.cs">
+      <DependentUpon>frmMarkalar.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\FrmUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -186,6 +192,9 @@
     </Compile>
     <EmbeddedResource Include="NewFolder1\frmKategori.resx">
       <DependentUpon>frmKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmMarkalar.resx">
+      <DependentUpon>frmMarkalar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>

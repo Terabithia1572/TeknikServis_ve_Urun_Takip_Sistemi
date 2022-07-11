@@ -106,5 +106,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             ui.MdiParent = this;
             ui.Show();
         }
+
+        private void btn_MarkaIstatistik_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmMarkalar fm = new NewFolder1.frmMarkalar();
+            fm.MdiParent = this;
+            fm.Show();
+        }
     }
 }
