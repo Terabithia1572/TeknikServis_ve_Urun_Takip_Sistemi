@@ -33,14 +33,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Charts.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Images.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v21.2.UI, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v21.2.UI, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v21.2.Wizard, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraGrid.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -99,12 +105,6 @@
     <Compile Include="NewFolder1\frmKategori.Designer.cs">
       <DependentUpon>frmKategori.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewFolder1\frmMarkalar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NewFolder1\frmMarkalar.Designer.cs">
-      <DependentUpon>frmMarkalar.cs</DependentUpon>
-    </Compile>
     <Compile Include="NewFolder1\FrmUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +116,12 @@
     </Compile>
     <Compile Include="NewFolder1\UrunIstatistik.Designer.cs">
       <DependentUpon>UrunIstatistik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder1\XtraForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\XtraForm2.Designer.cs">
+      <DependentUpon>XtraForm2.cs</DependentUpon>
     </Compile>
     <Compile Include="NewFolder1\YeniKategori.cs">
       <SubType>Form</SubType>
@@ -193,14 +199,14 @@
     <EmbeddedResource Include="NewFolder1\frmKategori.resx">
       <DependentUpon>frmKategori.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewFolder1\frmMarkalar.resx">
-      <DependentUpon>frmMarkalar.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\UrunIstatistik.resx">
       <DependentUpon>UrunIstatistik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\XtraForm2.resx">
+      <DependentUpon>XtraForm2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\YeniKategori.resx">
       <DependentUpon>YeniKategori.cs</DependentUpon>
@@ -260,6 +266,7 @@
     </Content>
     <Content Include="Resources2\a.jpg" />
     <Content Include="Resources2\b.jpg" />
+    <None Include="Resources\analytics.png" />
     <None Include="Resources\b.jpg" />
     <None Include="Resources\a.jpg" />
     <None Include="Resources\Image1.bmp" />
