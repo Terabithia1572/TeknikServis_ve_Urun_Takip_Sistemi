@@ -18,6 +18,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             InitializeComponent();
         }
 
+        Db_TeknikServisEntities db = new Db_TeknikServisEntities();
         private void frmCariILLER_Load(object sender, EventArgs e)
         {
             chartControl1.Series["Series 1"].Points.AddPoint("Van", 10);
@@ -26,7 +27,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             chartControl1.Series["Series 1"].Points.AddPoint("Adıyaman", 5);
             chartControl1.Series["Series 1"].Points.AddPoint("İstanbul", 3);
             chartControl1.Series["Series 1"].Points.AddPoint("İzmir", 7);
-           
+            dgv_CariListesi.DataSource = db.Tbl_Cari.OrderBy(x => x.IL).GroupBy(y => y.IL).Select(z => new
+            {
+                İL = z.Key,
+                Toplam = z.Count()
+            }).ToList();
         }
     }
 }
