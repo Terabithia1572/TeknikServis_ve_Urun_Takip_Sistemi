@@ -21,6 +21,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
 
         private void XtraForm3_Load(object sender, EventArgs e)
         {
+            
             var listele = db.Tbl_Urun.OrderBy(x => x.Marka).GroupBy(y => y.Marka).
               Select(z => new
               {
