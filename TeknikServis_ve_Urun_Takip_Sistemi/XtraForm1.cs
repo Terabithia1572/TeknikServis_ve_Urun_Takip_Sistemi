@@ -127,5 +127,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             CI.MdiParent = this;
             CI.Show();
         }
+
+        private void barButtonItem13_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmCariListesi CL = new NewFolder1.frmCariListesi();
+            CL.MdiParent = this;
+            CL.Show();
+        }
     }
 }
