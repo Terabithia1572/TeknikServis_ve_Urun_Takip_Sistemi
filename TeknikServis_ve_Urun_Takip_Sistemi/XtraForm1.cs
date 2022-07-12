@@ -109,7 +109,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
 
         private void btn_MarkaIstatistik_ItemClick(object sender, ItemClickEventArgs e)
         {
-            NewFolder1.frmMarkalar fm = new NewFolder1.frmMarkalar();
+            NewFolder1.XtraForm3 fm = new NewFolder1.XtraForm3();
             fm.MdiParent = this;
             fm.Show();
         }

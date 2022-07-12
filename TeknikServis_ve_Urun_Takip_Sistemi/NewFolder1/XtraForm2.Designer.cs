@@ -32,13 +32,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMarkalar));
             DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
             DevExpress.XtraCharts.PieSeriesView pieSeriesView1 = new DevExpress.XtraCharts.PieSeriesView();
             DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
             DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
             DevExpress.XtraCharts.SideBySideFullStackedBarSeriesView sideBySideFullStackedBarSeriesView1 = new DevExpress.XtraCharts.SideBySideFullStackedBarSeriesView();
             DevExpress.XtraCharts.RectangleGradientFillOptions rectangleGradientFillOptions1 = new DevExpress.XtraCharts.RectangleGradientFillOptions();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMarkalar));
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.lbl_EnFazlaStokluUrun = new MetroFramework.Controls.MetroLabel();
             this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
@@ -53,34 +53,55 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.lbl_EnYuksekFiyatliMarka = new MetroFramework.Controls.MetroLabel();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.chartControl2 = new DevExpress.XtraCharts.ChartControl();
+            this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_MarkaListesi)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesView1)).BeginInit();
             this.guna2Panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(sideBySideFullStackedBarSeriesView1)).BeginInit();
+            this.guna2Panel9.SuspendLayout();
+            this.guna2Panel10.SuspendLayout();
+            this.guna2Panel11.SuspendLayout();
+            this.guna2Panel12.SuspendLayout();
+            this.guna2Panel13.SuspendLayout();
+            this.guna2Panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel6
@@ -325,19 +346,47 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel4.Controls.Add(this.chartControl1);
             this.guna2Panel4.Controls.Add(this.guna2Panel7);
             this.guna2Panel4.Controls.Add(this.guna2Panel5);
-            this.guna2Panel4.Location = new System.Drawing.Point(449, 126);
+            this.guna2Panel4.Location = new System.Drawing.Point(446, 113);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
-            this.guna2Panel4.Size = new System.Drawing.Size(436, 609);
+            this.guna2Panel4.Size = new System.Drawing.Size(443, 380);
             this.guna2Panel4.TabIndex = 15;
             // 
-            // guna2Panel5
+            // metroLabel3
             // 
-            this.guna2Panel5.Location = new System.Drawing.Point(900, 126);
-            this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
-            this.guna2Panel5.Size = new System.Drawing.Size(452, 501);
-            this.guna2Panel5.TabIndex = 0;
+            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Small;
+            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel3.Location = new System.Drawing.Point(13, 54);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(314, 46);
+            this.metroLabel3.TabIndex = 5;
+            this.metroLabel3.Text = "Projemizin Bu Bölümünde Markalar ve Bu Markalara Ait \r\nİstatistik Değerlerine Bir" +
+    " Chart yani Grafik Alanı Üzerinden\r\nGüçlü Bir Arayüz İle Ulaşabilirsiniz.";
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel1.Location = new System.Drawing.Point(72, 4);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(192, 29);
+            this.metroLabel1.Style = MetroFramework.MetroColorStyle.Orange;
+            this.metroLabel1.TabIndex = 3;
+            this.metroLabel1.Text = "Marka Ve İstatistikleri";
+            this.metroLabel1.UseStyleColors = true;
+            // 
+            // chartControl1
+            // 
+            this.chartControl1.Location = new System.Drawing.Point(7, 1);
+            this.chartControl1.Name = "chartControl1";
+            this.chartControl1.PaletteName = "Office 2013";
+            series1.Name = "Series 1";
+            series1.View = pieSeriesView1;
+            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
+        series1};
+            this.chartControl1.SeriesTemplate.LegendTextPattern = "{A}";
+            this.chartControl1.Size = new System.Drawing.Size(433, 379);
+            this.chartControl1.TabIndex = 2;
             // 
             // guna2Panel7
             // 
@@ -347,58 +396,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel7.Size = new System.Drawing.Size(452, 98);
             this.guna2Panel7.TabIndex = 1;
             // 
-            // metroLabel1
+            // guna2Panel5
             // 
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.Location = new System.Drawing.Point(84, 17);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(192, 47);
-            this.metroLabel1.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroLabel1.TabIndex = 3;
-            this.metroLabel1.Text = "Marka Ve İstatistikleri";
-            this.metroLabel1.UseStyleColors = true;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guna2PictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.ErrorImage")));
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.analytics;
-            this.guna2PictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.InitialImage")));
-            this.guna2PictureBox1.Location = new System.Drawing.Point(14, 17);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(53, 47);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.guna2PictureBox1.TabIndex = 4;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
-            // 
-            // metroLabel3
-            // 
-            this.metroLabel3.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel3.Location = new System.Drawing.Point(13, 82);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(328, 103);
-            this.metroLabel3.TabIndex = 5;
-            this.metroLabel3.Text = "Projemizin Bu Bölümünde Markalar ve Bu Markalara Ait \r\nİstatistik Değerlerine Bir" +
-    " Chart yani Grafik Alanı Üzerinden\r\nGüçlü Bir Arayüz İle Ulaşabilirsiniz.";
-            // 
-            // chartControl1
-            // 
-            this.chartControl1.Location = new System.Drawing.Point(3, 3);
-            this.chartControl1.Name = "chartControl1";
-            this.chartControl1.PaletteName = "Office 2013";
-            series1.Name = "Series 1";
-            series1.View = pieSeriesView1;
-            this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1};
-            this.chartControl1.SeriesTemplate.LegendTextPattern = "{A}";
-            this.chartControl1.Size = new System.Drawing.Size(430, 603);
-            this.chartControl1.TabIndex = 2;
+            this.guna2Panel5.Location = new System.Drawing.Point(900, 126);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
+            this.guna2Panel5.Size = new System.Drawing.Size(452, 501);
+            this.guna2Panel5.TabIndex = 0;
             // 
             // guna2Panel8
             // 
@@ -406,19 +410,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel8.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel8.Controls.Add(this.metroLabel7);
             this.guna2Panel8.Controls.Add(this.chartControl2);
-            this.guna2Panel8.Location = new System.Drawing.Point(900, 126);
+            this.guna2Panel8.Location = new System.Drawing.Point(895, 113);
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.ShadowDecoration.Parent = this.guna2Panel8;
-            this.guna2Panel8.Size = new System.Drawing.Size(452, 501);
+            this.guna2Panel8.Size = new System.Drawing.Size(449, 261);
             this.guna2Panel8.TabIndex = 16;
-            // 
-            // guna2Panel9
-            // 
-            this.guna2Panel9.Location = new System.Drawing.Point(900, 633);
-            this.guna2Panel9.Name = "guna2Panel9";
-            this.guna2Panel9.ShadowDecoration.Parent = this.guna2Panel9;
-            this.guna2Panel9.Size = new System.Drawing.Size(452, 98);
-            this.guna2Panel9.TabIndex = 0;
             // 
             // metroLabel5
             // 
@@ -426,31 +422,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel5.FontSize = MetroFramework.MetroLabelSize.Small;
             this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.metroLabel5.ForeColor = System.Drawing.Color.Transparent;
-            this.metroLabel5.Location = new System.Drawing.Point(14, 82);
+            this.metroLabel5.Location = new System.Drawing.Point(9, 54);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(429, 69);
+            this.metroLabel5.Size = new System.Drawing.Size(431, 69);
             this.metroLabel5.TabIndex = 9;
             this.metroLabel5.Text = "Sistemimizde Bir Ürün Girişi ve Ürün Takibi\r\nHem Masaüstü Hemde Kargo Noktasında " +
     "Web Noktasında Yapılabilmektedir.\r\nAşağıda Gördüğünüz Grafikte Hangi Kategoride " +
     "Kaç Ürün Olduğunu \r\nGöstermektedir.";
             this.metroLabel5.UseCustomBackColor = true;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.guna2PictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.ErrorImage")));
-            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.analytics;
-            this.guna2PictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.InitialImage")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(14, 17);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(53, 47);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.guna2PictureBox2.TabIndex = 8;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.UseTransparentBackground = true;
             // 
             // metroLabel7
             // 
@@ -458,9 +437,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel7.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel7.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.metroLabel7.ForeColor = System.Drawing.Color.Transparent;
-            this.metroLabel7.Location = new System.Drawing.Point(84, 17);
+            this.metroLabel7.Location = new System.Drawing.Point(83, 4);
             this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(192, 47);
+            this.metroLabel7.Size = new System.Drawing.Size(224, 34);
             this.metroLabel7.Style = MetroFramework.MetroColorStyle.Orange;
             this.metroLabel7.TabIndex = 7;
             this.metroLabel7.Text = "Ürünler ve Kategoriler";
@@ -474,7 +453,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.chartControl2.Diagram = xyDiagram1;
             this.chartControl2.IndicatorsPaletteName = "Marquee";
             this.chartControl2.Legend.Name = "Kategoriler";
-            this.chartControl2.Location = new System.Drawing.Point(3, 154);
+            this.chartControl2.Location = new System.Drawing.Point(6, 122);
             this.chartControl2.Name = "chartControl2";
             this.chartControl2.PaletteName = "Office 2013";
             series2.Name = "Kategoriler";
@@ -487,8 +466,150 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.chartControl2.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
         series2};
             this.chartControl2.SeriesTemplate.LegendTextPattern = "{A}";
-            this.chartControl2.Size = new System.Drawing.Size(446, 258);
+            this.chartControl2.Size = new System.Drawing.Size(443, 135);
             this.chartControl2.TabIndex = 6;
+            // 
+            // guna2Panel9
+            // 
+            this.guna2Panel9.Controls.Add(this.guna2Panel14);
+            this.guna2Panel9.Controls.Add(this.guna2Panel13);
+            this.guna2Panel9.Controls.Add(this.guna2Panel12);
+            this.guna2Panel9.Controls.Add(this.guna2Panel11);
+            this.guna2Panel9.Controls.Add(this.guna2Panel10);
+            this.guna2Panel9.Location = new System.Drawing.Point(895, 380);
+            this.guna2Panel9.Name = "guna2Panel9";
+            this.guna2Panel9.ShadowDecoration.Parent = this.guna2Panel9;
+            this.guna2Panel9.Size = new System.Drawing.Size(452, 98);
+            this.guna2Panel9.TabIndex = 0;
+            // 
+            // guna2Panel10
+            // 
+            this.guna2Panel10.Controls.Add(this.pictureBox1);
+            this.guna2Panel10.Location = new System.Drawing.Point(4, 4);
+            this.guna2Panel10.Name = "guna2Panel10";
+            this.guna2Panel10.ShadowDecoration.Parent = this.guna2Panel10;
+            this.guna2Panel10.Size = new System.Drawing.Size(85, 87);
+            this.guna2Panel10.TabIndex = 0;
+            // 
+            // guna2Panel11
+            // 
+            this.guna2Panel11.Controls.Add(this.pictureBox2);
+            this.guna2Panel11.Location = new System.Drawing.Point(95, 4);
+            this.guna2Panel11.Name = "guna2Panel11";
+            this.guna2Panel11.ShadowDecoration.Parent = this.guna2Panel11;
+            this.guna2Panel11.Size = new System.Drawing.Size(85, 87);
+            this.guna2Panel11.TabIndex = 1;
+            // 
+            // guna2Panel12
+            // 
+            this.guna2Panel12.Controls.Add(this.pictureBox3);
+            this.guna2Panel12.Location = new System.Drawing.Point(186, 4);
+            this.guna2Panel12.Name = "guna2Panel12";
+            this.guna2Panel12.ShadowDecoration.Parent = this.guna2Panel12;
+            this.guna2Panel12.Size = new System.Drawing.Size(85, 87);
+            this.guna2Panel12.TabIndex = 2;
+            // 
+            // guna2Panel13
+            // 
+            this.guna2Panel13.Controls.Add(this.pictureBox4);
+            this.guna2Panel13.Location = new System.Drawing.Point(274, 4);
+            this.guna2Panel13.Name = "guna2Panel13";
+            this.guna2Panel13.ShadowDecoration.Parent = this.guna2Panel13;
+            this.guna2Panel13.Size = new System.Drawing.Size(85, 87);
+            this.guna2Panel13.TabIndex = 3;
+            // 
+            // guna2Panel14
+            // 
+            this.guna2Panel14.Controls.Add(this.pictureBox5);
+            this.guna2Panel14.Location = new System.Drawing.Point(362, 4);
+            this.guna2Panel14.Name = "guna2Panel14";
+            this.guna2Panel14.ShadowDecoration.Parent = this.guna2Panel14;
+            this.guna2Panel14.Size = new System.Drawing.Size(85, 87);
+            this.guna2Panel14.TabIndex = 4;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.magnifying_glass;
+            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(79, 81);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.website;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(79, 81);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.pin;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(79, 81);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.email;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(79, 81);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.statistics;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(79, 81);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2PictureBox2.ErrorImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.ErrorImage")));
+            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.analytics;
+            this.guna2PictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.InitialImage")));
+            this.guna2PictureBox2.Location = new System.Drawing.Point(9, 4);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
+            this.guna2PictureBox2.Size = new System.Drawing.Size(53, 47);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.guna2PictureBox2.TabIndex = 8;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2PictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.ErrorImage")));
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.analytics;
+            this.guna2PictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.InitialImage")));
+            this.guna2PictureBox1.Location = new System.Drawing.Point(13, 4);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(53, 47);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.guna2PictureBox1.TabIndex = 4;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // frmMarkalar
             // 
@@ -516,16 +637,27 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.guna2Panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(sideBySideFullStackedBarSeriesView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl2)).EndInit();
+            this.guna2Panel9.ResumeLayout(false);
+            this.guna2Panel10.ResumeLayout(false);
+            this.guna2Panel11.ResumeLayout(false);
+            this.guna2Panel12.ResumeLayout(false);
+            this.guna2Panel13.ResumeLayout(false);
+            this.guna2Panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -558,5 +690,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private MetroFramework.Controls.MetroLabel metroLabel7;
         private DevExpress.XtraCharts.ChartControl chartControl2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

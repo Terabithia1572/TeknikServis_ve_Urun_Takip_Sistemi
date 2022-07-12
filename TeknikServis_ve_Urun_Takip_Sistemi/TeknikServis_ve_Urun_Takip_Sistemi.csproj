@@ -123,6 +123,12 @@
     <Compile Include="NewFolder1\XtraForm2.Designer.cs">
       <DependentUpon>XtraForm2.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\XtraForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\XtraForm3.Designer.cs">
+      <DependentUpon>XtraForm3.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\YeniKategori.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +214,9 @@
     <EmbeddedResource Include="NewFolder1\XtraForm2.resx">
       <DependentUpon>XtraForm2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\XtraForm3.resx">
+      <DependentUpon>XtraForm3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\YeniKategori.resx">
       <DependentUpon>YeniKategori.cs</DependentUpon>
     </EmbeddedResource>
@@ -266,6 +275,14 @@
     </Content>
     <Content Include="Resources2\a.jpg" />
     <Content Include="Resources2\b.jpg" />
+    <None Include="Resources\email.png" />
+    <None Include="Resources\pin.png" />
+    <None Include="Resources\magnifying-glass.png" />
+    <None Include="Resources\website.png" />
+    <None Include="Resources\map.png" />
+    <None Include="Resources\profile.png" />
+    <None Include="Resources\email-marketing.png" />
+    <None Include="Resources\statistics.png" />
     <None Include="Resources\analytics.png" />
     <None Include="Resources\b.jpg" />
     <None Include="Resources\a.jpg" />
