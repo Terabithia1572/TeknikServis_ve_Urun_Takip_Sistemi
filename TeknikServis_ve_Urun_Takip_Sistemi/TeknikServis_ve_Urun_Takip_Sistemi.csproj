@@ -99,6 +99,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmCariILLER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmCariILLER.Designer.cs">
+      <DependentUpon>frmCariILLER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder1\frmCariListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmCariListesi.Designer.cs">
+      <DependentUpon>frmCariListesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmKategori.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +214,12 @@
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="NewFolder1\frmCariILLER.resx">
+      <DependentUpon>frmCariILLER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmCariListesi.resx">
+      <DependentUpon>frmCariListesi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmKategori.resx">
       <DependentUpon>frmKategori.cs</DependentUpon>
     </EmbeddedResource>
