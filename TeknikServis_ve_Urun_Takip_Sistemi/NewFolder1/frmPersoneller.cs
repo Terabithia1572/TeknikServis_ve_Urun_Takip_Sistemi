@@ -21,7 +21,18 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         Db_TeknikServisEntities db = new Db_TeknikServisEntities();
         private void frmPersoneller_Load(object sender, EventArgs e)
         {
-            
+            metroLabel8.Parent = pictureBox1;
+            metroLabel8.BackColor = Color.Transparent;
+            metroLabel9.Parent = pictureBox1;
+            metroLabel9.BackColor = Color.Transparent;
+            metroLabel10.Parent = pictureBox1;
+            metroLabel10.BackColor = Color.Transparent;
+            metroLabel11.Parent = pictureBox1;
+            metroLabel11.BackColor = Color.Transparent;
+           metroLabel12.Parent = pictureBox1;
+            metroLabel12.BackColor = Color.Transparent;
+            metroLabel13.Parent = pictureBox1;
+            metroLabel13.BackColor = Color.Transparent;
             var listele = (from x in db.Tbl_Personel
                            select new
                            {
@@ -39,7 +50,18 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             cbx_Departman.DataSource = db.Tbl_Departman.ToList();
             cbx_Departman.ValueMember = "ID";
             cbx_Departman.DisplayMember = "Ad";
+
+            string ad1,soyad1,mail1,departman1;
+            ad1 = db.Tbl_Personel.First(x => x.ID == 1).Ad;
+            soyad1 = db.Tbl_Personel.First(x => x.ID == 1).Soyad;
+            metroLabel9.Text = ad1 + " " + soyad1;
+            mail1 = db.Tbl_Personel.First(x => x.ID == 1).Mail;
+            metroLabel10.Text = mail1;
+            departman1 = db.Tbl_Personel.First(x => x.ID == 1).Tbl_Departman.Ad;
+            metroLabel12.Text = departman1;
+
         }
+
 
         private void btn_Ekle_Click(object sender, EventArgs e)
         {
