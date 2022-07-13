@@ -148,5 +148,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             ydp.MdiParent = this;
             ydp.Show();
         }
+
+        private void btn_PersonelListesi_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmPersoneller fp = new NewFolder1.frmPersoneller();
+                fp.MdiParent = this;
+            fp.Show();
+        }
     }
 }

@@ -32,7 +32,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.cbx_Kategoriler = new MetroFramework.Controls.MetroComboBox();
+            this.cbx_Departman = new MetroFramework.Controls.MetroComboBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
@@ -44,29 +44,29 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.tx_Stok = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tx_SatisFiyat = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tx_AlisFiyat = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_Telefon = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_Mail = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_Fotograf = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.tx_UrunAdi = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_Ad = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.tx_Marka = new Guna.UI2.WinForms.Guna2TextBox();
-            this.dgv_UrunListesi = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.tx_Soyad = new Guna.UI2.WinForms.Guna2TextBox();
+            this.dgv_Personel = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2GroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_UrunListesi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Personel)).BeginInit();
             this.SuspendLayout();
             // 
-            // cbx_Kategoriler
+            // cbx_Departman
             // 
-            this.cbx_Kategoriler.FormattingEnabled = true;
-            this.cbx_Kategoriler.ItemHeight = 23;
-            this.cbx_Kategoriler.Location = new System.Drawing.Point(84, 288);
-            this.cbx_Kategoriler.Name = "cbx_Kategoriler";
-            this.cbx_Kategoriler.Size = new System.Drawing.Size(139, 29);
-            this.cbx_Kategoriler.Style = MetroFramework.MetroColorStyle.Lime;
-            this.cbx_Kategoriler.TabIndex = 17;
-            this.cbx_Kategoriler.UseSelectable = true;
+            this.cbx_Departman.FormattingEnabled = true;
+            this.cbx_Departman.ItemHeight = 23;
+            this.cbx_Departman.Location = new System.Drawing.Point(84, 288);
+            this.cbx_Departman.Name = "cbx_Departman";
+            this.cbx_Departman.Size = new System.Drawing.Size(139, 29);
+            this.cbx_Departman.Style = MetroFramework.MetroColorStyle.Lime;
+            this.cbx_Departman.TabIndex = 17;
+            this.cbx_Departman.UseSelectable = true;
             // 
             // tx_ID
             // 
@@ -110,12 +110,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Temizle.HoverState.Parent = this.btn_Temizle;
             this.btn_Temizle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_cart;
             this.btn_Temizle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Temizle.Location = new System.Drawing.Point(85, 521);
+            this.btn_Temizle.Location = new System.Drawing.Point(70, 429);
             this.btn_Temizle.Name = "btn_Temizle";
             this.btn_Temizle.ShadowDecoration.Parent = this.btn_Temizle;
-            this.btn_Temizle.Size = new System.Drawing.Size(139, 40);
+            this.btn_Temizle.Size = new System.Drawing.Size(114, 40);
             this.btn_Temizle.TabIndex = 14;
             this.btn_Temizle.Text = "Temizle";
+            this.btn_Temizle.Click += new System.EventHandler(this.btn_Temizle_Click);
             // 
             // btn_Listele
             // 
@@ -127,12 +128,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Listele.HoverState.Parent = this.btn_Listele;
             this.btn_Listele.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.shopping_cart__2_;
             this.btn_Listele.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Listele.Location = new System.Drawing.Point(84, 475);
+            this.btn_Listele.Location = new System.Drawing.Point(128, 383);
             this.btn_Listele.Name = "btn_Listele";
             this.btn_Listele.ShadowDecoration.Parent = this.btn_Listele;
-            this.btn_Listele.Size = new System.Drawing.Size(139, 40);
+            this.btn_Listele.Size = new System.Drawing.Size(114, 40);
             this.btn_Listele.TabIndex = 13;
             this.btn_Listele.Text = "Listele";
+            this.btn_Listele.Click += new System.EventHandler(this.btn_Listele_Click);
             // 
             // btn_Guncelle
             // 
@@ -144,12 +146,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
             this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
             this.btn_Guncelle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Guncelle.Location = new System.Drawing.Point(84, 429);
+            this.btn_Guncelle.Location = new System.Drawing.Point(8, 383);
             this.btn_Guncelle.Name = "btn_Guncelle";
             this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Size = new System.Drawing.Size(139, 40);
+            this.btn_Guncelle.Size = new System.Drawing.Size(114, 40);
             this.btn_Guncelle.TabIndex = 13;
             this.btn_Guncelle.Text = "Güncelle";
+            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
             // 
             // btn_Sil
             // 
@@ -161,12 +164,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Sil.HoverState.Parent = this.btn_Sil;
             this.btn_Sil.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_from_cart__1_;
             this.btn_Sil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Sil.Location = new System.Drawing.Point(84, 383);
+            this.btn_Sil.Location = new System.Drawing.Point(142, 337);
             this.btn_Sil.Name = "btn_Sil";
             this.btn_Sil.ShadowDecoration.Parent = this.btn_Sil;
-            this.btn_Sil.Size = new System.Drawing.Size(139, 40);
+            this.btn_Sil.Size = new System.Drawing.Size(114, 40);
             this.btn_Sil.TabIndex = 13;
             this.btn_Sil.Text = "Sil";
+            this.btn_Sil.Click += new System.EventHandler(this.btn_Sil_Click);
             // 
             // btn_Ekle
             // 
@@ -178,158 +182,159 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Ekle.HoverState.Parent = this.btn_Ekle;
             this.btn_Ekle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
             this.btn_Ekle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Ekle.Location = new System.Drawing.Point(84, 337);
+            this.btn_Ekle.Location = new System.Drawing.Point(8, 337);
             this.btn_Ekle.Name = "btn_Ekle";
             this.btn_Ekle.ShadowDecoration.Parent = this.btn_Ekle;
-            this.btn_Ekle.Size = new System.Drawing.Size(139, 40);
+            this.btn_Ekle.Size = new System.Drawing.Size(114, 40);
             this.btn_Ekle.TabIndex = 13;
             this.btn_Ekle.Text = "Ekle";
+            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
             this.metroLabel6.Location = new System.Drawing.Point(4, 294);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(77, 19);
+            this.metroLabel6.Size = new System.Drawing.Size(79, 19);
             this.metroLabel6.TabIndex = 11;
-            this.metroLabel6.Text = "Kategoriler:";
+            this.metroLabel6.Text = "Departman:";
             // 
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
             this.metroLabel5.Location = new System.Drawing.Point(8, 252);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(37, 19);
+            this.metroLabel5.Size = new System.Drawing.Size(53, 19);
             this.metroLabel5.TabIndex = 11;
-            this.metroLabel5.Text = "Stok:";
+            this.metroLabel5.Text = "Telefon:";
             // 
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.Location = new System.Drawing.Point(3, 205);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(69, 19);
+            this.metroLabel4.Size = new System.Drawing.Size(37, 19);
             this.metroLabel4.TabIndex = 11;
-            this.metroLabel4.Text = "Satış Fiyatı";
+            this.metroLabel4.Text = "Mail:";
             // 
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
             this.metroLabel3.Location = new System.Drawing.Point(3, 151);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(66, 19);
+            this.metroLabel3.Size = new System.Drawing.Size(64, 19);
             this.metroLabel3.TabIndex = 11;
-            this.metroLabel3.Text = "Alış Fiyatı:";
+            this.metroLabel3.Text = "Fotoğraf:";
             // 
-            // tx_Stok
+            // tx_Telefon
             // 
-            this.tx_Stok.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Stok.DefaultText = "";
-            this.tx_Stok.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Stok.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Stok.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Stok.DisabledState.Parent = this.tx_Stok;
-            this.tx_Stok.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Stok.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Stok.FocusedState.Parent = this.tx_Stok;
-            this.tx_Stok.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Stok.HoverState.Parent = this.tx_Stok;
-            this.tx_Stok.Location = new System.Drawing.Point(85, 243);
-            this.tx_Stok.Name = "tx_Stok";
-            this.tx_Stok.PasswordChar = '\0';
-            this.tx_Stok.PlaceholderText = "";
-            this.tx_Stok.SelectedText = "";
-            this.tx_Stok.ShadowDecoration.Parent = this.tx_Stok;
-            this.tx_Stok.Size = new System.Drawing.Size(47, 28);
-            this.tx_Stok.TabIndex = 5;
+            this.tx_Telefon.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Telefon.DefaultText = "";
+            this.tx_Telefon.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Telefon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Telefon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Telefon.DisabledState.Parent = this.tx_Telefon;
+            this.tx_Telefon.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Telefon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Telefon.FocusedState.Parent = this.tx_Telefon;
+            this.tx_Telefon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Telefon.HoverState.Parent = this.tx_Telefon;
+            this.tx_Telefon.Location = new System.Drawing.Point(85, 243);
+            this.tx_Telefon.Name = "tx_Telefon";
+            this.tx_Telefon.PasswordChar = '\0';
+            this.tx_Telefon.PlaceholderText = "";
+            this.tx_Telefon.SelectedText = "";
+            this.tx_Telefon.ShadowDecoration.Parent = this.tx_Telefon;
+            this.tx_Telefon.Size = new System.Drawing.Size(139, 28);
+            this.tx_Telefon.TabIndex = 5;
             // 
-            // tx_SatisFiyat
+            // tx_Mail
             // 
-            this.tx_SatisFiyat.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_SatisFiyat.DefaultText = "";
-            this.tx_SatisFiyat.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_SatisFiyat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_SatisFiyat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_SatisFiyat.DisabledState.Parent = this.tx_SatisFiyat;
-            this.tx_SatisFiyat.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_SatisFiyat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_SatisFiyat.FocusedState.Parent = this.tx_SatisFiyat;
-            this.tx_SatisFiyat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_SatisFiyat.HoverState.Parent = this.tx_SatisFiyat;
-            this.tx_SatisFiyat.Location = new System.Drawing.Point(85, 192);
-            this.tx_SatisFiyat.Name = "tx_SatisFiyat";
-            this.tx_SatisFiyat.PasswordChar = '\0';
-            this.tx_SatisFiyat.PlaceholderText = "";
-            this.tx_SatisFiyat.SelectedText = "";
-            this.tx_SatisFiyat.ShadowDecoration.Parent = this.tx_SatisFiyat;
-            this.tx_SatisFiyat.Size = new System.Drawing.Size(139, 28);
-            this.tx_SatisFiyat.TabIndex = 4;
+            this.tx_Mail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Mail.DefaultText = "";
+            this.tx_Mail.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Mail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Mail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Mail.DisabledState.Parent = this.tx_Mail;
+            this.tx_Mail.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Mail.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Mail.FocusedState.Parent = this.tx_Mail;
+            this.tx_Mail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Mail.HoverState.Parent = this.tx_Mail;
+            this.tx_Mail.Location = new System.Drawing.Point(85, 192);
+            this.tx_Mail.Name = "tx_Mail";
+            this.tx_Mail.PasswordChar = '\0';
+            this.tx_Mail.PlaceholderText = "";
+            this.tx_Mail.SelectedText = "";
+            this.tx_Mail.ShadowDecoration.Parent = this.tx_Mail;
+            this.tx_Mail.Size = new System.Drawing.Size(139, 28);
+            this.tx_Mail.TabIndex = 4;
             // 
-            // tx_AlisFiyat
+            // tx_Fotograf
             // 
-            this.tx_AlisFiyat.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_AlisFiyat.DefaultText = "";
-            this.tx_AlisFiyat.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_AlisFiyat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_AlisFiyat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_AlisFiyat.DisabledState.Parent = this.tx_AlisFiyat;
-            this.tx_AlisFiyat.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_AlisFiyat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_AlisFiyat.FocusedState.Parent = this.tx_AlisFiyat;
-            this.tx_AlisFiyat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_AlisFiyat.HoverState.Parent = this.tx_AlisFiyat;
-            this.tx_AlisFiyat.Location = new System.Drawing.Point(85, 137);
-            this.tx_AlisFiyat.Name = "tx_AlisFiyat";
-            this.tx_AlisFiyat.PasswordChar = '\0';
-            this.tx_AlisFiyat.PlaceholderText = "";
-            this.tx_AlisFiyat.SelectedText = "";
-            this.tx_AlisFiyat.ShadowDecoration.Parent = this.tx_AlisFiyat;
-            this.tx_AlisFiyat.Size = new System.Drawing.Size(139, 28);
-            this.tx_AlisFiyat.TabIndex = 3;
+            this.tx_Fotograf.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Fotograf.DefaultText = "";
+            this.tx_Fotograf.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Fotograf.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Fotograf.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Fotograf.DisabledState.Parent = this.tx_Fotograf;
+            this.tx_Fotograf.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Fotograf.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Fotograf.FocusedState.Parent = this.tx_Fotograf;
+            this.tx_Fotograf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Fotograf.HoverState.Parent = this.tx_Fotograf;
+            this.tx_Fotograf.Location = new System.Drawing.Point(85, 137);
+            this.tx_Fotograf.Name = "tx_Fotograf";
+            this.tx_Fotograf.PasswordChar = '\0';
+            this.tx_Fotograf.PlaceholderText = "";
+            this.tx_Fotograf.SelectedText = "";
+            this.tx_Fotograf.ShadowDecoration.Parent = this.tx_Fotograf;
+            this.tx_Fotograf.Size = new System.Drawing.Size(139, 28);
+            this.tx_Fotograf.TabIndex = 3;
             // 
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.Location = new System.Drawing.Point(3, 97);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(49, 19);
+            this.metroLabel2.Size = new System.Drawing.Size(45, 19);
             this.metroLabel2.TabIndex = 9;
-            this.metroLabel2.Text = "Marka:";
+            this.metroLabel2.Text = "Soyad";
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.Location = new System.Drawing.Point(1, 52);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(64, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(29, 19);
             this.metroLabel1.TabIndex = 7;
-            this.metroLabel1.Text = "Ürün Adı:";
+            this.metroLabel1.Text = "Ad:";
             // 
-            // tx_UrunAdi
+            // tx_Ad
             // 
-            this.tx_UrunAdi.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_UrunAdi.DefaultText = "";
-            this.tx_UrunAdi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_UrunAdi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_UrunAdi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_UrunAdi.DisabledState.Parent = this.tx_UrunAdi;
-            this.tx_UrunAdi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_UrunAdi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_UrunAdi.FocusedState.Parent = this.tx_UrunAdi;
-            this.tx_UrunAdi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_UrunAdi.HoverState.Parent = this.tx_UrunAdi;
-            this.tx_UrunAdi.Location = new System.Drawing.Point(85, 42);
-            this.tx_UrunAdi.Name = "tx_UrunAdi";
-            this.tx_UrunAdi.PasswordChar = '\0';
-            this.tx_UrunAdi.PlaceholderText = "";
-            this.tx_UrunAdi.SelectedText = "";
-            this.tx_UrunAdi.ShadowDecoration.Parent = this.tx_UrunAdi;
-            this.tx_UrunAdi.Size = new System.Drawing.Size(139, 28);
-            this.tx_UrunAdi.TabIndex = 1;
+            this.tx_Ad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Ad.DefaultText = "";
+            this.tx_Ad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Ad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Ad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Ad.DisabledState.Parent = this.tx_Ad;
+            this.tx_Ad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Ad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Ad.FocusedState.Parent = this.tx_Ad;
+            this.tx_Ad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Ad.HoverState.Parent = this.tx_Ad;
+            this.tx_Ad.Location = new System.Drawing.Point(85, 42);
+            this.tx_Ad.Name = "tx_Ad";
+            this.tx_Ad.PasswordChar = '\0';
+            this.tx_Ad.PlaceholderText = "";
+            this.tx_Ad.SelectedText = "";
+            this.tx_Ad.ShadowDecoration.Parent = this.tx_Ad;
+            this.tx_Ad.Size = new System.Drawing.Size(139, 28);
+            this.tx_Ad.TabIndex = 1;
             // 
             // guna2GroupBox1
             // 
-            this.guna2GroupBox1.Controls.Add(this.cbx_Kategoriler);
+            this.guna2GroupBox1.Controls.Add(this.cbx_Departman);
             this.guna2GroupBox1.Controls.Add(this.tx_ID);
             this.guna2GroupBox1.Controls.Add(this.metroLabel7);
             this.guna2GroupBox1.Controls.Add(this.btn_Temizle);
@@ -341,59 +346,59 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Controls.Add(this.metroLabel5);
             this.guna2GroupBox1.Controls.Add(this.metroLabel4);
             this.guna2GroupBox1.Controls.Add(this.metroLabel3);
-            this.guna2GroupBox1.Controls.Add(this.tx_Stok);
-            this.guna2GroupBox1.Controls.Add(this.tx_SatisFiyat);
-            this.guna2GroupBox1.Controls.Add(this.tx_AlisFiyat);
+            this.guna2GroupBox1.Controls.Add(this.tx_Telefon);
+            this.guna2GroupBox1.Controls.Add(this.tx_Mail);
+            this.guna2GroupBox1.Controls.Add(this.tx_Fotograf);
             this.guna2GroupBox1.Controls.Add(this.metroLabel2);
-            this.guna2GroupBox1.Controls.Add(this.tx_Marka);
+            this.guna2GroupBox1.Controls.Add(this.tx_Soyad);
             this.guna2GroupBox1.Controls.Add(this.metroLabel1);
-            this.guna2GroupBox1.Controls.Add(this.tx_UrunAdi);
+            this.guna2GroupBox1.Controls.Add(this.tx_Ad);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.PowderBlue;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(1096, -7);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(1096, 5);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
             this.guna2GroupBox1.Size = new System.Drawing.Size(267, 739);
             this.guna2GroupBox1.TabIndex = 4;
-            this.guna2GroupBox1.Text = "Ürün İşlem Menüsü";
+            this.guna2GroupBox1.Text = "Personel İşlem Menüsü";
             // 
-            // tx_Marka
+            // tx_Soyad
             // 
-            this.tx_Marka.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Marka.DefaultText = "";
-            this.tx_Marka.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Marka.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Marka.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Marka.DisabledState.Parent = this.tx_Marka;
-            this.tx_Marka.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Marka.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Marka.FocusedState.Parent = this.tx_Marka;
-            this.tx_Marka.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Marka.HoverState.Parent = this.tx_Marka;
-            this.tx_Marka.Location = new System.Drawing.Point(85, 87);
-            this.tx_Marka.Name = "tx_Marka";
-            this.tx_Marka.PasswordChar = '\0';
-            this.tx_Marka.PlaceholderText = "";
-            this.tx_Marka.SelectedText = "";
-            this.tx_Marka.ShadowDecoration.Parent = this.tx_Marka;
-            this.tx_Marka.Size = new System.Drawing.Size(139, 28);
-            this.tx_Marka.TabIndex = 2;
+            this.tx_Soyad.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Soyad.DefaultText = "";
+            this.tx_Soyad.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Soyad.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Soyad.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Soyad.DisabledState.Parent = this.tx_Soyad;
+            this.tx_Soyad.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Soyad.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Soyad.FocusedState.Parent = this.tx_Soyad;
+            this.tx_Soyad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Soyad.HoverState.Parent = this.tx_Soyad;
+            this.tx_Soyad.Location = new System.Drawing.Point(85, 87);
+            this.tx_Soyad.Name = "tx_Soyad";
+            this.tx_Soyad.PasswordChar = '\0';
+            this.tx_Soyad.PlaceholderText = "";
+            this.tx_Soyad.SelectedText = "";
+            this.tx_Soyad.ShadowDecoration.Parent = this.tx_Soyad;
+            this.tx_Soyad.Size = new System.Drawing.Size(139, 28);
+            this.tx_Soyad.TabIndex = 2;
             // 
-            // dgv_UrunListesi
+            // dgv_Personel
             // 
-            this.dgv_UrunListesi.AllowUserToAddRows = false;
-            this.dgv_UrunListesi.AllowUserToDeleteRows = false;
-            this.dgv_UrunListesi.AllowUserToResizeColumns = false;
-            this.dgv_UrunListesi.AllowUserToResizeRows = false;
+            this.dgv_Personel.AllowUserToAddRows = false;
+            this.dgv_Personel.AllowUserToDeleteRows = false;
+            this.dgv_Personel.AllowUserToResizeColumns = false;
+            this.dgv_Personel.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_UrunListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv_UrunListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgv_UrunListesi.BackgroundColor = System.Drawing.Color.White;
-            this.dgv_UrunListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgv_UrunListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgv_UrunListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
-            this.dgv_UrunListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgv_Personel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgv_Personel.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgv_Personel.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_Personel.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgv_Personel.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgv_Personel.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
+            this.dgv_Personel.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
@@ -401,7 +406,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_UrunListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgv_Personel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgv_Personel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
@@ -409,42 +415,44 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_UrunListesi.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_UrunListesi.EnableHeadersVisualStyles = false;
-            this.dgv_UrunListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
-            this.dgv_UrunListesi.Location = new System.Drawing.Point(2, -7);
-            this.dgv_UrunListesi.Name = "dgv_UrunListesi";
-            this.dgv_UrunListesi.ReadOnly = true;
-            this.dgv_UrunListesi.RowHeadersVisible = false;
-            this.dgv_UrunListesi.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_UrunListesi.ShowCellErrors = false;
-            this.dgv_UrunListesi.ShowCellToolTips = false;
-            this.dgv_UrunListesi.ShowEditingIcon = false;
-            this.dgv_UrunListesi.ShowRowErrors = false;
-            this.dgv_UrunListesi.Size = new System.Drawing.Size(1088, 751);
-            this.dgv_UrunListesi.TabIndex = 3;
-            this.dgv_UrunListesi.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
-            this.dgv_UrunListesi.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_UrunListesi.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dgv_UrunListesi.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dgv_UrunListesi.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dgv_UrunListesi.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dgv_UrunListesi.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dgv_UrunListesi.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
-            this.dgv_UrunListesi.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            this.dgv_UrunListesi.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dgv_UrunListesi.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.dgv_UrunListesi.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dgv_UrunListesi.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dgv_UrunListesi.ThemeStyle.HeaderStyle.Height = 23;
-            this.dgv_UrunListesi.ThemeStyle.ReadOnly = true;
-            this.dgv_UrunListesi.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            this.dgv_UrunListesi.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgv_UrunListesi.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.dgv_UrunListesi.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.dgv_UrunListesi.ThemeStyle.RowsStyle.Height = 22;
-            this.dgv_UrunListesi.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            this.dgv_UrunListesi.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgv_Personel.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgv_Personel.EnableHeadersVisualStyles = false;
+            this.dgv_Personel.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
+            this.dgv_Personel.Location = new System.Drawing.Point(2, 5);
+            this.dgv_Personel.Name = "dgv_Personel";
+            this.dgv_Personel.ReadOnly = true;
+            this.dgv_Personel.RowHeadersVisible = false;
+            this.dgv_Personel.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.dgv_Personel.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgv_Personel.ShowCellErrors = false;
+            this.dgv_Personel.ShowCellToolTips = false;
+            this.dgv_Personel.ShowEditingIcon = false;
+            this.dgv_Personel.ShowRowErrors = false;
+            this.dgv_Personel.Size = new System.Drawing.Size(1089, 739);
+            this.dgv_Personel.TabIndex = 3;
+            this.dgv_Personel.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
+            this.dgv_Personel.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_Personel.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgv_Personel.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgv_Personel.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgv_Personel.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgv_Personel.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgv_Personel.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
+            this.dgv_Personel.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.dgv_Personel.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgv_Personel.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.dgv_Personel.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgv_Personel.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dgv_Personel.ThemeStyle.HeaderStyle.Height = 23;
+            this.dgv_Personel.ThemeStyle.ReadOnly = true;
+            this.dgv_Personel.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            this.dgv_Personel.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgv_Personel.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.dgv_Personel.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.dgv_Personel.ThemeStyle.RowsStyle.Height = 22;
+            this.dgv_Personel.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            this.dgv_Personel.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgv_Personel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv_Personel_MouseClick);
             // 
             // frmPersoneller
             // 
@@ -452,19 +460,20 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1364, 736);
             this.Controls.Add(this.guna2GroupBox1);
-            this.Controls.Add(this.dgv_UrunListesi);
+            this.Controls.Add(this.dgv_Personel);
             this.Name = "frmPersoneller";
             this.Text = "Personeller";
+            this.Load += new System.EventHandler(this.frmPersoneller_Load);
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_UrunListesi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Personel)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private MetroFramework.Controls.MetroComboBox cbx_Kategoriler;
+        private MetroFramework.Controls.MetroComboBox cbx_Departman;
         private Guna.UI2.WinForms.Guna2TextBox tx_ID;
         private MetroFramework.Controls.MetroLabel metroLabel7;
         private Guna.UI2.WinForms.Guna2Button btn_Temizle;
@@ -476,14 +485,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel3;
-        private Guna.UI2.WinForms.Guna2TextBox tx_Stok;
-        private Guna.UI2.WinForms.Guna2TextBox tx_SatisFiyat;
-        private Guna.UI2.WinForms.Guna2TextBox tx_AlisFiyat;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Telefon;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Mail;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Fotograf;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox tx_UrunAdi;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Ad;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
-        private Guna.UI2.WinForms.Guna2TextBox tx_Marka;
-        private Guna.UI2.WinForms.Guna2DataGridView dgv_UrunListesi;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Soyad;
+        private Guna.UI2.WinForms.Guna2DataGridView dgv_Personel;
     }
 }

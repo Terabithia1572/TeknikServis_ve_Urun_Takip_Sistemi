@@ -61,7 +61,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem23 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_PersonelListesi = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_DepartmanListesi = new DevExpress.XtraBars.BarButtonItem();
             this.btn_YeniDepartman = new DevExpress.XtraBars.BarButtonItem();
@@ -143,7 +143,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem20,
             this.barButtonItem21,
             this.barButtonItem22,
-            this.barButtonItem23,
+            this.btn_PersonelListesi,
             this.barButtonItem24,
             this.btn_DepartmanListesi,
             this.btn_YeniDepartman,
@@ -411,13 +411,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem22.Name = "barButtonItem22";
             this.barButtonItem22.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
-            // barButtonItem23
+            // btn_PersonelListesi
             // 
-            this.barButtonItem23.Caption = "Personel Listesi";
-            this.barButtonItem23.Id = 43;
-            this.barButtonItem23.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.crowd;
-            this.barButtonItem23.Name = "barButtonItem23";
-            this.barButtonItem23.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_PersonelListesi.Caption = "Personel Listesi";
+            this.btn_PersonelListesi.Id = 43;
+            this.btn_PersonelListesi.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.crowd;
+            this.btn_PersonelListesi.Name = "btn_PersonelListesi";
+            this.btn_PersonelListesi.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_PersonelListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_PersonelListesi_ItemClick);
             // 
             // barButtonItem24
             // 
@@ -686,7 +687,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             // ribbonPageGroup15
             // 
-            this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem23);
+            this.ribbonPageGroup15.ItemLinks.Add(this.btn_PersonelListesi);
             this.ribbonPageGroup15.ItemLinks.Add(this.barButtonItem24);
             this.ribbonPageGroup15.Name = "ribbonPageGroup15";
             this.ribbonPageGroup15.Text = "Personel İşlemleri";
@@ -838,7 +839,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem barButtonItem21;
         private DevExpress.XtraBars.BarButtonItem barButtonItem22;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup14;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem23;
+        private DevExpress.XtraBars.BarButtonItem btn_PersonelListesi;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup15;
         private DevExpress.XtraBars.BarButtonItem barButtonItem24;
