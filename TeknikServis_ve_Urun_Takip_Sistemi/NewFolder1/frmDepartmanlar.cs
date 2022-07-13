@@ -29,6 +29,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
                                 x.Aciklama
                             }).ToList();
             dgv_Departmanlar.DataSource = degerler;
+            lbl_ToplamPersonelSayisi.Text = db.Tbl_Personel.Count().ToString();
+            lbl_ToplamDepartmanSayisi.Text = db.Tbl_Departman.Count().ToString();
         }
 
         private void btn_Ekle_Click(object sender, EventArgs e)
