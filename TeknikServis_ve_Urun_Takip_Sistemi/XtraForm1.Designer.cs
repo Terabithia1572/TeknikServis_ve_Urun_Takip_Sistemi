@@ -768,7 +768,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ClientSize = new System.Drawing.Size(1364, 767);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbonControl);
-            this.IsMdiContainer = true;
+            this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("XtraForm1.IconOptions.Icon")));
             this.Name = "XtraForm1";
             this.Ribbon = this.ribbonControl;
             this.StatusBar = this.ribbonStatusBar;
