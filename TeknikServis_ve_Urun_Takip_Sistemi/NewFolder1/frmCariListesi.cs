@@ -143,10 +143,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
                 tx_Mail.Text = dgv_CariListesi.SelectedRows[0].Cells["Mail"].Value.ToString();
                 tx_Adres.Text = dgv_CariListesi.SelectedRows[0].Cells["Adres"].Value.ToString();
             }
-            catch (Exception deneme)
+            catch (Exception)
             {
 
-                MessageBox.Show(deneme.ToString());
+                MessageBox.Show("Lütfen Veritabanından Boş Olan Alanları Doldurduktan sonra tekrar deneyin.. Boş " +
+                    "Alan Bırakılamaz","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                return;
             }
           
         }

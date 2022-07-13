@@ -112,6 +112,12 @@
     <Compile Include="NewFolder1\frmCariListesi.Designer.cs">
       <DependentUpon>frmCariListesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmDepartmanlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmDepartmanlar.Designer.cs">
+      <DependentUpon>frmDepartmanlar.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmKategori.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -220,6 +226,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmCariListesi.resx">
       <DependentUpon>frmCariListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmDepartmanlar.resx">
+      <DependentUpon>frmDepartmanlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmKategori.resx">
       <DependentUpon>frmKategori.cs</DependentUpon>

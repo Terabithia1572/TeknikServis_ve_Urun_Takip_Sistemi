@@ -63,7 +63,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem23 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_DepartmanListesi = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem26 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem27 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
@@ -145,7 +145,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem22,
             this.barButtonItem23,
             this.barButtonItem24,
-            this.barButtonItem25,
+            this.btn_DepartmanListesi,
             this.barButtonItem26,
             this.barButtonItem27,
             this.barButtonItem28,
@@ -427,13 +427,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem24.Name = "barButtonItem24";
             this.barButtonItem24.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
-            // barButtonItem25
+            // btn_DepartmanListesi
             // 
-            this.barButtonItem25.Caption = "Departman Listesi";
-            this.barButtonItem25.Id = 45;
-            this.barButtonItem25.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.hierarchy;
-            this.barButtonItem25.Name = "barButtonItem25";
-            this.barButtonItem25.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_DepartmanListesi.Caption = "Departman Listesi";
+            this.btn_DepartmanListesi.Id = 45;
+            this.btn_DepartmanListesi.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.hierarchy;
+            this.btn_DepartmanListesi.Name = "btn_DepartmanListesi";
+            this.btn_DepartmanListesi.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_DepartmanListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_DepartmanListesi_ItemClick);
             // 
             // barButtonItem26
             // 
@@ -691,7 +692,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             // ribbonPageGroup16
             // 
-            this.ribbonPageGroup16.ItemLinks.Add(this.barButtonItem25);
+            this.ribbonPageGroup16.ItemLinks.Add(this.btn_DepartmanListesi);
             this.ribbonPageGroup16.ItemLinks.Add(this.barButtonItem26);
             this.ribbonPageGroup16.Name = "ribbonPageGroup16";
             this.ribbonPageGroup16.Text = "Departman İşlemleri";
@@ -769,9 +770,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbonControl);
             this.IconOptions.Icon = ((System.Drawing.Icon)(resources.GetObject("XtraForm1.IconOptions.Icon")));
+            this.IsMdiContainer = true;
             this.Name = "XtraForm1";
             this.Ribbon = this.ribbonControl;
             this.StatusBar = this.ribbonStatusBar;
+            this.Text = "Ana sayfa";
             this.Load += new System.EventHandler(this.XtraForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();
@@ -838,7 +841,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup15;
         private DevExpress.XtraBars.BarButtonItem barButtonItem24;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem25;
+        private DevExpress.XtraBars.BarButtonItem btn_DepartmanListesi;
         private DevExpress.XtraBars.BarButtonItem barButtonItem26;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup16;
         private DevExpress.XtraBars.BarButtonItem barButtonItem27;
