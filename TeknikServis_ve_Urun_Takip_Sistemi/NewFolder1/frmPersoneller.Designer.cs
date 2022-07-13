@@ -29,9 +29,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cbx_Departman = new MetroFramework.Controls.MetroComboBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
@@ -407,31 +407,31 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_Personel.AllowUserToDeleteRows = false;
             this.dgv_Personel.AllowUserToResizeColumns = false;
             this.dgv_Personel.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_Personel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_Personel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
             this.dgv_Personel.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_Personel.BackgroundColor = System.Drawing.Color.White;
             this.dgv_Personel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_Personel.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_Personel.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_Personel.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Personel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Personel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
             this.dgv_Personel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Personel.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Personel.DefaultCellStyle = dataGridViewCellStyle21;
             this.dgv_Personel.EnableHeadersVisualStyles = false;
             this.dgv_Personel.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_Personel.Location = new System.Drawing.Point(12, 357);
@@ -520,9 +520,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // metroLabel8
             // 
-            this.metroLabel8.AutoSize = true;
             this.metroLabel8.ForeColor = System.Drawing.Color.White;
-            this.metroLabel8.Location = new System.Drawing.Point(23, 166);
+            this.metroLabel8.Location = new System.Drawing.Point(12, 166);
             this.metroLabel8.Name = "metroLabel8";
             this.metroLabel8.Size = new System.Drawing.Size(69, 19);
             this.metroLabel8.TabIndex = 10;
@@ -532,11 +531,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // metroLabel9
             // 
-            this.metroLabel9.AutoSize = true;
             this.metroLabel9.ForeColor = System.Drawing.Color.White;
             this.metroLabel9.Location = new System.Drawing.Point(86, 166);
             this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(69, 19);
+            this.metroLabel9.Size = new System.Drawing.Size(117, 19);
             this.metroLabel9.TabIndex = 10;
             this.metroLabel9.Text = "Ad Soyad:";
             this.metroLabel9.UseCustomBackColor = true;
@@ -544,11 +542,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // metroLabel10
             // 
-            this.metroLabel10.AutoSize = true;
             this.metroLabel10.ForeColor = System.Drawing.Color.White;
-            this.metroLabel10.Location = new System.Drawing.Point(65, 232);
+            this.metroLabel10.Location = new System.Drawing.Point(46, 232);
             this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(69, 19);
+            this.metroLabel10.Size = new System.Drawing.Size(175, 19);
             this.metroLabel10.TabIndex = 11;
             this.metroLabel10.Text = "Ad Soyad:";
             this.metroLabel10.UseCustomBackColor = true;
@@ -556,9 +553,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // metroLabel11
             // 
-            this.metroLabel11.AutoSize = true;
             this.metroLabel11.ForeColor = System.Drawing.Color.White;
-            this.metroLabel11.Location = new System.Drawing.Point(23, 232);
+            this.metroLabel11.Location = new System.Drawing.Point(12, 232);
             this.metroLabel11.Name = "metroLabel11";
             this.metroLabel11.Size = new System.Drawing.Size(37, 19);
             this.metroLabel11.TabIndex = 12;
@@ -568,11 +564,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // metroLabel12
             // 
-            this.metroLabel12.AutoSize = true;
             this.metroLabel12.ForeColor = System.Drawing.Color.White;
-            this.metroLabel12.Location = new System.Drawing.Point(107, 197);
+            this.metroLabel12.Location = new System.Drawing.Point(99, 197);
             this.metroLabel12.Name = "metroLabel12";
-            this.metroLabel12.Size = new System.Drawing.Size(69, 19);
+            this.metroLabel12.Size = new System.Drawing.Size(96, 19);
             this.metroLabel12.TabIndex = 13;
             this.metroLabel12.Text = "Ad Soyad:";
             this.metroLabel12.UseCustomBackColor = true;
@@ -580,11 +575,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // metroLabel13
             // 
-            this.metroLabel13.AutoSize = true;
             this.metroLabel13.ForeColor = System.Drawing.Color.White;
-            this.metroLabel13.Location = new System.Drawing.Point(22, 197);
+            this.metroLabel13.Location = new System.Drawing.Point(12, 197);
             this.metroLabel13.Name = "metroLabel13";
-            this.metroLabel13.Size = new System.Drawing.Size(79, 19);
+            this.metroLabel13.Size = new System.Drawing.Size(87, 19);
             this.metroLabel13.TabIndex = 14;
             this.metroLabel13.Text = "Departman:";
             this.metroLabel13.UseCustomBackColor = true;
@@ -620,7 +614,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

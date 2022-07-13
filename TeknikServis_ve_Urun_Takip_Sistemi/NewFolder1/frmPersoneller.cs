@@ -33,6 +33,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             metroLabel12.BackColor = Color.Transparent;
             metroLabel13.Parent = pictureBox1;
             metroLabel13.BackColor = Color.Transparent;
+          //  metroLabel11.Location = new Point(23,232);
             var listele = (from x in db.Tbl_Personel
                            select new
                            {
