@@ -141,5 +141,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             fd.MdiParent = this;
             fd.Show();
         }
+
+        private void btn_YeniDepartman_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmYeniDepartman ydp = new NewFolder1.frmYeniDepartman();
+            ydp.MdiParent = this;
+            ydp.Show();
+        }
     }
 }

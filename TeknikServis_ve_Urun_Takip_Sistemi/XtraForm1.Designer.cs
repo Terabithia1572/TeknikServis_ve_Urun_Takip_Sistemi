@@ -64,7 +64,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem23 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_DepartmanListesi = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem26 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_YeniDepartman = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem27 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
@@ -146,7 +146,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem23,
             this.barButtonItem24,
             this.btn_DepartmanListesi,
-            this.barButtonItem26,
+            this.btn_YeniDepartman,
             this.barButtonItem27,
             this.barButtonItem28,
             this.barButtonItem29,
@@ -436,13 +436,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_DepartmanListesi.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_DepartmanListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_DepartmanListesi_ItemClick);
             // 
-            // barButtonItem26
+            // btn_YeniDepartman
             // 
-            this.barButtonItem26.Caption = "Yeni Departman";
-            this.barButtonItem26.Id = 46;
-            this.barButtonItem26.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.hierarchical_structure_copy;
-            this.barButtonItem26.Name = "barButtonItem26";
-            this.barButtonItem26.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_YeniDepartman.Caption = "Yeni Departman";
+            this.btn_YeniDepartman.Id = 46;
+            this.btn_YeniDepartman.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.hierarchical_structure_copy;
+            this.btn_YeniDepartman.Name = "btn_YeniDepartman";
+            this.btn_YeniDepartman.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_YeniDepartman.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_YeniDepartman_ItemClick);
             // 
             // barButtonItem27
             // 
@@ -693,7 +694,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // ribbonPageGroup16
             // 
             this.ribbonPageGroup16.ItemLinks.Add(this.btn_DepartmanListesi);
-            this.ribbonPageGroup16.ItemLinks.Add(this.barButtonItem26);
+            this.ribbonPageGroup16.ItemLinks.Add(this.btn_YeniDepartman);
             this.ribbonPageGroup16.Name = "ribbonPageGroup16";
             this.ribbonPageGroup16.Text = "Departman İşlemleri";
             // 
@@ -842,7 +843,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup15;
         private DevExpress.XtraBars.BarButtonItem barButtonItem24;
         private DevExpress.XtraBars.BarButtonItem btn_DepartmanListesi;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem26;
+        private DevExpress.XtraBars.BarButtonItem btn_YeniDepartman;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup16;
         private DevExpress.XtraBars.BarButtonItem barButtonItem27;
         private DevExpress.XtraBars.BarButtonItem barButtonItem28;

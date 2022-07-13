@@ -85,5 +85,19 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             tx_Aciklama.Text = dgv_Departmanlar.SelectedRows[0].Cells["Aciklama"].Value.ToString();
             tx_ID.Text = dgv_Departmanlar.SelectedRows[0].Cells["ID"].Value.ToString();
         }
+
+        public void DepartmanListesiYukle()
+        {
+            var degerler = (from x in db.Tbl_Departman
+                            select new
+                            {
+                                x.ID,
+                                x.Ad,
+                                x.Aciklama
+                            }).ToList();
+            dgv_Departmanlar.DataSource = degerler;
+            lbl_ToplamPersonelSayisi.Text = db.Tbl_Personel.Count().ToString();
+            lbl_ToplamDepartmanSayisi.Text = db.Tbl_Departman.Count().ToString();
+        }
     }
 }

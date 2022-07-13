@@ -124,11 +124,23 @@
     <Compile Include="NewFolder1\frmKategori.Designer.cs">
       <DependentUpon>frmKategori.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmPersoneller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmPersoneller.Designer.cs">
+      <DependentUpon>frmPersoneller.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\FrmUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NewFolder1\FrmUrunListesi.Designer.cs">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFolder1\frmYeniDepartman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmYeniDepartman.Designer.cs">
+      <DependentUpon>frmYeniDepartman.cs</DependentUpon>
     </Compile>
     <Compile Include="NewFolder1\UrunIstatistik.cs">
       <SubType>Form</SubType>
@@ -233,8 +245,14 @@
     <EmbeddedResource Include="NewFolder1\frmKategori.resx">
       <DependentUpon>frmKategori.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmPersoneller.resx">
+      <DependentUpon>frmPersoneller.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmYeniDepartman.resx">
+      <DependentUpon>frmYeniDepartman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\UrunIstatistik.resx">
       <DependentUpon>UrunIstatistik.cs</DependentUpon>
@@ -303,6 +321,7 @@
     </Content>
     <Content Include="Resources2\a.jpg" />
     <Content Include="Resources2\b.jpg" />
+    <None Include="Resources\owner1.png" />
     <None Include="Resources\email.png" />
     <None Include="Resources\pin.png" />
     <None Include="Resources\magnifying-glass.png" />
