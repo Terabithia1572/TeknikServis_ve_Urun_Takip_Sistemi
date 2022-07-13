@@ -29,17 +29,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cbx_Departman = new MetroFramework.Controls.MetroComboBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
@@ -53,8 +48,24 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.tx_Soyad = new Guna.UI2.WinForms.Guna2TextBox();
             this.dgv_Personel = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Personel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // cbx_Departman
@@ -99,96 +110,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel7.Size = new System.Drawing.Size(21, 19);
             this.metroLabel7.TabIndex = 15;
             this.metroLabel7.Text = "ID";
-            // 
-            // btn_Temizle
-            // 
-            this.btn_Temizle.CheckedState.Parent = this.btn_Temizle;
-            this.btn_Temizle.CustomImages.Parent = this.btn_Temizle;
-            this.btn_Temizle.FillColor = System.Drawing.Color.White;
-            this.btn_Temizle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Temizle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Temizle.HoverState.Parent = this.btn_Temizle;
-            this.btn_Temizle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_cart;
-            this.btn_Temizle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Temizle.Location = new System.Drawing.Point(70, 429);
-            this.btn_Temizle.Name = "btn_Temizle";
-            this.btn_Temizle.ShadowDecoration.Parent = this.btn_Temizle;
-            this.btn_Temizle.Size = new System.Drawing.Size(114, 40);
-            this.btn_Temizle.TabIndex = 14;
-            this.btn_Temizle.Text = "Temizle";
-            this.btn_Temizle.Click += new System.EventHandler(this.btn_Temizle_Click);
-            // 
-            // btn_Listele
-            // 
-            this.btn_Listele.CheckedState.Parent = this.btn_Listele;
-            this.btn_Listele.CustomImages.Parent = this.btn_Listele;
-            this.btn_Listele.FillColor = System.Drawing.Color.White;
-            this.btn_Listele.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Listele.ForeColor = System.Drawing.Color.Black;
-            this.btn_Listele.HoverState.Parent = this.btn_Listele;
-            this.btn_Listele.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.shopping_cart__2_;
-            this.btn_Listele.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Listele.Location = new System.Drawing.Point(128, 383);
-            this.btn_Listele.Name = "btn_Listele";
-            this.btn_Listele.ShadowDecoration.Parent = this.btn_Listele;
-            this.btn_Listele.Size = new System.Drawing.Size(114, 40);
-            this.btn_Listele.TabIndex = 13;
-            this.btn_Listele.Text = "Listele";
-            this.btn_Listele.Click += new System.EventHandler(this.btn_Listele_Click);
-            // 
-            // btn_Guncelle
-            // 
-            this.btn_Guncelle.CheckedState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.CustomImages.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.FillColor = System.Drawing.Color.White;
-            this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
-            this.btn_Guncelle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Guncelle.Location = new System.Drawing.Point(8, 383);
-            this.btn_Guncelle.Name = "btn_Guncelle";
-            this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Size = new System.Drawing.Size(114, 40);
-            this.btn_Guncelle.TabIndex = 13;
-            this.btn_Guncelle.Text = "Güncelle";
-            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
-            // 
-            // btn_Sil
-            // 
-            this.btn_Sil.CheckedState.Parent = this.btn_Sil;
-            this.btn_Sil.CustomImages.Parent = this.btn_Sil;
-            this.btn_Sil.FillColor = System.Drawing.Color.White;
-            this.btn_Sil.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Sil.ForeColor = System.Drawing.Color.Black;
-            this.btn_Sil.HoverState.Parent = this.btn_Sil;
-            this.btn_Sil.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_from_cart__1_;
-            this.btn_Sil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Sil.Location = new System.Drawing.Point(142, 337);
-            this.btn_Sil.Name = "btn_Sil";
-            this.btn_Sil.ShadowDecoration.Parent = this.btn_Sil;
-            this.btn_Sil.Size = new System.Drawing.Size(114, 40);
-            this.btn_Sil.TabIndex = 13;
-            this.btn_Sil.Text = "Sil";
-            this.btn_Sil.Click += new System.EventHandler(this.btn_Sil_Click);
-            // 
-            // btn_Ekle
-            // 
-            this.btn_Ekle.CheckedState.Parent = this.btn_Ekle;
-            this.btn_Ekle.CustomImages.Parent = this.btn_Ekle;
-            this.btn_Ekle.FillColor = System.Drawing.Color.White;
-            this.btn_Ekle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Ekle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Ekle.HoverState.Parent = this.btn_Ekle;
-            this.btn_Ekle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
-            this.btn_Ekle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Ekle.Location = new System.Drawing.Point(8, 337);
-            this.btn_Ekle.Name = "btn_Ekle";
-            this.btn_Ekle.ShadowDecoration.Parent = this.btn_Ekle;
-            this.btn_Ekle.Size = new System.Drawing.Size(114, 40);
-            this.btn_Ekle.TabIndex = 13;
-            this.btn_Ekle.Text = "Ekle";
-            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // metroLabel6
             // 
@@ -391,34 +312,34 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_Personel.AllowUserToDeleteRows = false;
             this.dgv_Personel.AllowUserToResizeColumns = false;
             this.dgv_Personel.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_Personel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_Personel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgv_Personel.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_Personel.BackgroundColor = System.Drawing.Color.White;
             this.dgv_Personel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_Personel.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_Personel.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_Personel.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Personel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Personel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgv_Personel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Personel.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Personel.DefaultCellStyle = dataGridViewCellStyle12;
             this.dgv_Personel.EnableHeadersVisualStyles = false;
             this.dgv_Personel.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
-            this.dgv_Personel.Location = new System.Drawing.Point(2, 5);
+            this.dgv_Personel.Location = new System.Drawing.Point(12, 357);
             this.dgv_Personel.Name = "dgv_Personel";
             this.dgv_Personel.ReadOnly = true;
             this.dgv_Personel.RowHeadersVisible = false;
@@ -428,7 +349,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_Personel.ShowCellToolTips = false;
             this.dgv_Personel.ShowEditingIcon = false;
             this.dgv_Personel.ShowRowErrors = false;
-            this.dgv_Personel.Size = new System.Drawing.Size(1089, 739);
+            this.dgv_Personel.Size = new System.Drawing.Size(1079, 387);
             this.dgv_Personel.TabIndex = 3;
             this.dgv_Personel.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
             this.dgv_Personel.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
@@ -454,11 +375,168 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_Personel.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dgv_Personel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv_Personel_MouseClick);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.person_card3;
+            this.pictureBox5.Location = new System.Drawing.Point(844, 5);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(202, 346);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.person_4;
+            this.pictureBox4.Location = new System.Drawing.Point(636, 5);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(202, 346);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 8;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.person_card3;
+            this.pictureBox3.Location = new System.Drawing.Point(428, 5);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(202, 346);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.person_4;
+            this.pictureBox2.Location = new System.Drawing.Point(220, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(202, 346);
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.person_card3;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(202, 346);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btn_Temizle
+            // 
+            this.btn_Temizle.CheckedState.Parent = this.btn_Temizle;
+            this.btn_Temizle.CustomImages.Parent = this.btn_Temizle;
+            this.btn_Temizle.FillColor = System.Drawing.Color.White;
+            this.btn_Temizle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Temizle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Temizle.HoverState.Parent = this.btn_Temizle;
+            this.btn_Temizle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_cart;
+            this.btn_Temizle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Temizle.Location = new System.Drawing.Point(70, 429);
+            this.btn_Temizle.Name = "btn_Temizle";
+            this.btn_Temizle.ShadowDecoration.Parent = this.btn_Temizle;
+            this.btn_Temizle.Size = new System.Drawing.Size(114, 40);
+            this.btn_Temizle.TabIndex = 14;
+            this.btn_Temizle.Text = "Temizle";
+            this.btn_Temizle.Click += new System.EventHandler(this.btn_Temizle_Click);
+            // 
+            // btn_Listele
+            // 
+            this.btn_Listele.CheckedState.Parent = this.btn_Listele;
+            this.btn_Listele.CustomImages.Parent = this.btn_Listele;
+            this.btn_Listele.FillColor = System.Drawing.Color.White;
+            this.btn_Listele.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Listele.ForeColor = System.Drawing.Color.Black;
+            this.btn_Listele.HoverState.Parent = this.btn_Listele;
+            this.btn_Listele.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.shopping_cart__2_;
+            this.btn_Listele.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Listele.Location = new System.Drawing.Point(128, 383);
+            this.btn_Listele.Name = "btn_Listele";
+            this.btn_Listele.ShadowDecoration.Parent = this.btn_Listele;
+            this.btn_Listele.Size = new System.Drawing.Size(114, 40);
+            this.btn_Listele.TabIndex = 13;
+            this.btn_Listele.Text = "Listele";
+            this.btn_Listele.Click += new System.EventHandler(this.btn_Listele_Click);
+            // 
+            // btn_Guncelle
+            // 
+            this.btn_Guncelle.CheckedState.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.CustomImages.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.FillColor = System.Drawing.Color.White;
+            this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
+            this.btn_Guncelle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Guncelle.Location = new System.Drawing.Point(8, 383);
+            this.btn_Guncelle.Name = "btn_Guncelle";
+            this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.Size = new System.Drawing.Size(114, 40);
+            this.btn_Guncelle.TabIndex = 13;
+            this.btn_Guncelle.Text = "Güncelle";
+            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
+            // 
+            // btn_Sil
+            // 
+            this.btn_Sil.CheckedState.Parent = this.btn_Sil;
+            this.btn_Sil.CustomImages.Parent = this.btn_Sil;
+            this.btn_Sil.FillColor = System.Drawing.Color.White;
+            this.btn_Sil.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Sil.ForeColor = System.Drawing.Color.Black;
+            this.btn_Sil.HoverState.Parent = this.btn_Sil;
+            this.btn_Sil.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_from_cart__1_;
+            this.btn_Sil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Sil.Location = new System.Drawing.Point(142, 337);
+            this.btn_Sil.Name = "btn_Sil";
+            this.btn_Sil.ShadowDecoration.Parent = this.btn_Sil;
+            this.btn_Sil.Size = new System.Drawing.Size(114, 40);
+            this.btn_Sil.TabIndex = 13;
+            this.btn_Sil.Text = "Sil";
+            this.btn_Sil.Click += new System.EventHandler(this.btn_Sil_Click);
+            // 
+            // btn_Ekle
+            // 
+            this.btn_Ekle.CheckedState.Parent = this.btn_Ekle;
+            this.btn_Ekle.CustomImages.Parent = this.btn_Ekle;
+            this.btn_Ekle.FillColor = System.Drawing.Color.White;
+            this.btn_Ekle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Ekle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Ekle.HoverState.Parent = this.btn_Ekle;
+            this.btn_Ekle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
+            this.btn_Ekle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Ekle.Location = new System.Drawing.Point(8, 337);
+            this.btn_Ekle.Name = "btn_Ekle";
+            this.btn_Ekle.ShadowDecoration.Parent = this.btn_Ekle;
+            this.btn_Ekle.Size = new System.Drawing.Size(114, 40);
+            this.btn_Ekle.TabIndex = 13;
+            this.btn_Ekle.Text = "Ekle";
+            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
+            // 
+            // metroLabel8
+            // 
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.BackColor = System.Drawing.Color.LightSalmon;
+            this.metroLabel8.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.metroLabel8.Location = new System.Drawing.Point(29, 151);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(69, 19);
+            this.metroLabel8.TabIndex = 10;
+            this.metroLabel8.Text = "Ad Soyad:";
+            this.metroLabel8.UseCustomBackColor = true;
+            this.metroLabel8.UseCustomForeColor = true;
+            // 
             // frmPersoneller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1364, 736);
+            this.Controls.Add(this.metroLabel8);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.dgv_Personel);
             this.Name = "frmPersoneller";
@@ -467,7 +545,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Personel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -494,5 +578,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
         private Guna.UI2.WinForms.Guna2TextBox tx_Soyad;
         private Guna.UI2.WinForms.Guna2DataGridView dgv_Personel;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private MetroFramework.Controls.MetroLabel metroLabel8;
     }
 }

@@ -21,6 +21,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         Db_TeknikServisEntities db = new Db_TeknikServisEntities();
         private void frmPersoneller_Load(object sender, EventArgs e)
         {
+            
             var listele = (from x in db.Tbl_Personel
                            select new
                            {

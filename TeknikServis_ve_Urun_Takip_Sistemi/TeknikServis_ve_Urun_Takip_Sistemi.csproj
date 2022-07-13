@@ -321,6 +321,9 @@
     </Content>
     <Content Include="Resources2\a.jpg" />
     <Content Include="Resources2\b.jpg" />
+    <None Include="Resources\person_4.png" />
+    <None Include="Resources\person_card3.png" />
+    <None Include="Resources\person_card1.png" />
     <None Include="Resources\owner1.png" />
     <None Include="Resources\email.png" />
     <None Include="Resources\pin.png" />
