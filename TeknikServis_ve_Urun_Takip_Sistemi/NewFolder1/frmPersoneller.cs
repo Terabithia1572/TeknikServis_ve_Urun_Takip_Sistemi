@@ -34,20 +34,26 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             metroLabel12.BackColor = Color.Transparent;
             metroLabel13.Parent = pictureBox1;
             metroLabel13.BackColor = Color.Transparent;
-            //  metroLabel11.Location = new Point(23,232);
+              //metroLabel11.Location = new Point(23,232);
             //Card 2
-            metroLabel14.Parent = pictureBox2;
-            metroLabel14.BackColor = Color.Transparent;
-            metroLabel15.Parent = pictureBox2;
-            metroLabel15.BackColor = Color.Transparent;
-            metroLabel16.Parent = pictureBox2;
-            metroLabel16.BackColor = Color.Transparent;
-            metroLabel17.Parent = pictureBox2;
-            metroLabel17.BackColor = Color.Transparent;
-            metroLabel18.Parent = pictureBox2;
-            metroLabel18.BackColor = Color.Transparent;
-            metroLabel19.Parent = pictureBox2;
+            //metroLabel14.Parent = pictureBox2;
+            //metroLabel14.BackColor = Color.Transparent;
+            //metroLabel15.Parent = pictureBox2;
+            //metroLabel15.BackColor = Color.Transparent;
+            //metroLabel16.Parent = pictureBox2;
+            //metroLabel16.BackColor = Color.Transparent;
+            //metroLabel17.Parent = pictureBox2;
+            //metroLabel17.BackColor = Color.Transparent;
+            //metroLabel18.Parent = pictureBox2;
+            //metroLabel18.BackColor = Color.Transparent;
+         //   metroLabel19.Location=new Point(209,166);
+            //metroLabel19.Parent = pictureBox4;
             metroLabel19.BackColor = Color.Transparent;
+           // metroLabel19.Parent = pictureBox2;
+         //   metroLabel19.ForeColor = Color.White;
+
+         //   lbl_AdSoyad.Parent=pictureBox2;
+
 
             var listele = (from x in db.Tbl_Personel
                            select new
