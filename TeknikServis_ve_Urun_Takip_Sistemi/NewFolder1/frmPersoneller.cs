@@ -21,6 +21,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         Db_TeknikServisEntities db = new Db_TeknikServisEntities();
         private void frmPersoneller_Load(object sender, EventArgs e)
         {
+            //Card 1 
             metroLabel8.Parent = pictureBox1;
             metroLabel8.BackColor = Color.Transparent;
             metroLabel9.Parent = pictureBox1;
@@ -33,7 +34,21 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             metroLabel12.BackColor = Color.Transparent;
             metroLabel13.Parent = pictureBox1;
             metroLabel13.BackColor = Color.Transparent;
-          //  metroLabel11.Location = new Point(23,232);
+            //  metroLabel11.Location = new Point(23,232);
+            //Card 2
+            metroLabel14.Parent = pictureBox2;
+            metroLabel14.BackColor = Color.Transparent;
+            metroLabel15.Parent = pictureBox2;
+            metroLabel15.BackColor = Color.Transparent;
+            metroLabel16.Parent = pictureBox2;
+            metroLabel16.BackColor = Color.Transparent;
+            metroLabel17.Parent = pictureBox2;
+            metroLabel17.BackColor = Color.Transparent;
+            metroLabel18.Parent = pictureBox2;
+            metroLabel18.BackColor = Color.Transparent;
+            metroLabel19.Parent = pictureBox2;
+            metroLabel19.BackColor = Color.Transparent;
+
             var listele = (from x in db.Tbl_Personel
                            select new
                            {
@@ -60,6 +75,17 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             metroLabel10.Text = mail1;
             departman1 = db.Tbl_Personel.First(x => x.ID == 1).Tbl_Departman.Ad;
             metroLabel12.Text = departman1;
+
+            // 18 14 16
+            string ad2, soyad2, mail2, departman2;
+            ad2 = db.Tbl_Personel.First(x => x.ID == 2).Ad;
+            soyad2 = db.Tbl_Personel.First(x => x.ID == 2).Soyad;
+            metroLabel18.Text = ad2 + " " + soyad2;
+            departman2 = db.Tbl_Personel.First(x => x.ID == 2).Tbl_Departman.Ad;
+            metroLabel14.Text = departman2;
+            mail2 = db.Tbl_Personel.First(x => x.ID == 2).Mail;
+            metroLabel16.Text = mail2;
+
 
         }
 
