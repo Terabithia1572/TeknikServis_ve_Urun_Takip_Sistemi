@@ -69,7 +69,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
                            }).ToList();
             dgv_Personel.DataSource = listele;
 
-            cbx_Departman.DataSource = db.Tbl_Departman.ToList();
+            cbx_Departman.DataSource = (from x in db.Tbl_Departman
+                                        select new
+                                        {
+                                            x.ID,
+                                            x.Ad
+                                        }).ToList();
+
+
+            //cbx_Departman.DataSource = db.Tbl_Departman.ToList();
             cbx_Departman.ValueMember = "ID";
             cbx_Departman.DisplayMember = "Ad";
 
