@@ -17,5 +17,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         {
             InitializeComponent();
         }
+        Db_TeknikServisEntities db = new Db_TeknikServisEntities();
+        private void frmNotlar_Load(object sender, EventArgs e)
+        {
+            dgv_OkunmayanNotlar.DataSource = db.Tbl_Notlarim.Where(x => x.Durum == false).ToList();
+            dgv_OkunanNotlar.DataSource = db.Tbl_Notlarim.Where(x => x.Durum == true).ToList();
+        }
     }
 }
