@@ -70,8 +70,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_DovizKurlari = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem31 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_Word = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_Excel = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem35 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem36 = new DevExpress.XtraBars.BarButtonItem();
@@ -152,8 +152,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_DovizKurlari,
             this.barButtonItem30,
             this.barButtonItem31,
-            this.barButtonItem32,
-            this.barButtonItem33,
+            this.btn_Word,
+            this.btn_Excel,
             this.barButtonItem34,
             this.barButtonItem35,
             this.barButtonItem36,
@@ -462,6 +462,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem28.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.notebook;
             this.barButtonItem28.Name = "barButtonItem28";
             this.barButtonItem28.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem28.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem28_ItemClick);
             // 
             // btn_DovizKurlari
             // 
@@ -474,11 +475,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             // barButtonItem30
             // 
-            this.barButtonItem30.Caption = "Haberler";
+            this.barButtonItem30.Caption = "Youtube";
             this.barButtonItem30.Id = 50;
-            this.barButtonItem30.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.newspaper__1__copy;
+            this.barButtonItem30.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.youtube;
             this.barButtonItem30.Name = "barButtonItem30";
             this.barButtonItem30.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem30.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem30_ItemClick);
             // 
             // barButtonItem31
             // 
@@ -488,21 +490,22 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem31.Name = "barButtonItem31";
             this.barButtonItem31.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
-            // barButtonItem32
+            // btn_Word
             // 
-            this.barButtonItem32.Caption = "Word";
-            this.barButtonItem32.Id = 52;
-            this.barButtonItem32.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.word;
-            this.barButtonItem32.Name = "barButtonItem32";
-            this.barButtonItem32.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_Word.Caption = "Word";
+            this.btn_Word.Id = 52;
+            this.btn_Word.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.word;
+            this.btn_Word.Name = "btn_Word";
+            this.btn_Word.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_Word.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_Word_ItemClick);
             // 
-            // barButtonItem33
+            // btn_Excel
             // 
-            this.barButtonItem33.Caption = "Excel";
-            this.barButtonItem33.Id = 53;
-            this.barButtonItem33.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.excel;
-            this.barButtonItem33.Name = "barButtonItem33";
-            this.barButtonItem33.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_Excel.Caption = "Excel";
+            this.btn_Excel.Id = 53;
+            this.btn_Excel.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.excel;
+            this.btn_Excel.Name = "btn_Excel";
+            this.btn_Excel.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
             // barButtonItem34
             // 
@@ -733,8 +736,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPageGroup8.ItemLinks.Add(this.btn_DovizKurlari);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem30);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem31);
-            this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem32);
-            this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem33);
+            this.ribbonPageGroup8.ItemLinks.Add(this.btn_Word);
+            this.ribbonPageGroup8.ItemLinks.Add(this.btn_Excel);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem34);
             this.ribbonPageGroup8.Name = "ribbonPageGroup8";
             this.ribbonPageGroup8.Text = "Araçlar";
@@ -853,8 +856,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem btn_DovizKurlari;
         private DevExpress.XtraBars.BarButtonItem barButtonItem30;
         private DevExpress.XtraBars.BarButtonItem barButtonItem31;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem32;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem33;
+        private DevExpress.XtraBars.BarButtonItem btn_Word;
+        private DevExpress.XtraBars.BarButtonItem btn_Excel;
         private DevExpress.XtraBars.BarButtonItem barButtonItem34;
         private DevExpress.XtraBars.BarButtonItem barButtonItem35;
         private DevExpress.XtraBars.BarButtonItem barButtonItem36;

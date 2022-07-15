@@ -167,5 +167,24 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             frmKurlar.MdiParent = this;
             frmKurlar.Show();
         }
+
+        private void btn_Word_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("winword");
+        }
+
+        private void barButtonItem30_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmYoutube fy = new NewFolder1.frmYoutube();
+            fy.MdiParent = this;
+            fy.Show();
+        }
+
+        private void barButtonItem28_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmNotlar fn = new NewFolder1.frmNotlar();
+            fn.MdiParent = this;
+            fn.Show();
+        }
     }
 }
