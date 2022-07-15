@@ -160,5 +160,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         {
             System.Diagnostics.Process.Start("Calc.exe");
         }
+
+        private void btn_DovizKurlari_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmKurlar frmKurlar = new NewFolder1.frmKurlar();
+            frmKurlar.MdiParent = this;
+            frmKurlar.Show();
+        }
     }
 }

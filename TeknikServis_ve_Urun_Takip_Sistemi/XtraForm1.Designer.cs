@@ -67,7 +67,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_YeniDepartman = new DevExpress.XtraBars.BarButtonItem();
             this.btn_HesapMakinesi = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_DovizKurlari = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem31 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
@@ -149,7 +149,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_YeniDepartman,
             this.btn_HesapMakinesi,
             this.barButtonItem28,
-            this.barButtonItem29,
+            this.btn_DovizKurlari,
             this.barButtonItem30,
             this.barButtonItem31,
             this.barButtonItem32,
@@ -463,13 +463,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem28.Name = "barButtonItem28";
             this.barButtonItem28.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
-            // barButtonItem29
+            // btn_DovizKurlari
             // 
-            this.barButtonItem29.Caption = "Döviz Kurları";
-            this.barButtonItem29.Id = 49;
-            this.barButtonItem29.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.currency__2__copy;
-            this.barButtonItem29.Name = "barButtonItem29";
-            this.barButtonItem29.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_DovizKurlari.Caption = "Döviz Kurları";
+            this.btn_DovizKurlari.Id = 49;
+            this.btn_DovizKurlari.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.currency__2__copy;
+            this.btn_DovizKurlari.Name = "btn_DovizKurlari";
+            this.btn_DovizKurlari.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_DovizKurlari.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_DovizKurlari_ItemClick);
             // 
             // barButtonItem30
             // 
@@ -729,7 +730,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.ribbonPageGroup8.ItemLinks.Add(this.btn_HesapMakinesi);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem28);
-            this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem29);
+            this.ribbonPageGroup8.ItemLinks.Add(this.btn_DovizKurlari);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem30);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem31);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem32);
@@ -849,7 +850,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup16;
         private DevExpress.XtraBars.BarButtonItem btn_HesapMakinesi;
         private DevExpress.XtraBars.BarButtonItem barButtonItem28;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem29;
+        private DevExpress.XtraBars.BarButtonItem btn_DovizKurlari;
         private DevExpress.XtraBars.BarButtonItem barButtonItem30;
         private DevExpress.XtraBars.BarButtonItem barButtonItem31;
         private DevExpress.XtraBars.BarButtonItem barButtonItem32;

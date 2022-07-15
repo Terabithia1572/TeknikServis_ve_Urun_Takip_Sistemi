@@ -124,6 +124,12 @@
     <Compile Include="NewFolder1\frmKategori.Designer.cs">
       <DependentUpon>frmKategori.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmKurlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmKurlar.Designer.cs">
+      <DependentUpon>frmKurlar.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmPersoneller.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmKategori.resx">
       <DependentUpon>frmKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmKurlar.resx">
+      <DependentUpon>frmKurlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmPersoneller.resx">
       <DependentUpon>frmPersoneller.cs</DependentUpon>
