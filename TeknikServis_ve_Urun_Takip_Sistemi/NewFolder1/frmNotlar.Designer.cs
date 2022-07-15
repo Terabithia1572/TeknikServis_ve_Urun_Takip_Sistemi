@@ -37,6 +37,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lbl_OkunanNotlar = new MetroFramework.Controls.MetroLabel();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.cbx_Okundu = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.tx_Icerik = new Guna.UI2.WinForms.Guna2TextBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
@@ -46,10 +49,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.tx_UrunAdi = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.tx_Baslik = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.dgv_OkunmayanNotlar = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dgv_OkunanNotlar = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -69,8 +69,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // guna2GroupBox1
             // 
             this.guna2GroupBox1.Controls.Add(this.metroLabel3);
-            this.guna2GroupBox1.Controls.Add(this.guna2CheckBox1);
-            this.guna2GroupBox1.Controls.Add(this.guna2TextBox1);
+            this.guna2GroupBox1.Controls.Add(this.cbx_Okundu);
+            this.guna2GroupBox1.Controls.Add(this.tx_Icerik);
             this.guna2GroupBox1.Controls.Add(this.tx_ID);
             this.guna2GroupBox1.Controls.Add(this.metroLabel7);
             this.guna2GroupBox1.Controls.Add(this.btn_Temizle);
@@ -80,7 +80,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Controls.Add(this.btn_Ekle);
             this.guna2GroupBox1.Controls.Add(this.metroLabel2);
             this.guna2GroupBox1.Controls.Add(this.metroLabel1);
-            this.guna2GroupBox1.Controls.Add(this.tx_UrunAdi);
+            this.guna2GroupBox1.Controls.Add(this.tx_Baslik);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.PowderBlue;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
@@ -90,6 +90,58 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Size = new System.Drawing.Size(324, 708);
             this.guna2GroupBox1.TabIndex = 3;
             this.guna2GroupBox1.Text = "Not İşlem Menüsü";
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.Location = new System.Drawing.Point(3, 272);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(52, 19);
+            this.metroLabel3.TabIndex = 20;
+            this.metroLabel3.Text = "Durum:";
+            // 
+            // cbx_Okundu
+            // 
+            this.cbx_Okundu.AutoCheck = false;
+            this.cbx_Okundu.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbx_Okundu.CheckedState.BorderRadius = 2;
+            this.cbx_Okundu.CheckedState.BorderThickness = 0;
+            this.cbx_Okundu.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbx_Okundu.ForeColor = System.Drawing.Color.DarkOrange;
+            this.cbx_Okundu.Location = new System.Drawing.Point(61, 272);
+            this.cbx_Okundu.Name = "cbx_Okundu";
+            this.cbx_Okundu.Size = new System.Drawing.Size(177, 23);
+            this.cbx_Okundu.TabIndex = 19;
+            this.cbx_Okundu.Text = "Okundu Olarak İşaretle";
+            this.cbx_Okundu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cbx_Okundu.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.cbx_Okundu.UncheckedState.BorderRadius = 2;
+            this.cbx_Okundu.UncheckedState.BorderThickness = 0;
+            this.cbx_Okundu.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.cbx_Okundu.UseVisualStyleBackColor = true;
+            // 
+            // tx_Icerik
+            // 
+            this.tx_Icerik.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Icerik.DefaultText = "";
+            this.tx_Icerik.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Icerik.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Icerik.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Icerik.DisabledState.Parent = this.tx_Icerik;
+            this.tx_Icerik.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Icerik.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Icerik.FocusedState.Parent = this.tx_Icerik;
+            this.tx_Icerik.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Icerik.HoverState.Parent = this.tx_Icerik;
+            this.tx_Icerik.Location = new System.Drawing.Point(61, 97);
+            this.tx_Icerik.Multiline = true;
+            this.tx_Icerik.Name = "tx_Icerik";
+            this.tx_Icerik.PasswordChar = '\0';
+            this.tx_Icerik.PlaceholderText = "";
+            this.tx_Icerik.SelectedText = "";
+            this.tx_Icerik.ShadowDecoration.Parent = this.tx_Icerik;
+            this.tx_Icerik.Size = new System.Drawing.Size(236, 155);
+            this.tx_Icerik.TabIndex = 18;
             // 
             // tx_ID
             // 
@@ -105,7 +157,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_ID.FocusedState.Parent = this.tx_ID;
             this.tx_ID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_ID.HoverState.Parent = this.tx_ID;
-            this.tx_ID.Location = new System.Drawing.Point(230, 42);
+            this.tx_ID.Location = new System.Drawing.Point(263, 51);
             this.tx_ID.Name = "tx_ID";
             this.tx_ID.PasswordChar = '\0';
             this.tx_ID.PlaceholderText = "";
@@ -117,7 +169,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // metroLabel7
             // 
             this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(236, 74);
+            this.metroLabel7.Location = new System.Drawing.Point(236, 55);
             this.metroLabel7.Name = "metroLabel7";
             this.metroLabel7.Size = new System.Drawing.Size(21, 19);
             this.metroLabel7.TabIndex = 15;
@@ -207,6 +259,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Ekle.Size = new System.Drawing.Size(139, 40);
             this.btn_Ekle.TabIndex = 13;
             this.btn_Ekle.Text = "Ekle";
+            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // metroLabel2
             // 
@@ -226,79 +279,27 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel1.TabIndex = 7;
             this.metroLabel1.Text = "Başlık:";
             // 
-            // tx_UrunAdi
+            // tx_Baslik
             // 
-            this.tx_UrunAdi.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_UrunAdi.DefaultText = "";
-            this.tx_UrunAdi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_UrunAdi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_UrunAdi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_UrunAdi.DisabledState.Parent = this.tx_UrunAdi;
-            this.tx_UrunAdi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_UrunAdi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_UrunAdi.FocusedState.Parent = this.tx_UrunAdi;
-            this.tx_UrunAdi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_UrunAdi.HoverState.Parent = this.tx_UrunAdi;
-            this.tx_UrunAdi.Location = new System.Drawing.Point(85, 42);
-            this.tx_UrunAdi.Name = "tx_UrunAdi";
-            this.tx_UrunAdi.PasswordChar = '\0';
-            this.tx_UrunAdi.PlaceholderText = "";
-            this.tx_UrunAdi.SelectedText = "";
-            this.tx_UrunAdi.ShadowDecoration.Parent = this.tx_UrunAdi;
-            this.tx_UrunAdi.Size = new System.Drawing.Size(139, 28);
-            this.tx_UrunAdi.TabIndex = 1;
-            // 
-            // guna2TextBox1
-            // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(61, 97);
-            this.guna2TextBox1.Multiline = true;
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(236, 155);
-            this.guna2TextBox1.TabIndex = 18;
-            // 
-            // guna2CheckBox1
-            // 
-            this.guna2CheckBox1.AutoCheck = false;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 2;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.guna2CheckBox1.Location = new System.Drawing.Point(61, 272);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(177, 23);
-            this.guna2CheckBox1.TabIndex = 19;
-            this.guna2CheckBox1.Text = "Okundu Olarak İşaretle";
-            this.guna2CheckBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 2;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UseVisualStyleBackColor = true;
-            // 
-            // metroLabel3
-            // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(3, 272);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(52, 19);
-            this.metroLabel3.TabIndex = 20;
-            this.metroLabel3.Text = "Durum:";
+            this.tx_Baslik.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Baslik.DefaultText = "";
+            this.tx_Baslik.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Baslik.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Baslik.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Baslik.DisabledState.Parent = this.tx_Baslik;
+            this.tx_Baslik.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Baslik.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Baslik.FocusedState.Parent = this.tx_Baslik;
+            this.tx_Baslik.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Baslik.HoverState.Parent = this.tx_Baslik;
+            this.tx_Baslik.Location = new System.Drawing.Point(61, 52);
+            this.tx_Baslik.Name = "tx_Baslik";
+            this.tx_Baslik.PasswordChar = '\0';
+            this.tx_Baslik.PlaceholderText = "";
+            this.tx_Baslik.SelectedText = "";
+            this.tx_Baslik.ShadowDecoration.Parent = this.tx_Baslik;
+            this.tx_Baslik.Size = new System.Drawing.Size(139, 28);
+            this.tx_Baslik.TabIndex = 1;
             // 
             // metroLabel4
             // 
@@ -464,8 +465,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         #endregion
         private MetroFramework.Controls.MetroLabel lbl_OkunanNotlar;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2CheckBox cbx_Okundu;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Icerik;
         private Guna.UI2.WinForms.Guna2TextBox tx_ID;
         private MetroFramework.Controls.MetroLabel metroLabel7;
         private Guna.UI2.WinForms.Guna2Button btn_Temizle;
@@ -475,7 +476,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2Button btn_Ekle;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox tx_UrunAdi;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Baslik;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private Guna.UI2.WinForms.Guna2DataGridView dgv_OkunmayanNotlar;
