@@ -155,5 +155,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
                 fp.MdiParent = this;
             fp.Show();
         }
+
+        private void btn_HesapMakinesi_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("Calc.exe");
+        }
     }
 }

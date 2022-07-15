@@ -65,7 +65,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem24 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_DepartmanListesi = new DevExpress.XtraBars.BarButtonItem();
             this.btn_YeniDepartman = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem27 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_HesapMakinesi = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
@@ -147,7 +147,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem24,
             this.btn_DepartmanListesi,
             this.btn_YeniDepartman,
-            this.barButtonItem27,
+            this.btn_HesapMakinesi,
             this.barButtonItem28,
             this.barButtonItem29,
             this.barButtonItem30,
@@ -446,13 +446,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_YeniDepartman.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_YeniDepartman.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_YeniDepartman_ItemClick);
             // 
-            // barButtonItem27
+            // btn_HesapMakinesi
             // 
-            this.barButtonItem27.Caption = "Hesap Makinesi";
-            this.barButtonItem27.Id = 47;
-            this.barButtonItem27.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.calculator;
-            this.barButtonItem27.Name = "barButtonItem27";
-            this.barButtonItem27.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_HesapMakinesi.Caption = "Hesap Makinesi";
+            this.btn_HesapMakinesi.Id = 47;
+            this.btn_HesapMakinesi.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.calculator;
+            this.btn_HesapMakinesi.Name = "btn_HesapMakinesi";
+            this.btn_HesapMakinesi.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_HesapMakinesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_HesapMakinesi_ItemClick);
             // 
             // barButtonItem28
             // 
@@ -726,7 +727,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             // ribbonPageGroup8
             // 
-            this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem27);
+            this.ribbonPageGroup8.ItemLinks.Add(this.btn_HesapMakinesi);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem28);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem29);
             this.ribbonPageGroup8.ItemLinks.Add(this.barButtonItem30);
@@ -846,7 +847,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem btn_DepartmanListesi;
         private DevExpress.XtraBars.BarButtonItem btn_YeniDepartman;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup16;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem27;
+        private DevExpress.XtraBars.BarButtonItem btn_HesapMakinesi;
         private DevExpress.XtraBars.BarButtonItem barButtonItem28;
         private DevExpress.XtraBars.BarButtonItem barButtonItem29;
         private DevExpress.XtraBars.BarButtonItem barButtonItem30;
