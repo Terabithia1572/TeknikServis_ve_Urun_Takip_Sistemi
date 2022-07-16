@@ -101,5 +101,27 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             tx_Baslik.Text = dgv_OkunanNotlar.SelectedRows[0].Cells["Baslik"].Value.ToString();
             tx_Icerik.Text = dgv_OkunanNotlar.SelectedRows[0].Cells["Icerik"].Value.ToString();
         }
+
+        private void btn_Sil_Click(object sender, EventArgs e)
+        {
+            int id = int.Parse(tx_ID.Text);
+            var degerler = db.Tbl_Notlarim.Find(id);
+            db.Tbl_Notlarim.Remove(degerler);
+            db.SaveChanges();
+            MessageBox.Show("Not Başarıyla Silindi..", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            frmNotlar_Load(null, null);
+        }
+
+        private void btn_Listele_Click(object sender, EventArgs e)
+        {
+            frmNotlar_Load(null, null);
+        }
+
+        private void btn_Temizle_Click(object sender, EventArgs e)
+        {
+            tx_Baslik.Text = "";
+            tx_Icerik.Text = "";
+            tx_ID.Text = "";
+        }
     }
 }
