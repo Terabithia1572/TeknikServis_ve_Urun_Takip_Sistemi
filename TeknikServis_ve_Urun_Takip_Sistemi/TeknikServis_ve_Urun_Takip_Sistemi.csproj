@@ -154,6 +154,12 @@
     <Compile Include="NewFolder1\FrmUrunListesi.Designer.cs">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmUrunSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmUrunSatis.Designer.cs">
+      <DependentUpon>frmUrunSatis.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmYeniDepartman.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -284,6 +290,9 @@
     <EmbeddedResource Include="NewFolder1\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmUrunSatis.resx">
+      <DependentUpon>frmUrunSatis.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmYeniDepartman.resx">
       <DependentUpon>frmYeniDepartman.cs</DependentUpon>
     </EmbeddedResource>
@@ -357,6 +366,8 @@
     </Content>
     <Content Include="Resources2\a.jpg" />
     <Content Include="Resources2\b.jpg" />
+    <None Include="Resources\commodity.png" />
+    <None Include="Resources\trading.png" />
     <None Include="Resources\youtube.png" />
     <None Include="Resources\person_4.png" />
     <None Include="Resources\person_card3.png" />
