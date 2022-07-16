@@ -19,7 +19,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         {
             this.Tbl_Hareket = new HashSet<Tbl_Hareket>();
             this.Tbl_Hareket1 = new HashSet<Tbl_Hareket>();
-            this.Tbl_UrunKabul = new HashSet<Tbl_UrunKabul>();
             this.Tbl_UrunTakip = new HashSet<Tbl_UrunTakip>();
         }
     
@@ -36,8 +35,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         public virtual ICollection<Tbl_Hareket> Tbl_Hareket { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Tbl_Hareket> Tbl_Hareket1 { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Tbl_UrunKabul> Tbl_UrunKabul { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Tbl_UrunTakip> Tbl_UrunTakip { get; set; }
     }

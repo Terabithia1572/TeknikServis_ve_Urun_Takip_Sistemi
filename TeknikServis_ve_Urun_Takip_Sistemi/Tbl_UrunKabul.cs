@@ -15,14 +15,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
     public partial class Tbl_UrunKabul
     {
         public int islemID { get; set; }
-        public Nullable<int> Urun { get; set; }
         public Nullable<int> Cari { get; set; }
         public Nullable<short> Personel { get; set; }
         public Nullable<System.DateTime> GelisTarih { get; set; }
         public Nullable<System.DateTime> CikisTarih { get; set; }
+        public string UrunSeriNo { get; set; }
     
         public virtual Tbl_Cari Tbl_Cari { get; set; }
         public virtual Tbl_Personel Tbl_Personel { get; set; }
-        public virtual Tbl_Urun Tbl_Urun { get; set; }
     }
 }
