@@ -58,8 +58,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
 
         private void dgv_OkunmayanNotlar_MouseClick(object sender, MouseEventArgs e)
         {
-            if (dgv_OkunmayanNotlar.SelectedRows.Count == 0)
-                return;
+            if (dgv_OkunmayanNotlar.SelectedRows.Count == 0) 
+                return; cbx_Okundu.Enabled = true;
             tx_ID.Text = dgv_OkunmayanNotlar.SelectedRows[0].Cells["ID"].Value.ToString();
         }
 
@@ -96,7 +96,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private void dgv_OkunanNotlar_MouseClick(object sender, MouseEventArgs e)
         {
             if (dgv_OkunanNotlar.SelectedRows.Count == 0)
-                return;
+                return; cbx_Okundu.Enabled = false; 
+           
             tx_ID.Text = dgv_OkunanNotlar.SelectedRows[0].Cells["ID"].Value.ToString();
             tx_Baslik.Text = dgv_OkunanNotlar.SelectedRows[0].Cells["Baslik"].Value.ToString();
             tx_Icerik.Text = dgv_OkunanNotlar.SelectedRows[0].Cells["Icerik"].Value.ToString();
