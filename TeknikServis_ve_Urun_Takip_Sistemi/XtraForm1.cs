@@ -186,5 +186,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             fn.MdiParent = this;
             fn.Show();
         }
+
+        private void btn_ArizaliUrun_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmArizaListesi al = new NewFolder1.frmArizaListesi();
+            al.MdiParent = this;
+            al.Show();
+        }
     }
 }
