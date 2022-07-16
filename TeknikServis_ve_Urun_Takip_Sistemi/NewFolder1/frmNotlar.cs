@@ -23,6 +23,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             dgv_OkunmayanNotlar.DataSource = db.Tbl_Notlarim.Where(x => x.Durum == false).ToList();
             dgv_OkunanNotlar.DataSource = db.Tbl_Notlarim.Where(x => x.Durum == true).ToList();
         }
+        public bool isChecked(CheckBox checkbox)
+        {
+            if (checkbox.CheckState == CheckState.Checked) return true;
+            else return false;
+        }
 
         private void btn_Ekle_Click(object sender, EventArgs e)
         {
@@ -38,8 +43,37 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
 
         private void btn_Guncelle_Click(object sender, EventArgs e)
         {
-            if(cbx_Okundu.Checked==true)
+            
+                int id = int.Parse(tx_ID.Text);
+                var degerler = db.Tbl_Notlarim.Find(id);
+                degerler.Baslik = tx_Baslik.Text;
+                degerler.Icerik = tx_Icerik.Text;
+                degerler.Durum = true;
+                db.SaveChanges();
+                MessageBox.Show("Not Başarıyla Güncellendi..", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                frmNotlar_Load(null, null);
+            
+           
+        }
+
+        private void dgv_OkunmayanNotlar_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (dgv_OkunmayanNotlar.SelectedRows.Count == 0)
+                return;
+            tx_ID.Text = dgv_OkunmayanNotlar.SelectedRows[0].Cells["ID"].Value.ToString();
+        }
+
+        private void cbx_Okundu_CheckStateChanged(object sender, EventArgs e)
+        {
+            if (isChecked(cbx_Okundu))
             {
+                if (tx_ID.Text == "")
+                {
+                    MessageBox.Show("Lütfen Okundu Olarak İşaretlenecek Mesajı Seçiniz...", "Bilgi", MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+                    cbx_Okundu.Checked = false;
+                    return;
+                }
                 int id = int.Parse(tx_ID.Text);
                 var degerler = db.Tbl_Notlarim.Find(id);
                 //degerler.Baslik = tx_Baslik.Text;
@@ -48,14 +82,24 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
                 db.SaveChanges();
                 MessageBox.Show("Not Durumu Okundu Olarak İşaretlendi..", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 frmNotlar_Load(null, null);
+                tx_Baslik.Text = "";
+                tx_Icerik.Text = "";
+                tx_ID.Text = "";
+                cbx_Okundu.Checked = false;
+            }
+            else
+            {
+                return;
             }
         }
 
-        private void dgv_OkunmayanNotlar_MouseClick(object sender, MouseEventArgs e)
+        private void dgv_OkunanNotlar_MouseClick(object sender, MouseEventArgs e)
         {
-            if (dgv_OkunmayanNotlar.SelectedRows.Count == 0)
+            if (dgv_OkunanNotlar.SelectedRows.Count == 0)
                 return;
-            tx_ID.Text = dgv_OkunmayanNotlar.SelectedRows[0].Cells["ID"].Value.ToString();
+            tx_ID.Text = dgv_OkunanNotlar.SelectedRows[0].Cells["ID"].Value.ToString();
+            tx_Baslik.Text = dgv_OkunanNotlar.SelectedRows[0].Cells["Baslik"].Value.ToString();
+            tx_Icerik.Text = dgv_OkunanNotlar.SelectedRows[0].Cells["Icerik"].Value.ToString();
         }
     }
 }

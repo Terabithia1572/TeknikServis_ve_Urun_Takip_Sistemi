@@ -119,6 +119,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.cbx_Okundu.UncheckedState.BorderThickness = 0;
             this.cbx_Okundu.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.cbx_Okundu.UseVisualStyleBackColor = true;
+            this.cbx_Okundu.CheckStateChanged += new System.EventHandler(this.cbx_Okundu_CheckStateChanged);
             // 
             // tx_Icerik
             // 
@@ -442,6 +443,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_OkunanNotlar.ThemeStyle.RowsStyle.Height = 22;
             this.dgv_OkunanNotlar.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
             this.dgv_OkunanNotlar.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgv_OkunanNotlar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv_OkunanNotlar_MouseClick);
             // 
             // frmNotlar
             // 
