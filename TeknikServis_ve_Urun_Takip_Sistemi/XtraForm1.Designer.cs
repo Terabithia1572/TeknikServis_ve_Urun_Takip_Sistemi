@@ -79,7 +79,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem38 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem39 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_YeniUrunSatis = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_SatisListesi = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -164,7 +164,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem38,
             this.barButtonItem39,
             this.btn_YeniUrunSatis,
-            this.barButtonItem6});
+            this.btn_SatisListesi});
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl.MaxItemId = 62;
             this.ribbonControl.Name = "ribbonControl";
@@ -570,13 +570,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_YeniUrunSatis.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_YeniUrunSatis.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_YeniUrunSatis_ItemClick);
             // 
-            // barButtonItem6
+            // btn_SatisListesi
             // 
-            this.barButtonItem6.Caption = "Satış Listesi";
-            this.barButtonItem6.Id = 61;
-            this.barButtonItem6.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.commodity;
-            this.barButtonItem6.Name = "barButtonItem6";
-            this.barButtonItem6.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_SatisListesi.Caption = "Satış Listesi";
+            this.btn_SatisListesi.Id = 61;
+            this.btn_SatisListesi.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.commodity;
+            this.btn_SatisListesi.Name = "btn_SatisListesi";
+            this.btn_SatisListesi.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_SatisListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_SatisListesi_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -682,7 +683,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // ribbonPageGroup17
             // 
             this.ribbonPageGroup17.ItemLinks.Add(this.btn_YeniUrunSatis);
-            this.ribbonPageGroup17.ItemLinks.Add(this.barButtonItem6);
+            this.ribbonPageGroup17.ItemLinks.Add(this.btn_SatisListesi);
             this.ribbonPageGroup17.Name = "ribbonPageGroup17";
             this.ribbonPageGroup17.Text = "ribbonPageGroup17";
             // 
@@ -897,6 +898,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem barButtonItem39;
         private DevExpress.XtraBars.BarButtonItem btn_YeniUrunSatis;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup17;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
+        private DevExpress.XtraBars.BarButtonItem btn_SatisListesi;
     }
 }

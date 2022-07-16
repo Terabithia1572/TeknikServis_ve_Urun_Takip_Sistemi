@@ -200,5 +200,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
                // us.MdiParent = this;
             us.Show();
         }
+
+        private void btn_SatisListesi_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmSatislar s = new NewFolder1.frmSatislar();
+            s.MdiParent = this;
+            s.Show();
+        }
     }
 }

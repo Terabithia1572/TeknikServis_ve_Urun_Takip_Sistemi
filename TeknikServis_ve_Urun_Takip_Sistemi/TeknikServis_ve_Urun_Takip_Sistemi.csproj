@@ -148,6 +148,12 @@
     <Compile Include="NewFolder1\frmPersoneller.Designer.cs">
       <DependentUpon>frmPersoneller.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmSatislar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmSatislar.Designer.cs">
+      <DependentUpon>frmSatislar.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\FrmUrunListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -286,6 +292,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmPersoneller.resx">
       <DependentUpon>frmPersoneller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmSatislar.resx">
+      <DependentUpon>frmSatislar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\FrmUrunListesi.resx">
       <DependentUpon>FrmUrunListesi.cs</DependentUpon>
