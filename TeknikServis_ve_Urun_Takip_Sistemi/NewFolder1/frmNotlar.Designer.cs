@@ -225,6 +225,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Guncelle.Size = new System.Drawing.Size(139, 40);
             this.btn_Guncelle.TabIndex = 13;
             this.btn_Guncelle.Text = "Güncelle";
+            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
             // 
             // btn_Sil
             // 
@@ -374,6 +375,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_OkunmayanNotlar.ThemeStyle.RowsStyle.Height = 22;
             this.dgv_OkunmayanNotlar.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
             this.dgv_OkunmayanNotlar.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgv_OkunmayanNotlar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv_OkunmayanNotlar_MouseClick);
             // 
             // dgv_OkunanNotlar
             // 
