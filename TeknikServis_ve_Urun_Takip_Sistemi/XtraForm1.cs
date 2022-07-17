@@ -211,8 +211,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private void btn_ArizaliUrunKaydi_ItemClick(object sender, ItemClickEventArgs e)
         {
             NewFolder1.frmYeniArizaKaydi ya = new NewFolder1.frmYeniArizaKaydi();
-            ya.MdiParent = this;
+           // ya.MdiParent = this;
             ya.Show();
+        }
+
+        private void btn_ArizaUrunAciklama_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmArizaDetaylar ad = new NewFolder1.frmArizaDetaylar();
+            ad.Show();
         }
     }
 }

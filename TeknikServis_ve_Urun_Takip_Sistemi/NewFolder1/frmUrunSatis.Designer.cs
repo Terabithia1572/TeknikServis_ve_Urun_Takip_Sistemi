@@ -35,11 +35,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_SeriNo = new Guna.UI2.WinForms.Guna2TextBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
@@ -51,6 +46,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Musteri = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tx_UrunAd = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -171,89 +171,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel7.Size = new System.Drawing.Size(21, 19);
             this.metroLabel7.TabIndex = 15;
             this.metroLabel7.Text = "ID";
-            // 
-            // btn_Temizle
-            // 
-            this.btn_Temizle.CheckedState.Parent = this.btn_Temizle;
-            this.btn_Temizle.CustomImages.Parent = this.btn_Temizle;
-            this.btn_Temizle.FillColor = System.Drawing.Color.White;
-            this.btn_Temizle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Temizle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Temizle.HoverState.Parent = this.btn_Temizle;
-            this.btn_Temizle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_cart;
-            this.btn_Temizle.Location = new System.Drawing.Point(49, 394);
-            this.btn_Temizle.Name = "btn_Temizle";
-            this.btn_Temizle.ShadowDecoration.Parent = this.btn_Temizle;
-            this.btn_Temizle.Size = new System.Drawing.Size(83, 40);
-            this.btn_Temizle.TabIndex = 14;
-            this.btn_Temizle.Text = "Temizle";
-            // 
-            // btn_Listele
-            // 
-            this.btn_Listele.CheckedState.Parent = this.btn_Listele;
-            this.btn_Listele.CustomImages.Parent = this.btn_Listele;
-            this.btn_Listele.FillColor = System.Drawing.Color.White;
-            this.btn_Listele.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Listele.ForeColor = System.Drawing.Color.Black;
-            this.btn_Listele.HoverState.Parent = this.btn_Listele;
-            this.btn_Listele.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.shopping_cart__2_;
-            this.btn_Listele.Location = new System.Drawing.Point(176, 394);
-            this.btn_Listele.Name = "btn_Listele";
-            this.btn_Listele.ShadowDecoration.Parent = this.btn_Listele;
-            this.btn_Listele.Size = new System.Drawing.Size(83, 40);
-            this.btn_Listele.TabIndex = 13;
-            this.btn_Listele.Text = "Listele";
-            // 
-            // btn_Guncelle
-            // 
-            this.btn_Guncelle.CheckedState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.CustomImages.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.FillColor = System.Drawing.Color.White;
-            this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
-            this.btn_Guncelle.Location = new System.Drawing.Point(252, 320);
-            this.btn_Guncelle.Name = "btn_Guncelle";
-            this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Size = new System.Drawing.Size(83, 40);
-            this.btn_Guncelle.TabIndex = 13;
-            this.btn_Guncelle.Text = "Güncelle";
-            // 
-            // btn_Sil
-            // 
-            this.btn_Sil.CheckedState.Parent = this.btn_Sil;
-            this.btn_Sil.CustomImages.Parent = this.btn_Sil;
-            this.btn_Sil.FillColor = System.Drawing.Color.White;
-            this.btn_Sil.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Sil.ForeColor = System.Drawing.Color.Black;
-            this.btn_Sil.HoverState.Parent = this.btn_Sil;
-            this.btn_Sil.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_from_cart__1_;
-            this.btn_Sil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Sil.Location = new System.Drawing.Point(130, 320);
-            this.btn_Sil.Name = "btn_Sil";
-            this.btn_Sil.ShadowDecoration.Parent = this.btn_Sil;
-            this.btn_Sil.Size = new System.Drawing.Size(83, 40);
-            this.btn_Sil.TabIndex = 13;
-            this.btn_Sil.Text = "Sil";
-            // 
-            // btn_Ekle
-            // 
-            this.btn_Ekle.CheckedState.Parent = this.btn_Ekle;
-            this.btn_Ekle.CustomImages.Parent = this.btn_Ekle;
-            this.btn_Ekle.FillColor = System.Drawing.Color.White;
-            this.btn_Ekle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Ekle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Ekle.HoverState.Parent = this.btn_Ekle;
-            this.btn_Ekle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
-            this.btn_Ekle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Ekle.Location = new System.Drawing.Point(13, 320);
-            this.btn_Ekle.Name = "btn_Ekle";
-            this.btn_Ekle.ShadowDecoration.Parent = this.btn_Ekle;
-            this.btn_Ekle.Size = new System.Drawing.Size(83, 40);
-            this.btn_Ekle.TabIndex = 13;
-            this.btn_Ekle.Text = "Ekle";
-            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // metroLabel6
             // 
@@ -418,6 +335,89 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_UrunAd.ShadowDecoration.Parent = this.tx_UrunAd;
             this.tx_UrunAd.Size = new System.Drawing.Size(139, 28);
             this.tx_UrunAd.TabIndex = 1;
+            // 
+            // btn_Temizle
+            // 
+            this.btn_Temizle.CheckedState.Parent = this.btn_Temizle;
+            this.btn_Temizle.CustomImages.Parent = this.btn_Temizle;
+            this.btn_Temizle.FillColor = System.Drawing.Color.White;
+            this.btn_Temizle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Temizle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Temizle.HoverState.Parent = this.btn_Temizle;
+            this.btn_Temizle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_cart;
+            this.btn_Temizle.Location = new System.Drawing.Point(49, 394);
+            this.btn_Temizle.Name = "btn_Temizle";
+            this.btn_Temizle.ShadowDecoration.Parent = this.btn_Temizle;
+            this.btn_Temizle.Size = new System.Drawing.Size(83, 40);
+            this.btn_Temizle.TabIndex = 14;
+            this.btn_Temizle.Text = "Temizle";
+            // 
+            // btn_Listele
+            // 
+            this.btn_Listele.CheckedState.Parent = this.btn_Listele;
+            this.btn_Listele.CustomImages.Parent = this.btn_Listele;
+            this.btn_Listele.FillColor = System.Drawing.Color.White;
+            this.btn_Listele.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Listele.ForeColor = System.Drawing.Color.Black;
+            this.btn_Listele.HoverState.Parent = this.btn_Listele;
+            this.btn_Listele.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.shopping_cart__2_;
+            this.btn_Listele.Location = new System.Drawing.Point(176, 394);
+            this.btn_Listele.Name = "btn_Listele";
+            this.btn_Listele.ShadowDecoration.Parent = this.btn_Listele;
+            this.btn_Listele.Size = new System.Drawing.Size(83, 40);
+            this.btn_Listele.TabIndex = 13;
+            this.btn_Listele.Text = "Listele";
+            // 
+            // btn_Guncelle
+            // 
+            this.btn_Guncelle.CheckedState.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.CustomImages.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.FillColor = System.Drawing.Color.White;
+            this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
+            this.btn_Guncelle.Location = new System.Drawing.Point(252, 320);
+            this.btn_Guncelle.Name = "btn_Guncelle";
+            this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.Size = new System.Drawing.Size(83, 40);
+            this.btn_Guncelle.TabIndex = 13;
+            this.btn_Guncelle.Text = "Güncelle";
+            // 
+            // btn_Sil
+            // 
+            this.btn_Sil.CheckedState.Parent = this.btn_Sil;
+            this.btn_Sil.CustomImages.Parent = this.btn_Sil;
+            this.btn_Sil.FillColor = System.Drawing.Color.White;
+            this.btn_Sil.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Sil.ForeColor = System.Drawing.Color.Black;
+            this.btn_Sil.HoverState.Parent = this.btn_Sil;
+            this.btn_Sil.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_from_cart__1_;
+            this.btn_Sil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Sil.Location = new System.Drawing.Point(130, 320);
+            this.btn_Sil.Name = "btn_Sil";
+            this.btn_Sil.ShadowDecoration.Parent = this.btn_Sil;
+            this.btn_Sil.Size = new System.Drawing.Size(83, 40);
+            this.btn_Sil.TabIndex = 13;
+            this.btn_Sil.Text = "Sil";
+            // 
+            // btn_Ekle
+            // 
+            this.btn_Ekle.CheckedState.Parent = this.btn_Ekle;
+            this.btn_Ekle.CustomImages.Parent = this.btn_Ekle;
+            this.btn_Ekle.FillColor = System.Drawing.Color.White;
+            this.btn_Ekle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Ekle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Ekle.HoverState.Parent = this.btn_Ekle;
+            this.btn_Ekle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
+            this.btn_Ekle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Ekle.Location = new System.Drawing.Point(13, 320);
+            this.btn_Ekle.Name = "btn_Ekle";
+            this.btn_Ekle.ShadowDecoration.Parent = this.btn_Ekle;
+            this.btn_Ekle.Size = new System.Drawing.Size(83, 40);
+            this.btn_Ekle.TabIndex = 13;
+            this.btn_Ekle.Text = "Ekle";
+            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // frmUrunSatis
             // 

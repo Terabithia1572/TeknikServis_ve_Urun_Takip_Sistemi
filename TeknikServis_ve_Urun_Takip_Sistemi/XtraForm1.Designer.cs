@@ -47,7 +47,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_MarkaIstatistik = new DevExpress.XtraBars.BarButtonItem();
             this.btn_ArizaliUrun = new DevExpress.XtraBars.BarButtonItem();
             this.btn_ArizaliUrunKaydi = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_ArizaUrunAciklama = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
@@ -132,7 +132,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_MarkaIstatistik,
             this.btn_ArizaliUrun,
             this.btn_ArizaliUrunKaydi,
-            this.barButtonItem10,
+            this.btn_ArizaUrunAciklama,
             this.barButtonItem11,
             this.barButtonItem12,
             this.barButtonItem3,
@@ -305,13 +305,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_ArizaliUrunKaydi.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_ArizaliUrunKaydi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_ArizaliUrunKaydi_ItemClick);
             // 
-            // barButtonItem10
+            // btn_ArizaUrunAciklama
             // 
-            this.barButtonItem10.Caption = "Arızalı Ürün Açıklama";
-            this.barButtonItem10.Id = 29;
-            this.barButtonItem10.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.bored;
-            this.barButtonItem10.Name = "barButtonItem10";
-            this.barButtonItem10.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_ArizaUrunAciklama.Caption = "Arızalı Ürün Açıklama";
+            this.btn_ArizaUrunAciklama.Id = 29;
+            this.btn_ArizaUrunAciklama.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.bored;
+            this.btn_ArizaUrunAciklama.Name = "btn_ArizaUrunAciklama";
+            this.btn_ArizaUrunAciklama.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_ArizaUrunAciklama.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_ArizaUrunAciklama_ItemClick);
             // 
             // barButtonItem11
             // 
@@ -653,7 +654,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.ribbonPageGroup12.ItemLinks.Add(this.btn_ArizaliUrun);
             this.ribbonPageGroup12.ItemLinks.Add(this.btn_ArizaliUrunKaydi);
-            this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem10);
+            this.ribbonPageGroup12.ItemLinks.Add(this.btn_ArizaUrunAciklama);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "Ürün İşlemleri";
             // 
@@ -844,7 +845,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem btn_MarkaIstatistik;
         private DevExpress.XtraBars.BarButtonItem btn_ArizaliUrun;
         private DevExpress.XtraBars.BarButtonItem btn_ArizaliUrunKaydi;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
+        private DevExpress.XtraBars.BarButtonItem btn_ArizaUrunAciklama;
         private DevExpress.XtraBars.BarButtonItem barButtonItem11;
         private DevExpress.XtraBars.BarButtonItem barButtonItem12;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;

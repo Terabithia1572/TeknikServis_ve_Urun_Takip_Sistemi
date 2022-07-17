@@ -42,7 +42,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Tarih = new Guna.UI2.WinForms.Guna2TextBox();
             this.tx_Personel = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.tx_UrunAd = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_MusteriID = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +60,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Controls.Add(this.tx_Tarih);
             this.guna2GroupBox1.Controls.Add(this.tx_Personel);
             this.guna2GroupBox1.Controls.Add(this.metroLabel1);
-            this.guna2GroupBox1.Controls.Add(this.tx_UrunAd);
+            this.guna2GroupBox1.Controls.Add(this.tx_MusteriID);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.OliveDrab;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.White;
@@ -183,6 +183,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Ekle.Size = new System.Drawing.Size(83, 40);
             this.btn_Ekle.TabIndex = 43;
             this.btn_Ekle.Text = "Ekle";
+            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // metroLabel4
             // 
@@ -255,27 +256,27 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel1.TabIndex = 34;
             this.metroLabel1.Text = "Müşteri ID:";
             // 
-            // tx_UrunAd
+            // tx_MusteriID
             // 
-            this.tx_UrunAd.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_UrunAd.DefaultText = "";
-            this.tx_UrunAd.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_UrunAd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_UrunAd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_UrunAd.DisabledState.Parent = this.tx_UrunAd;
-            this.tx_UrunAd.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_UrunAd.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_UrunAd.FocusedState.Parent = this.tx_UrunAd;
-            this.tx_UrunAd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_UrunAd.HoverState.Parent = this.tx_UrunAd;
-            this.tx_UrunAd.Location = new System.Drawing.Point(118, 53);
-            this.tx_UrunAd.Name = "tx_UrunAd";
-            this.tx_UrunAd.PasswordChar = '\0';
-            this.tx_UrunAd.PlaceholderText = "";
-            this.tx_UrunAd.SelectedText = "";
-            this.tx_UrunAd.ShadowDecoration.Parent = this.tx_UrunAd;
-            this.tx_UrunAd.Size = new System.Drawing.Size(162, 32);
-            this.tx_UrunAd.TabIndex = 29;
+            this.tx_MusteriID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_MusteriID.DefaultText = "";
+            this.tx_MusteriID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_MusteriID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_MusteriID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_MusteriID.DisabledState.Parent = this.tx_MusteriID;
+            this.tx_MusteriID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_MusteriID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_MusteriID.FocusedState.Parent = this.tx_MusteriID;
+            this.tx_MusteriID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_MusteriID.HoverState.Parent = this.tx_MusteriID;
+            this.tx_MusteriID.Location = new System.Drawing.Point(118, 53);
+            this.tx_MusteriID.Name = "tx_MusteriID";
+            this.tx_MusteriID.PasswordChar = '\0';
+            this.tx_MusteriID.PlaceholderText = "";
+            this.tx_MusteriID.SelectedText = "";
+            this.tx_MusteriID.ShadowDecoration.Parent = this.tx_MusteriID;
+            this.tx_MusteriID.Size = new System.Drawing.Size(162, 32);
+            this.tx_MusteriID.TabIndex = 29;
             // 
             // frmYeniArizaKaydi
             // 
@@ -287,6 +288,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.Name = "frmYeniArizaKaydi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmYeniArizaKaydi";
+            this.Load += new System.EventHandler(this.frmYeniArizaKaydi_Load);
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -308,6 +310,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2TextBox tx_Tarih;
         private Guna.UI2.WinForms.Guna2TextBox tx_Personel;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private Guna.UI2.WinForms.Guna2TextBox tx_UrunAd;
+        private Guna.UI2.WinForms.Guna2TextBox tx_MusteriID;
     }
 }

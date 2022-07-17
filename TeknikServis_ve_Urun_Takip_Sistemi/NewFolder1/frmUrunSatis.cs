@@ -32,5 +32,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             db.SaveChanges();
             MessageBox.Show("Ürün Satışı Yapıldı..","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
+
     }
 }

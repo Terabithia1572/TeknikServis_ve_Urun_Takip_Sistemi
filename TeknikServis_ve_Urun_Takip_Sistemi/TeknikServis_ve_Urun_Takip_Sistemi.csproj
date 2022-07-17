@@ -100,6 +100,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmArizaDetaylar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmArizaDetaylar.Designer.cs">
+      <DependentUpon>frmArizaDetaylar.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmArizaListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -275,6 +281,9 @@
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="NewFolder1\frmArizaDetaylar.resx">
+      <DependentUpon>frmArizaDetaylar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmArizaListesi.resx">
       <DependentUpon>frmArizaListesi.cs</DependentUpon>
     </EmbeddedResource>
