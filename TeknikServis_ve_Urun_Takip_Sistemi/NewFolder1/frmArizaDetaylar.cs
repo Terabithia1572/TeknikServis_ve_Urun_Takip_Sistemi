@@ -20,8 +20,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         Db_TeknikServisEntities db = new Db_TeknikServisEntities();
         private void btn_Guncelle_Click(object sender, EventArgs e)
         {
-            Tbl_ArizaDetay arizaDetay = new Tbl_ArizaDetay();
-
+            Tbl_UrunTakip urunTakip = new Tbl_UrunTakip();
+            urunTakip.Aciklama = tx_Aciklama.Text;
+            urunTakip.SeriNo = tx_SeriNo.Text;
+            urunTakip.Tarih = DateTime.Parse(tx_Tarih.Text);
+            db.Tbl_UrunTakip.Add(urunTakip);
+            db.SaveChanges();
+            MessageBox.Show("Ürün Arıza Detayları Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

@@ -30,7 +30,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
                                Personel = x.Tbl_Personel.Ad+" "+x.Tbl_Personel.Soyad,
                                x.Tarih,
                                x.Adet,
-                               x.Fiyat
+                               x.Fiyat,
+                               x.UrunSeriNo
                            });
             dgv_SatislarListesi.DataSource = listele.ToList();
 

@@ -30,7 +30,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private void InitializeComponent()
         {
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.tx_SatisFiyat = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tx_Aciklama = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.tx_SeriNo = new Guna.UI2.WinForms.Guna2TextBox();
             this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
@@ -42,7 +42,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             // 
             // guna2GroupBox1
             // 
-            this.guna2GroupBox1.Controls.Add(this.tx_SatisFiyat);
+            this.guna2GroupBox1.Controls.Add(this.tx_Aciklama);
             this.guna2GroupBox1.Controls.Add(this.metroLabel8);
             this.guna2GroupBox1.Controls.Add(this.tx_SeriNo);
             this.guna2GroupBox1.Controls.Add(this.btn_Guncelle);
@@ -59,28 +59,28 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.TabIndex = 25;
             this.guna2GroupBox1.Text = "Arızalı Ürün Kaydı Açıklama";
             // 
-            // tx_SatisFiyat
+            // tx_Aciklama
             // 
-            this.tx_SatisFiyat.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_SatisFiyat.DefaultText = "";
-            this.tx_SatisFiyat.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_SatisFiyat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_SatisFiyat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_SatisFiyat.DisabledState.Parent = this.tx_SatisFiyat;
-            this.tx_SatisFiyat.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_SatisFiyat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_SatisFiyat.FocusedState.Parent = this.tx_SatisFiyat;
-            this.tx_SatisFiyat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_SatisFiyat.HoverState.Parent = this.tx_SatisFiyat;
-            this.tx_SatisFiyat.Location = new System.Drawing.Point(53, 177);
-            this.tx_SatisFiyat.Multiline = true;
-            this.tx_SatisFiyat.Name = "tx_SatisFiyat";
-            this.tx_SatisFiyat.PasswordChar = '\0';
-            this.tx_SatisFiyat.PlaceholderText = "";
-            this.tx_SatisFiyat.SelectedText = "";
-            this.tx_SatisFiyat.ShadowDecoration.Parent = this.tx_SatisFiyat;
-            this.tx_SatisFiyat.Size = new System.Drawing.Size(289, 166);
-            this.tx_SatisFiyat.TabIndex = 28;
+            this.tx_Aciklama.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Aciklama.DefaultText = "";
+            this.tx_Aciklama.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Aciklama.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Aciklama.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Aciklama.DisabledState.Parent = this.tx_Aciklama;
+            this.tx_Aciklama.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Aciklama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Aciklama.FocusedState.Parent = this.tx_Aciklama;
+            this.tx_Aciklama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Aciklama.HoverState.Parent = this.tx_Aciklama;
+            this.tx_Aciklama.Location = new System.Drawing.Point(53, 177);
+            this.tx_Aciklama.Multiline = true;
+            this.tx_Aciklama.Name = "tx_Aciklama";
+            this.tx_Aciklama.PasswordChar = '\0';
+            this.tx_Aciklama.PlaceholderText = "";
+            this.tx_Aciklama.SelectedText = "";
+            this.tx_Aciklama.ShadowDecoration.Parent = this.tx_Aciklama;
+            this.tx_Aciklama.Size = new System.Drawing.Size(289, 166);
+            this.tx_Aciklama.TabIndex = 28;
             // 
             // metroLabel8
             // 
@@ -189,7 +189,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         #endregion
 
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
-        private Guna.UI2.WinForms.Guna2TextBox tx_SatisFiyat;
+        private Guna.UI2.WinForms.Guna2TextBox tx_Aciklama;
         private MetroFramework.Controls.MetroLabel metroLabel8;
         private Guna.UI2.WinForms.Guna2TextBox tx_SeriNo;
         private Guna.UI2.WinForms.Guna2Button btn_Guncelle;
