@@ -166,6 +166,12 @@
     <Compile Include="NewFolder1\frmUrunSatis.Designer.cs">
       <DependentUpon>frmUrunSatis.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmYeniArizaKaydi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmYeniArizaKaydi.Designer.cs">
+      <DependentUpon>frmYeniArizaKaydi.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmYeniDepartman.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -301,6 +307,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmUrunSatis.resx">
       <DependentUpon>frmUrunSatis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmYeniArizaKaydi.resx">
+      <DependentUpon>frmYeniArizaKaydi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmYeniDepartman.resx">
       <DependentUpon>frmYeniDepartman.cs</DependentUpon>
