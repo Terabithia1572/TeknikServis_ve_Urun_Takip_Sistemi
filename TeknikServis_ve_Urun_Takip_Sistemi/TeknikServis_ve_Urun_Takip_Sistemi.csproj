@@ -139,6 +139,12 @@
     <Compile Include="NewFolder1\frmDepartmanlar.Designer.cs">
       <DependentUpon>frmDepartmanlar.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmFaturaKalem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmFaturaKalem.Designer.cs">
+      <DependentUpon>frmFaturaKalem.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmFaturaListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -319,6 +325,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmDepartmanlar.resx">
       <DependentUpon>frmDepartmanlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmFaturaKalem.resx">
+      <DependentUpon>frmFaturaKalem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmFaturaListesi.resx">
       <DependentUpon>frmFaturaListesi.cs</DependentUpon>

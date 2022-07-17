@@ -240,5 +240,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             fl.MdiParent = this;
             fl.Show();
         }
+
+        private void btn_FaturaKalem_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmFaturaKalem fk = new NewFolder1.frmFaturaKalem();
+            fk.MdiParent = this;
+            fk.Show();
+        }
     }
 }
