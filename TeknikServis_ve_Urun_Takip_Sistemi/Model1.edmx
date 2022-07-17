@@ -171,10 +171,9 @@
             <PropertyRef Name="TakipID" />
           </Key>
           <Property Name="TakipID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Urun" Type="int" />
-          <Property Name="Durum" Type="varchar" MaxLength="500" />
-          <Property Name="Tarih" Type="int" />
-          <Property Name="TakipKodu" Type="char" MaxLength="5" />
+          <Property Name="Aciklama" Type="varchar" MaxLength="500" />
+          <Property Name="Tarih" Type="smalldatetime" />
+          <Property Name="SeriNo" Type="char" MaxLength="5" />
         </EntityType>
         <Association Name="FK_Tbl_FaturaBilgi_Tbl_Cari">
           <End Role="Tbl_Cari" Type="Self.Tbl_Cari" Multiplicity="0..1" />
@@ -296,18 +295,6 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_Tbl_UrunTakip_Tbl_Urun">
-          <End Role="Tbl_Urun" Type="Self.Tbl_Urun" Multiplicity="0..1" />
-          <End Role="Tbl_UrunTakip" Type="Self.Tbl_UrunTakip" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Tbl_Urun">
-              <PropertyRef Name="ID" />
-            </Principal>
-            <Dependent Role="Tbl_UrunTakip">
-              <PropertyRef Name="Urun" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <EntityContainer Name="Db_TeknikServisModelStoreContainer">
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" Schema="dbo" store:Type="Tables" />
@@ -364,10 +351,6 @@
           <AssociationSet Name="FK_Tbl_UrunKabul_Tbl_Personel" Association="Self.FK_Tbl_UrunKabul_Tbl_Personel">
             <End Role="Tbl_Personel" EntitySet="Tbl_Personel" />
             <End Role="Tbl_UrunKabul" EntitySet="Tbl_UrunKabul" />
-          </AssociationSet>
-          <AssociationSet Name="FK_Tbl_UrunTakip_Tbl_Urun" Association="Self.FK_Tbl_UrunTakip_Tbl_Urun">
-            <End Role="Tbl_Urun" EntitySet="Tbl_Urun" />
-            <End Role="Tbl_UrunTakip" EntitySet="Tbl_UrunTakip" />
           </AssociationSet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
@@ -541,7 +524,6 @@
           <Property Name="Durum" Type="Boolean" />
           <NavigationProperty Name="Tbl_Hareket" Relationship="Self.FK_Tbl_Hareket_Tbl_Urun" FromRole="Tbl_Urun" ToRole="Tbl_Hareket" />
           <NavigationProperty Name="Tbl_Hareket1" Relationship="Self.FK_Tbl_Hareket_Tbl_Urun1" FromRole="Tbl_Urun" ToRole="Tbl_Hareket" />
-          <NavigationProperty Name="Tbl_UrunTakip" Relationship="Self.FK_Tbl_UrunTakip_Tbl_Urun" FromRole="Tbl_Urun" ToRole="Tbl_UrunTakip" />
         </EntityType>
         <EntityType Name="Tbl_UrunKabul">
           <Key>
@@ -561,11 +543,9 @@
             <PropertyRef Name="TakipID" />
           </Key>
           <Property Name="TakipID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Urun" Type="Int32" />
-          <Property Name="Durum" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
-          <Property Name="Tarih" Type="Int32" />
-          <Property Name="TakipKodu" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
-          <NavigationProperty Name="Tbl_Urun" Relationship="Self.FK_Tbl_UrunTakip_Tbl_Urun" FromRole="Tbl_UrunTakip" ToRole="Tbl_Urun" />
+          <Property Name="Tarih" Type="DateTime" />
+          <Property Name="Aciklama" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="SeriNo" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
         </EntityType>
         <Association Name="FK_Tbl_FaturaBilgi_Tbl_Cari">
           <End Role="Tbl_Cari" Type="Self.Tbl_Cari" Multiplicity="0..1" />
@@ -687,18 +667,6 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_Tbl_UrunTakip_Tbl_Urun">
-          <End Role="Tbl_Urun" Type="Self.Tbl_Urun" Multiplicity="0..1" />
-          <End Role="Tbl_UrunTakip" Type="Self.Tbl_UrunTakip" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Tbl_Urun">
-              <PropertyRef Name="ID" />
-            </Principal>
-            <Dependent Role="Tbl_UrunTakip">
-              <PropertyRef Name="Urun" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <EntityContainer Name="Db_TeknikServisEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
           <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" />
@@ -755,10 +723,6 @@
           <AssociationSet Name="FK_Tbl_UrunKabul_Tbl_Personel" Association="Self.FK_Tbl_UrunKabul_Tbl_Personel">
             <End Role="Tbl_Personel" EntitySet="Tbl_Personel" />
             <End Role="Tbl_UrunKabul" EntitySet="Tbl_UrunKabul" />
-          </AssociationSet>
-          <AssociationSet Name="FK_Tbl_UrunTakip_Tbl_Urun" Association="Self.FK_Tbl_UrunTakip_Tbl_Urun">
-            <End Role="Tbl_Urun" EntitySet="Tbl_Urun" />
-            <End Role="Tbl_UrunTakip" EntitySet="Tbl_UrunTakip" />
           </AssociationSet>
         </EntityContainer>
       </Schema>
@@ -946,11 +910,10 @@
           <EntitySetMapping Name="Tbl_UrunTakip">
             <EntityTypeMapping TypeName="Db_TeknikServisModel.Tbl_UrunTakip">
               <MappingFragment StoreEntitySet="Tbl_UrunTakip">
+                <ScalarProperty Name="SeriNo" ColumnName="SeriNo" />
+                <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
                 <ScalarProperty Name="TakipID" ColumnName="TakipID" />
-                <ScalarProperty Name="Urun" ColumnName="Urun" />
-                <ScalarProperty Name="Durum" ColumnName="Durum" />
                 <ScalarProperty Name="Tarih" ColumnName="Tarih" />
-                <ScalarProperty Name="TakipKodu" ColumnName="TakipKodu" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

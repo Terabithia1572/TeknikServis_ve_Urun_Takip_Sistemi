@@ -17,5 +17,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         {
             InitializeComponent();
         }
+        Db_TeknikServisEntities db = new Db_TeknikServisEntities();
+        private void btn_Guncelle_Click(object sender, EventArgs e)
+        {
+            Tbl_ArizaDetay arizaDetay = new Tbl_ArizaDetay();
+
+        }
     }
 }

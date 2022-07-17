@@ -128,6 +128,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Guncelle.Size = new System.Drawing.Size(83, 40);
             this.btn_Guncelle.TabIndex = 13;
             this.btn_Guncelle.Text = "Güncelle";
+            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
             // 
             // metroLabel6
             // 
