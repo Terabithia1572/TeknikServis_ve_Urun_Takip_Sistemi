@@ -32,9 +32,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.btn_QRKodEkle = new Guna.UI2.WinForms.Guna2Button();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            this.cbx_SeriNo = new MetroFramework.Controls.MetroComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,7 +70,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_QRKodEkle.HoverState.Parent = this.btn_QRKodEkle;
             this.btn_QRKodEkle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.qr_code__1_1;
             this.btn_QRKodEkle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_QRKodEkle.Location = new System.Drawing.Point(90, 107);
+            this.btn_QRKodEkle.Location = new System.Drawing.Point(76, 147);
             this.btn_QRKodEkle.Name = "btn_QRKodEkle";
             this.btn_QRKodEkle.ShadowDecoration.Parent = this.btn_QRKodEkle;
             this.btn_QRKodEkle.Size = new System.Drawing.Size(172, 34);
@@ -80,36 +79,39 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_QRKodEkle.UseTransparentBackground = true;
             this.btn_QRKodEkle.Click += new System.EventHandler(this.btn_QRKodEkle_Click);
             // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(135, 67);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(100, 20);
-            this.textEdit1.TabIndex = 3;
-            // 
             // pictureEdit1
             // 
-            this.pictureEdit1.Location = new System.Drawing.Point(59, 147);
+            this.pictureEdit1.Location = new System.Drawing.Point(59, 187);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Size = new System.Drawing.Size(220, 230);
+            this.pictureEdit1.Size = new System.Drawing.Size(203, 190);
             this.pictureEdit1.TabIndex = 2;
+            // 
+            // cbx_SeriNo
+            // 
+            this.cbx_SeriNo.FormattingEnabled = true;
+            this.cbx_SeriNo.ItemHeight = 23;
+            this.cbx_SeriNo.Location = new System.Drawing.Point(139, 65);
+            this.cbx_SeriNo.Name = "cbx_SeriNo";
+            this.cbx_SeriNo.Size = new System.Drawing.Size(121, 29);
+            this.cbx_SeriNo.TabIndex = 45;
+            this.cbx_SeriNo.UseSelectable = true;
             // 
             // frmQrKod
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(333, 389);
+            this.Controls.Add(this.cbx_SeriNo);
             this.Controls.Add(this.btn_QRKodEkle);
             this.Controls.Add(this.metroLabel2);
-            this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.pictureEdit1);
             this.Controls.Add(this.metroLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmQrKod";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmQrKod";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            this.Load += new System.EventHandler(this.frmQrKod_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -119,8 +121,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         #endregion
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private Guna.UI2.WinForms.Guna2Button btn_QRKodEkle;
+        private MetroFramework.Controls.MetroComboBox cbx_SeriNo;
     }
 }

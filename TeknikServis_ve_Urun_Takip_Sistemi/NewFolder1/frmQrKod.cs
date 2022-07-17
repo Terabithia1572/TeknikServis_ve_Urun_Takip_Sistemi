@@ -18,11 +18,24 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         {
             InitializeComponent();
         }
+        Db_TeknikServisEntities db = new Db_TeknikServisEntities();
 
         private void btn_QRKodEkle_Click(object sender, EventArgs e)
         {
             QRCodeEncoder qRCodeEncoder = new QRCodeEncoder();
-            pictureEdit1.Image = qRCodeEncoder.Encode(textEdit1.Text);
+            pictureEdit1.Image = qRCodeEncoder.Encode(cbx_SeriNo.Text);
+        }
+
+        private void frmQrKod_Load(object sender, EventArgs e)
+        {
+            cbx_SeriNo.DataSource = (from x in db.Tbl_UrunKabul
+                                     select new
+                                     {
+                                         x.islemID,
+                                         x.UrunSeriNo
+                                     }).ToList();
+            cbx_SeriNo.ValueMember = "islemID";
+            cbx_SeriNo.DisplayMember = "UrunSeriNo";
         }
     }
 }
