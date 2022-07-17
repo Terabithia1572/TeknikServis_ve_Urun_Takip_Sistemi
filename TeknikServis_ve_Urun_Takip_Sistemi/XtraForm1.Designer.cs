@@ -81,6 +81,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_YeniUrunSatis = new DevExpress.XtraBars.BarButtonItem();
             this.btn_SatisListesi = new DevExpress.XtraBars.BarButtonItem();
             this.btn_ArizaliUrunDetaylari = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_FaturaListesi = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -166,9 +167,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem39,
             this.btn_YeniUrunSatis,
             this.btn_SatisListesi,
-            this.btn_ArizaliUrunDetaylari});
+            this.btn_ArizaliUrunDetaylari,
+            this.btn_FaturaListesi});
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 63;
+            this.ribbonControl.MaxItemId = 64;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -593,6 +595,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_ArizaliUrunDetaylari.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_ArizaliUrunDetaylari.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_ArizaliUrunDetaylari_ItemClick);
             // 
+            // btn_FaturaListesi
+            // 
+            this.btn_FaturaListesi.Caption = "Fatura Listesi";
+            this.btn_FaturaListesi.Id = 63;
+            this.btn_FaturaListesi.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.list;
+            this.btn_FaturaListesi.Name = "btn_FaturaListesi";
+            this.btn_FaturaListesi.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_FaturaListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_FaturaListesi_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -720,6 +731,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             // ribbonPageGroup14
             // 
+            this.ribbonPageGroup14.ItemLinks.Add(this.btn_FaturaListesi);
             this.ribbonPageGroup14.ItemLinks.Add(this.barButtonItem18);
             this.ribbonPageGroup14.ItemLinks.Add(this.barButtonItem19);
             this.ribbonPageGroup14.ItemLinks.Add(this.barButtonItem20);
@@ -915,5 +927,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup17;
         private DevExpress.XtraBars.BarButtonItem btn_SatisListesi;
         private DevExpress.XtraBars.BarButtonItem btn_ArizaliUrunDetaylari;
+        private DevExpress.XtraBars.BarButtonItem btn_FaturaListesi;
     }
 }

@@ -233,5 +233,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             NewFolder1.frmQrKod QR = new NewFolder1.frmQrKod();
             QR.Show();
         }
+
+        private void btn_FaturaListesi_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmFaturaListesi fl = new NewFolder1.frmFaturaListesi();
+            fl.MdiParent = this;
+            fl.Show();
+        }
     }
 }

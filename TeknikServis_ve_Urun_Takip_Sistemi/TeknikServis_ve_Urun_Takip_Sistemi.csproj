@@ -139,6 +139,12 @@
     <Compile Include="NewFolder1\frmDepartmanlar.Designer.cs">
       <DependentUpon>frmDepartmanlar.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmFaturaListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmFaturaListesi.Designer.cs">
+      <DependentUpon>frmFaturaListesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmKategori.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -314,6 +320,9 @@
     <EmbeddedResource Include="NewFolder1\frmDepartmanlar.resx">
       <DependentUpon>frmDepartmanlar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmFaturaListesi.resx">
+      <DependentUpon>frmFaturaListesi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmKategori.resx">
       <DependentUpon>frmKategori.cs</DependentUpon>
     </EmbeddedResource>
@@ -414,6 +423,7 @@
     </Content>
     <Content Include="Resources2\a.jpg" />
     <Content Include="Resources2\b.jpg" />
+    <None Include="Resources\list.png" />
     <None Include="Resources\qr-code %281%291.png" />
     <None Include="Resources\qr-code %281%29.png" />
     <None Include="Resources\error.png" />
