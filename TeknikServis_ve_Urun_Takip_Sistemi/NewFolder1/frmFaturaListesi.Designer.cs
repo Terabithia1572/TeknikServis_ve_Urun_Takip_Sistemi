@@ -29,9 +29,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_FaturaListesi = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.cbx_Cari = new MetroFramework.Controls.MetroComboBox();
@@ -67,30 +67,30 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_FaturaListesi.AllowUserToDeleteRows = false;
             this.dgv_FaturaListesi.AllowUserToResizeColumns = false;
             this.dgv_FaturaListesi.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_FaturaListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_FaturaListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgv_FaturaListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_FaturaListesi.BackgroundColor = System.Drawing.Color.White;
             this.dgv_FaturaListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_FaturaListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_FaturaListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_FaturaListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_FaturaListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_FaturaListesi.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_FaturaListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_FaturaListesi.DefaultCellStyle = dataGridViewCellStyle12;
             this.dgv_FaturaListesi.EnableHeadersVisualStyles = false;
             this.dgv_FaturaListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_FaturaListesi.Location = new System.Drawing.Point(1, -3);
@@ -126,6 +126,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_FaturaListesi.ThemeStyle.RowsStyle.Height = 22;
             this.dgv_FaturaListesi.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
             this.dgv_FaturaListesi.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgv_FaturaListesi.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dgv_FaturaListesi_MouseClick);
             // 
             // guna2GroupBox1
             // 
@@ -221,6 +222,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Temizle.Size = new System.Drawing.Size(112, 40);
             this.btn_Temizle.TabIndex = 14;
             this.btn_Temizle.Text = "Temizle";
+            this.btn_Temizle.Click += new System.EventHandler(this.btn_Temizle_Click);
             // 
             // btn_Listele
             // 
@@ -238,6 +240,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Listele.Size = new System.Drawing.Size(112, 40);
             this.btn_Listele.TabIndex = 13;
             this.btn_Listele.Text = "Listele";
+            this.btn_Listele.Click += new System.EventHandler(this.btn_Listele_Click);
             // 
             // btn_Guncelle
             // 
@@ -255,6 +258,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Guncelle.Size = new System.Drawing.Size(112, 40);
             this.btn_Guncelle.TabIndex = 13;
             this.btn_Guncelle.Text = "Güncelle";
+            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
             // 
             // btn_Sil
             // 
@@ -272,6 +276,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Sil.Size = new System.Drawing.Size(112, 40);
             this.btn_Sil.TabIndex = 13;
             this.btn_Sil.Text = "Sil";
+            this.btn_Sil.Click += new System.EventHandler(this.btn_Sil_Click);
             // 
             // btn_Ekle
             // 
