@@ -48,7 +48,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_ArizaliUrun = new DevExpress.XtraBars.BarButtonItem();
             this.btn_ArizaliUrunKaydi = new DevExpress.XtraBars.BarButtonItem();
             this.btn_ArizaUrunAciklama = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_QrCodeOlustur = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
@@ -80,6 +80,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem39 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_YeniUrunSatis = new DevExpress.XtraBars.BarButtonItem();
             this.btn_SatisListesi = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_ArizaliUrunDetaylari = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -133,7 +134,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_ArizaliUrun,
             this.btn_ArizaliUrunKaydi,
             this.btn_ArizaUrunAciklama,
-            this.barButtonItem11,
+            this.btn_QrCodeOlustur,
             this.barButtonItem12,
             this.barButtonItem3,
             this.barButtonItem13,
@@ -164,9 +165,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem38,
             this.barButtonItem39,
             this.btn_YeniUrunSatis,
-            this.btn_SatisListesi});
+            this.btn_SatisListesi,
+            this.btn_ArizaliUrunDetaylari});
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 62;
+            this.ribbonControl.MaxItemId = 63;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -314,13 +316,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_ArizaUrunAciklama.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_ArizaUrunAciklama.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_ArizaUrunAciklama_ItemClick);
             // 
-            // barButtonItem11
+            // btn_QrCodeOlustur
             // 
-            this.barButtonItem11.Caption = "QR Code Oluştur";
-            this.barButtonItem11.Id = 30;
-            this.barButtonItem11.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.qr_code;
-            this.barButtonItem11.Name = "barButtonItem11";
-            this.barButtonItem11.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_QrCodeOlustur.Caption = "QR Code Oluştur";
+            this.btn_QrCodeOlustur.Id = 30;
+            this.btn_QrCodeOlustur.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.qr_code;
+            this.btn_QrCodeOlustur.Name = "btn_QrCodeOlustur";
+            this.btn_QrCodeOlustur.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_QrCodeOlustur.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_QrCodeOlustur_ItemClick);
             // 
             // barButtonItem12
             // 
@@ -581,6 +584,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_SatisListesi.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_SatisListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_SatisListesi_ItemClick);
             // 
+            // btn_ArizaliUrunDetaylari
+            // 
+            this.btn_ArizaliUrunDetaylari.Caption = "Arızalı Ürün Detayları";
+            this.btn_ArizaliUrunDetaylari.Id = 62;
+            this.btn_ArizaliUrunDetaylari.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.error;
+            this.btn_ArizaliUrunDetaylari.Name = "btn_ArizaliUrunDetaylari";
+            this.btn_ArizaliUrunDetaylari.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_ArizaliUrunDetaylari.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_ArizaliUrunDetaylari_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -655,12 +667,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPageGroup12.ItemLinks.Add(this.btn_ArizaliUrun);
             this.ribbonPageGroup12.ItemLinks.Add(this.btn_ArizaliUrunKaydi);
             this.ribbonPageGroup12.ItemLinks.Add(this.btn_ArizaUrunAciklama);
+            this.ribbonPageGroup12.ItemLinks.Add(this.btn_ArizaliUrunDetaylari);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "Ürün İşlemleri";
             // 
             // ribbonPageGroup13
             // 
-            this.ribbonPageGroup13.ItemLinks.Add(this.barButtonItem11);
+            this.ribbonPageGroup13.ItemLinks.Add(this.btn_QrCodeOlustur);
             this.ribbonPageGroup13.ItemLinks.Add(this.barButtonItem12);
             this.ribbonPageGroup13.Name = "ribbonPageGroup13";
             this.ribbonPageGroup13.Text = "Barkod İşlemleri";
@@ -846,7 +859,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem btn_ArizaliUrun;
         private DevExpress.XtraBars.BarButtonItem btn_ArizaliUrunKaydi;
         private DevExpress.XtraBars.BarButtonItem btn_ArizaUrunAciklama;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
+        private DevExpress.XtraBars.BarButtonItem btn_QrCodeOlustur;
         private DevExpress.XtraBars.BarButtonItem barButtonItem12;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.Ribbon.RibbonPage btn_UrunListesiFormu;
@@ -901,5 +914,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem btn_YeniUrunSatis;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup17;
         private DevExpress.XtraBars.BarButtonItem btn_SatisListesi;
+        private DevExpress.XtraBars.BarButtonItem btn_ArizaliUrunDetaylari;
     }
 }

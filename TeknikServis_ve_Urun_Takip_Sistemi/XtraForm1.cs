@@ -220,5 +220,18 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             NewFolder1.frmArizaDetaylar ad = new NewFolder1.frmArizaDetaylar();
             ad.Show();
         }
+
+        private void btn_ArizaliUrunDetaylari_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmArizaliUrunDetayListesi aud = new NewFolder1.frmArizaliUrunDetayListesi();
+            aud.MdiParent = this;
+            aud.Show();
+        }
+
+        private void btn_QrCodeOlustur_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmQrKod QR = new NewFolder1.frmQrKod();
+            QR.Show();
+        }
     }
 }
