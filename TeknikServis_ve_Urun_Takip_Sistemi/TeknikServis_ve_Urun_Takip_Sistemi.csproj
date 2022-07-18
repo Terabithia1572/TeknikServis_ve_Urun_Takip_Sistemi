@@ -145,6 +145,12 @@
     <Compile Include="NewFolder1\frmFaturaKalem.Designer.cs">
       <DependentUpon>frmFaturaKalem.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewFolder1\frmFaturaKalemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFolder1\frmFaturaKalemleri.Designer.cs">
+      <DependentUpon>frmFaturaKalemleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewFolder1\frmFaturaListesi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -328,6 +334,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmFaturaKalem.resx">
       <DependentUpon>frmFaturaKalem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\frmFaturaKalemleri.resx">
+      <DependentUpon>frmFaturaKalemleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewFolder1\frmFaturaListesi.resx">
       <DependentUpon>frmFaturaListesi.cs</DependentUpon>

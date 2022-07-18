@@ -58,7 +58,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_FaturaKalem = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem20 = new DevExpress.XtraBars.BarButtonItem();
+            this.btn_DetayliFaturaSorgulama = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem21 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem22 = new DevExpress.XtraBars.BarButtonItem();
             this.btn_PersonelListesi = new DevExpress.XtraBars.BarButtonItem();
@@ -145,7 +145,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.barButtonItem17,
             this.barButtonItem18,
             this.btn_FaturaKalem,
-            this.barButtonItem20,
+            this.btn_DetayliFaturaSorgulama,
             this.barButtonItem21,
             this.barButtonItem22,
             this.btn_PersonelListesi,
@@ -401,13 +401,14 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_FaturaKalem.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btn_FaturaKalem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_FaturaKalem_ItemClick);
             // 
-            // barButtonItem20
+            // btn_DetayliFaturaSorgulama
             // 
-            this.barButtonItem20.Caption = "Detaylı Fatura Sorgulama";
-            this.barButtonItem20.Id = 40;
-            this.barButtonItem20.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.bill_copy;
-            this.barButtonItem20.Name = "barButtonItem20";
-            this.barButtonItem20.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_DetayliFaturaSorgulama.Caption = "Detaylı Fatura Sorgulama";
+            this.btn_DetayliFaturaSorgulama.Id = 40;
+            this.btn_DetayliFaturaSorgulama.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.bill_copy;
+            this.btn_DetayliFaturaSorgulama.Name = "btn_DetayliFaturaSorgulama";
+            this.btn_DetayliFaturaSorgulama.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btn_DetayliFaturaSorgulama.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_DetayliFaturaSorgulama_ItemClick);
             // 
             // barButtonItem21
             // 
@@ -735,7 +736,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPageGroup14.ItemLinks.Add(this.btn_FaturaListesi);
             this.ribbonPageGroup14.ItemLinks.Add(this.barButtonItem18);
             this.ribbonPageGroup14.ItemLinks.Add(this.btn_FaturaKalem);
-            this.ribbonPageGroup14.ItemLinks.Add(this.barButtonItem20);
+            this.ribbonPageGroup14.ItemLinks.Add(this.btn_DetayliFaturaSorgulama);
             this.ribbonPageGroup14.ItemLinks.Add(this.barButtonItem21);
             this.ribbonPageGroup14.ItemLinks.Add(this.barButtonItem22);
             this.ribbonPageGroup14.Name = "ribbonPageGroup14";
@@ -900,7 +901,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem barButtonItem17;
         private DevExpress.XtraBars.BarButtonItem barButtonItem18;
         private DevExpress.XtraBars.BarButtonItem btn_FaturaKalem;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem20;
+        private DevExpress.XtraBars.BarButtonItem btn_DetayliFaturaSorgulama;
         private DevExpress.XtraBars.BarButtonItem barButtonItem21;
         private DevExpress.XtraBars.BarButtonItem barButtonItem22;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup14;

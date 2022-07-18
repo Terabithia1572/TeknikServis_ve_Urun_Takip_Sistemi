@@ -247,5 +247,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             fk.MdiParent = this;
             fk.Show();
         }
+
+        private void btn_DetayliFaturaSorgulama_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            NewFolder1.frmFaturaKalemleri fk = new NewFolder1.frmFaturaKalemleri();
+            fk.MdiParent = this;
+            fk.Show();
+        }
     }
 }
