@@ -31,9 +31,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         {
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.cbx_SeriNo = new MetroFramework.Controls.MetroComboBox();
             this.btn_QRKodEkle = new Guna.UI2.WinForms.Guna2Button();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
-            this.cbx_SeriNo = new MetroFramework.Controls.MetroComboBox();
+            this.btn_Hide = new MetroFramework.Controls.MetroButton();
+            this.btn_Kapat = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,6 +60,16 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel2.Text = "Seri No:";
             this.metroLabel2.UseCustomBackColor = true;
             this.metroLabel2.UseCustomForeColor = true;
+            // 
+            // cbx_SeriNo
+            // 
+            this.cbx_SeriNo.FormattingEnabled = true;
+            this.cbx_SeriNo.ItemHeight = 23;
+            this.cbx_SeriNo.Location = new System.Drawing.Point(139, 65);
+            this.cbx_SeriNo.Name = "cbx_SeriNo";
+            this.cbx_SeriNo.Size = new System.Drawing.Size(121, 29);
+            this.cbx_SeriNo.TabIndex = 45;
+            this.cbx_SeriNo.UseSelectable = true;
             // 
             // btn_QRKodEkle
             // 
@@ -87,21 +99,41 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.pictureEdit1.Size = new System.Drawing.Size(203, 190);
             this.pictureEdit1.TabIndex = 2;
             // 
-            // cbx_SeriNo
+            // btn_Hide
             // 
-            this.cbx_SeriNo.FormattingEnabled = true;
-            this.cbx_SeriNo.ItemHeight = 23;
-            this.cbx_SeriNo.Location = new System.Drawing.Point(139, 65);
-            this.cbx_SeriNo.Name = "cbx_SeriNo";
-            this.cbx_SeriNo.Size = new System.Drawing.Size(121, 29);
-            this.cbx_SeriNo.TabIndex = 45;
-            this.cbx_SeriNo.UseSelectable = true;
+            this.btn_Hide.AutoSize = true;
+            this.btn_Hide.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Hide.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.hide;
+            this.btn_Hide.Location = new System.Drawing.Point(283, 12);
+            this.btn_Hide.Name = "btn_Hide";
+            this.btn_Hide.Size = new System.Drawing.Size(16, 16);
+            this.btn_Hide.TabIndex = 47;
+            this.btn_Hide.UseCustomBackColor = true;
+            this.btn_Hide.UseCustomForeColor = true;
+            this.btn_Hide.UseSelectable = true;
+            this.btn_Hide.Click += new System.EventHandler(this.btn_Hide_Click);
+            // 
+            // btn_Kapat
+            // 
+            this.btn_Kapat.AutoSize = true;
+            this.btn_Kapat.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Kapat.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.close2;
+            this.btn_Kapat.Location = new System.Drawing.Point(305, 12);
+            this.btn_Kapat.Name = "btn_Kapat";
+            this.btn_Kapat.Size = new System.Drawing.Size(16, 16);
+            this.btn_Kapat.TabIndex = 46;
+            this.btn_Kapat.UseCustomBackColor = true;
+            this.btn_Kapat.UseCustomForeColor = true;
+            this.btn_Kapat.UseSelectable = true;
+            this.btn_Kapat.Click += new System.EventHandler(this.btn_Kapat_Click);
             // 
             // frmQrKod
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(333, 389);
+            this.Controls.Add(this.btn_Hide);
+            this.Controls.Add(this.btn_Kapat);
             this.Controls.Add(this.cbx_SeriNo);
             this.Controls.Add(this.btn_QRKodEkle);
             this.Controls.Add(this.metroLabel2);
@@ -124,5 +156,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private Guna.UI2.WinForms.Guna2Button btn_QRKodEkle;
         private MetroFramework.Controls.MetroComboBox cbx_SeriNo;
+        private MetroFramework.Controls.MetroButton btn_Hide;
+        private MetroFramework.Controls.MetroButton btn_Kapat;
     }
 }

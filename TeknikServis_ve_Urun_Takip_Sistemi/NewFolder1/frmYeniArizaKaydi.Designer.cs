@@ -43,11 +43,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Personel = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tx_MusteriID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_Hide = new MetroFramework.Controls.MetroButton();
+            this.btn_Kapat = new MetroFramework.Controls.MetroButton();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GroupBox1
             // 
+            this.guna2GroupBox1.Controls.Add(this.btn_Hide);
+            this.guna2GroupBox1.Controls.Add(this.btn_Kapat);
             this.guna2GroupBox1.Controls.Add(this.metroLabel8);
             this.guna2GroupBox1.Controls.Add(this.tx_SeriNo);
             this.guna2GroupBox1.Controls.Add(this.btn_Temizle);
@@ -278,6 +282,34 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_MusteriID.Size = new System.Drawing.Size(162, 32);
             this.tx_MusteriID.TabIndex = 29;
             // 
+            // btn_Hide
+            // 
+            this.btn_Hide.AutoSize = true;
+            this.btn_Hide.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Hide.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.hide;
+            this.btn_Hide.Location = new System.Drawing.Point(349, 3);
+            this.btn_Hide.Name = "btn_Hide";
+            this.btn_Hide.Size = new System.Drawing.Size(16, 16);
+            this.btn_Hide.TabIndex = 50;
+            this.btn_Hide.UseCustomBackColor = true;
+            this.btn_Hide.UseCustomForeColor = true;
+            this.btn_Hide.UseSelectable = true;
+            this.btn_Hide.Click += new System.EventHandler(this.btn_Hide_Click);
+            // 
+            // btn_Kapat
+            // 
+            this.btn_Kapat.AutoSize = true;
+            this.btn_Kapat.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Kapat.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.close2;
+            this.btn_Kapat.Location = new System.Drawing.Point(371, 3);
+            this.btn_Kapat.Name = "btn_Kapat";
+            this.btn_Kapat.Size = new System.Drawing.Size(16, 16);
+            this.btn_Kapat.TabIndex = 49;
+            this.btn_Kapat.UseCustomBackColor = true;
+            this.btn_Kapat.UseCustomForeColor = true;
+            this.btn_Kapat.UseSelectable = true;
+            this.btn_Kapat.Click += new System.EventHandler(this.btn_Kapat_Click);
+            // 
             // frmYeniArizaKaydi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -311,5 +343,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2TextBox tx_Personel;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private Guna.UI2.WinForms.Guna2TextBox tx_MusteriID;
+        private MetroFramework.Controls.MetroButton btn_Hide;
+        private MetroFramework.Controls.MetroButton btn_Kapat;
     }
 }

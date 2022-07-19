@@ -35,11 +35,13 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_FaturaKalemleri = new Guna.UI2.WinForms.Guna2DataGridView();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tx_SeriNo = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btn_Ara = new Guna.UI2.WinForms.Guna2Button();
             this.tx_SiraNo = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.tx_FaturaID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
+            this.btn_Ara = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Hide = new MetroFramework.Controls.MetroButton();
+            this.btn_Kapat = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_FaturaKalemleri)).BeginInit();
             this.SuspendLayout();
             // 
@@ -142,24 +144,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_SeriNo.Size = new System.Drawing.Size(200, 36);
             this.tx_SeriNo.TabIndex = 2;
             // 
-            // btn_Ara
-            // 
-            this.btn_Ara.CheckedState.Parent = this.btn_Ara;
-            this.btn_Ara.CustomImages.Parent = this.btn_Ara;
-            this.btn_Ara.FillColor = System.Drawing.Color.White;
-            this.btn_Ara.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Ara.ForeColor = System.Drawing.Color.Black;
-            this.btn_Ara.HoverState.Parent = this.btn_Ara;
-            this.btn_Ara.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
-            this.btn_Ara.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Ara.Location = new System.Drawing.Point(1001, 7);
-            this.btn_Ara.Name = "btn_Ara";
-            this.btn_Ara.ShadowDecoration.Parent = this.btn_Ara;
-            this.btn_Ara.Size = new System.Drawing.Size(200, 36);
-            this.btn_Ara.TabIndex = 14;
-            this.btn_Ara.Text = "Ara";
-            this.btn_Ara.Click += new System.EventHandler(this.btn_Ara_Click);
-            // 
             // tx_SiraNo
             // 
             this.tx_SiraNo.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -226,11 +210,59 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel3.UseCustomBackColor = true;
             this.metroLabel3.UseCustomForeColor = true;
             // 
+            // btn_Ara
+            // 
+            this.btn_Ara.CheckedState.Parent = this.btn_Ara;
+            this.btn_Ara.CustomImages.Parent = this.btn_Ara;
+            this.btn_Ara.FillColor = System.Drawing.Color.White;
+            this.btn_Ara.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Ara.ForeColor = System.Drawing.Color.Black;
+            this.btn_Ara.HoverState.Parent = this.btn_Ara;
+            this.btn_Ara.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
+            this.btn_Ara.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Ara.Location = new System.Drawing.Point(1001, 7);
+            this.btn_Ara.Name = "btn_Ara";
+            this.btn_Ara.ShadowDecoration.Parent = this.btn_Ara;
+            this.btn_Ara.Size = new System.Drawing.Size(200, 36);
+            this.btn_Ara.TabIndex = 14;
+            this.btn_Ara.Text = "Ara";
+            this.btn_Ara.Click += new System.EventHandler(this.btn_Ara_Click);
+            // 
+            // btn_Hide
+            // 
+            this.btn_Hide.AutoSize = true;
+            this.btn_Hide.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Hide.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.hide;
+            this.btn_Hide.Location = new System.Drawing.Point(1324, 7);
+            this.btn_Hide.Name = "btn_Hide";
+            this.btn_Hide.Size = new System.Drawing.Size(16, 16);
+            this.btn_Hide.TabIndex = 33;
+            this.btn_Hide.UseCustomBackColor = true;
+            this.btn_Hide.UseCustomForeColor = true;
+            this.btn_Hide.UseSelectable = true;
+            this.btn_Hide.Click += new System.EventHandler(this.btn_Hide_Click);
+            // 
+            // btn_Kapat
+            // 
+            this.btn_Kapat.AutoSize = true;
+            this.btn_Kapat.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Kapat.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.close2;
+            this.btn_Kapat.Location = new System.Drawing.Point(1346, 7);
+            this.btn_Kapat.Name = "btn_Kapat";
+            this.btn_Kapat.Size = new System.Drawing.Size(16, 16);
+            this.btn_Kapat.TabIndex = 32;
+            this.btn_Kapat.UseCustomBackColor = true;
+            this.btn_Kapat.UseCustomForeColor = true;
+            this.btn_Kapat.UseSelectable = true;
+            this.btn_Kapat.Click += new System.EventHandler(this.btn_Kapat_Click);
+            // 
             // frmFaturaKalemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1364, 736);
+            this.Controls.Add(this.btn_Hide);
+            this.Controls.Add(this.btn_Kapat);
             this.Controls.Add(this.tx_FaturaID);
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.tx_SiraNo);
@@ -244,6 +276,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.Text = "Fatura Kalemleri";
             ((System.ComponentModel.ISupportInitialize)(this.dgv_FaturaKalemleri)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -257,5 +290,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private Guna.UI2.WinForms.Guna2TextBox tx_FaturaID;
         private MetroFramework.Controls.MetroLabel metroLabel3;
+        private MetroFramework.Controls.MetroButton btn_Hide;
+        private MetroFramework.Controls.MetroButton btn_Kapat;
     }
 }

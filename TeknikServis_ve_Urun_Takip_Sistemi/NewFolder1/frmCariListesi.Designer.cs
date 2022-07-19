@@ -45,6 +45,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tx_Ad = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.tx_Banka = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
             this.tx_Adres = new Guna.UI2.WinForms.Guna2TextBox();
             this.metrolabel11 = new MetroFramework.Controls.MetroLabel();
@@ -74,7 +75,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.metroLabel18 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
-            this.tx_Banka = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_CariListesi)).BeginInit();
             this.guna2Panel6.SuspendLayout();
@@ -298,6 +298,28 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Size = new System.Drawing.Size(333, 736);
             this.guna2GroupBox1.TabIndex = 4;
             this.guna2GroupBox1.Text = "Cari İşlem Menüsü";
+            // 
+            // tx_Banka
+            // 
+            this.tx_Banka.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Banka.DefaultText = "";
+            this.tx_Banka.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Banka.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Banka.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Banka.DisabledState.Parent = this.tx_Banka;
+            this.tx_Banka.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Banka.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Banka.FocusedState.Parent = this.tx_Banka;
+            this.tx_Banka.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Banka.HoverState.Parent = this.tx_Banka;
+            this.tx_Banka.Location = new System.Drawing.Point(96, 225);
+            this.tx_Banka.Name = "tx_Banka";
+            this.tx_Banka.PasswordChar = '\0';
+            this.tx_Banka.PlaceholderText = "";
+            this.tx_Banka.SelectedText = "";
+            this.tx_Banka.ShadowDecoration.Parent = this.tx_Banka;
+            this.tx_Banka.Size = new System.Drawing.Size(139, 28);
+            this.tx_Banka.TabIndex = 28;
             // 
             // metroLabel12
             // 
@@ -797,28 +819,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel19.UseCustomBackColor = true;
             this.metroLabel19.UseCustomForeColor = true;
             this.metroLabel19.UseStyleColors = true;
-            // 
-            // tx_Banka
-            // 
-            this.tx_Banka.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Banka.DefaultText = "";
-            this.tx_Banka.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Banka.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Banka.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Banka.DisabledState.Parent = this.tx_Banka;
-            this.tx_Banka.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Banka.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Banka.FocusedState.Parent = this.tx_Banka;
-            this.tx_Banka.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Banka.HoverState.Parent = this.tx_Banka;
-            this.tx_Banka.Location = new System.Drawing.Point(96, 225);
-            this.tx_Banka.Name = "tx_Banka";
-            this.tx_Banka.PasswordChar = '\0';
-            this.tx_Banka.PlaceholderText = "";
-            this.tx_Banka.SelectedText = "";
-            this.tx_Banka.ShadowDecoration.Parent = this.tx_Banka;
-            this.tx_Banka.Size = new System.Drawing.Size(139, 28);
-            this.tx_Banka.TabIndex = 28;
             // 
             // frmCariListesi
             // 

@@ -37,5 +37,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             cbx_SeriNo.ValueMember = "islemID";
             cbx_SeriNo.DisplayMember = "UrunSeriNo";
         }
+
+        private void btn_Kapat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_Hide_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

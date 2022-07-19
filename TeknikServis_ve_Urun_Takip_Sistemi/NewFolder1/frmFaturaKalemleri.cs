@@ -33,5 +33,15 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
                             }).Where(x=>x.FaturaDetayID==id).ToList();
             dgv_FaturaKalemleri.DataSource = degerler;
         }
+
+        private void btn_Kapat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_Hide_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
