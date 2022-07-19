@@ -441,6 +441,8 @@
     </Content>
     <Content Include="Resources2\a.jpg" />
     <Content Include="Resources2\b.jpg" />
+    <None Include="Resources\hide.png" />
+    <None Include="Resources\maximizied.png" />
     <None Include="Resources\close2.png" />
     <None Include="Resources\close.png" />
     <None Include="Resources\list.png" />
