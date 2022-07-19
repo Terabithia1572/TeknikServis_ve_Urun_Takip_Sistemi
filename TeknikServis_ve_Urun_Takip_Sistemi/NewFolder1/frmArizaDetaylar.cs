@@ -28,5 +28,23 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             db.SaveChanges();
             MessageBox.Show("Ürün Arıza Detayları Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void guna2GroupBox1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void frmArizaDetaylar_Load(object sender, EventArgs e)
+        {
+            btn_Kapat.TabStop = false;
+            btn_Kapat.FlatStyle = FlatStyle.Flat;
+            btn_Kapat.FlatAppearance.BorderSize = 0;
+            btn_Kapat.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
+        }
+
+        private void btn_Kapat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

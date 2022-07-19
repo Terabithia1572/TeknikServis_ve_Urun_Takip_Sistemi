@@ -441,6 +441,8 @@
     </Content>
     <Content Include="Resources2\a.jpg" />
     <Content Include="Resources2\b.jpg" />
+    <None Include="Resources\close2.png" />
+    <None Include="Resources\close.png" />
     <None Include="Resources\list.png" />
     <None Include="Resources\qr-code %281%291.png" />
     <None Include="Resources\qr-code %281%29.png" />

@@ -33,15 +33,17 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Aciklama = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.tx_SeriNo = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.tx_Tarih = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_Kapat = new MetroFramework.Controls.MetroButton();
+            this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GroupBox1
             // 
+            this.guna2GroupBox1.Controls.Add(this.btn_Kapat);
             this.guna2GroupBox1.Controls.Add(this.tx_Aciklama);
             this.guna2GroupBox1.Controls.Add(this.metroLabel8);
             this.guna2GroupBox1.Controls.Add(this.tx_SeriNo);
@@ -58,6 +60,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Size = new System.Drawing.Size(389, 748);
             this.guna2GroupBox1.TabIndex = 25;
             this.guna2GroupBox1.Text = "Arızalı Ürün Kaydı Açıklama";
+            this.guna2GroupBox1.Click += new System.EventHandler(this.guna2GroupBox1_Click);
             // 
             // tx_Aciklama
             // 
@@ -113,23 +116,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_SeriNo.Size = new System.Drawing.Size(139, 28);
             this.tx_SeriNo.TabIndex = 18;
             // 
-            // btn_Guncelle
-            // 
-            this.btn_Guncelle.CheckedState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.CustomImages.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.FillColor = System.Drawing.Color.White;
-            this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
-            this.btn_Guncelle.Location = new System.Drawing.Point(153, 361);
-            this.btn_Guncelle.Name = "btn_Guncelle";
-            this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Size = new System.Drawing.Size(83, 40);
-            this.btn_Guncelle.TabIndex = 13;
-            this.btn_Guncelle.Text = "Güncelle";
-            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
-            // 
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
@@ -170,6 +156,37 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Tarih.Size = new System.Drawing.Size(139, 28);
             this.tx_Tarih.TabIndex = 4;
             // 
+            // btn_Kapat
+            // 
+            this.btn_Kapat.AutoSize = true;
+            this.btn_Kapat.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Kapat.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.close2;
+            this.btn_Kapat.Location = new System.Drawing.Point(370, 3);
+            this.btn_Kapat.Name = "btn_Kapat";
+            this.btn_Kapat.Size = new System.Drawing.Size(16, 16);
+            this.btn_Kapat.TabIndex = 29;
+            this.btn_Kapat.UseCustomBackColor = true;
+            this.btn_Kapat.UseCustomForeColor = true;
+            this.btn_Kapat.UseSelectable = true;
+            this.btn_Kapat.Click += new System.EventHandler(this.btn_Kapat_Click);
+            // 
+            // btn_Guncelle
+            // 
+            this.btn_Guncelle.CheckedState.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.CustomImages.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.FillColor = System.Drawing.Color.White;
+            this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
+            this.btn_Guncelle.Location = new System.Drawing.Point(153, 361);
+            this.btn_Guncelle.Name = "btn_Guncelle";
+            this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.Size = new System.Drawing.Size(83, 40);
+            this.btn_Guncelle.TabIndex = 13;
+            this.btn_Guncelle.Text = "Güncelle";
+            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
+            // 
             // frmArizaDetaylar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,6 +197,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.Name = "frmArizaDetaylar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmArizaDetaylar";
+            this.Load += new System.EventHandler(this.frmArizaDetaylar_Load);
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -196,5 +214,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private MetroFramework.Controls.MetroLabel metroLabel6;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private Guna.UI2.WinForms.Guna2TextBox tx_Tarih;
+        private MetroFramework.Controls.MetroButton btn_Kapat;
     }
 }
