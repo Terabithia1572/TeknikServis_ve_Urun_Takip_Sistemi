@@ -106,7 +106,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Aciklama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Aciklama.HoverState.Parent = this.tx_Aciklama;
             this.tx_Aciklama.Location = new System.Drawing.Point(53, 177);
-            this.tx_Aciklama.MaxLength = 500;
             this.tx_Aciklama.Multiline = true;
             this.tx_Aciklama.Name = "tx_Aciklama";
             this.tx_Aciklama.PasswordChar = '\0';
@@ -139,7 +138,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_SeriNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_SeriNo.HoverState.Parent = this.tx_SeriNo;
             this.tx_SeriNo.Location = new System.Drawing.Point(97, 63);
-            this.tx_SeriNo.MaxLength = 5;
             this.tx_SeriNo.Name = "tx_SeriNo";
             this.tx_SeriNo.PasswordChar = '\0';
             this.tx_SeriNo.PlaceholderText = "";
@@ -156,7 +154,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
             this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
+            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.fault_tolerant_design;
             this.btn_Guncelle.Location = new System.Drawing.Point(153, 361);
             this.btn_Guncelle.Name = "btn_Guncelle";
             this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
@@ -197,7 +195,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Tarih.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Tarih.HoverState.Parent = this.tx_Tarih;
             this.tx_Tarih.Location = new System.Drawing.Point(97, 97);
-            this.tx_Tarih.MaxLength = 10;
             this.tx_Tarih.Name = "tx_Tarih";
             this.tx_Tarih.PasswordChar = '\0';
             this.tx_Tarih.PlaceholderText = "";
