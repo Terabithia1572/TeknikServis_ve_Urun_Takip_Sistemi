@@ -29,9 +29,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tx_Tutar = new Guna.UI2.WinForms.Guna2TextBox();
             this.cbx_Fatura = new MetroFramework.Controls.MetroComboBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
@@ -71,6 +71,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Tutar.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Tutar.HoverState.Parent = this.tx_Tutar;
             this.tx_Tutar.Location = new System.Drawing.Point(85, 147);
+            this.tx_Tutar.MaxLength = 15;
             this.tx_Tutar.Name = "tx_Tutar";
             this.tx_Tutar.PasswordChar = '\0';
             this.tx_Tutar.PlaceholderText = "";
@@ -172,6 +173,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Fiyat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Fiyat.HoverState.Parent = this.tx_Fiyat;
             this.tx_Fiyat.Location = new System.Drawing.Point(85, 113);
+            this.tx_Fiyat.MaxLength = 10;
             this.tx_Fiyat.Name = "tx_Fiyat";
             this.tx_Fiyat.PasswordChar = '\0';
             this.tx_Fiyat.PlaceholderText = "";
@@ -204,6 +206,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Urun.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Urun.HoverState.Parent = this.tx_Urun;
             this.tx_Urun.Location = new System.Drawing.Point(85, 43);
+            this.tx_Urun.MaxLength = 50;
             this.tx_Urun.Name = "tx_Urun";
             this.tx_Urun.PasswordChar = '\0';
             this.tx_Urun.PlaceholderText = "";
@@ -218,30 +221,30 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_FaturaDetay.AllowUserToDeleteRows = false;
             this.dgv_FaturaDetay.AllowUserToResizeColumns = false;
             this.dgv_FaturaDetay.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_FaturaDetay.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_FaturaDetay.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dgv_FaturaDetay.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_FaturaDetay.BackgroundColor = System.Drawing.Color.White;
             this.dgv_FaturaDetay.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_FaturaDetay.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_FaturaDetay.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_FaturaDetay.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_FaturaDetay.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_FaturaDetay.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_FaturaDetay.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_FaturaDetay.DefaultCellStyle = dataGridViewCellStyle9;
             this.dgv_FaturaDetay.EnableHeadersVisualStyles = false;
             this.dgv_FaturaDetay.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_FaturaDetay.Location = new System.Drawing.Point(1, -3);
@@ -293,6 +296,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Adet.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Adet.HoverState.Parent = this.tx_Adet;
             this.tx_Adet.Location = new System.Drawing.Point(85, 77);
+            this.tx_Adet.MaxLength = 4;
             this.tx_Adet.Name = "tx_Adet";
             this.tx_Adet.PasswordChar = '\0';
             this.tx_Adet.PlaceholderText = "";

@@ -29,9 +29,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
@@ -165,6 +165,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_ILCE.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_ILCE.HoverState.Parent = this.tx_ILCE;
             this.tx_ILCE.Location = new System.Drawing.Point(97, 191);
+            this.tx_ILCE.MaxLength = 50;
             this.tx_ILCE.Name = "tx_ILCE";
             this.tx_ILCE.PasswordChar = '\0';
             this.tx_ILCE.PlaceholderText = "";
@@ -187,6 +188,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_IL.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_IL.HoverState.Parent = this.tx_IL;
             this.tx_IL.Location = new System.Drawing.Point(96, 157);
+            this.tx_IL.MaxLength = 50;
             this.tx_IL.Name = "tx_IL";
             this.tx_IL.PasswordChar = '\0';
             this.tx_IL.PlaceholderText = "";
@@ -209,6 +211,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Telefon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Telefon.HoverState.Parent = this.tx_Telefon;
             this.tx_Telefon.Location = new System.Drawing.Point(97, 122);
+            this.tx_Telefon.MaxLength = 50;
             this.tx_Telefon.Name = "tx_Telefon";
             this.tx_Telefon.PasswordChar = '\0';
             this.tx_Telefon.PlaceholderText = "";
@@ -250,6 +253,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Ad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Ad.HoverState.Parent = this.tx_Ad;
             this.tx_Ad.Location = new System.Drawing.Point(96, 52);
+            this.tx_Ad.MaxLength = 50;
             this.tx_Ad.Name = "tx_Ad";
             this.tx_Ad.PasswordChar = '\0';
             this.tx_Ad.PlaceholderText = "";
@@ -313,6 +317,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Banka.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Banka.HoverState.Parent = this.tx_Banka;
             this.tx_Banka.Location = new System.Drawing.Point(96, 225);
+            this.tx_Banka.MaxLength = 50;
             this.tx_Banka.Name = "tx_Banka";
             this.tx_Banka.PasswordChar = '\0';
             this.tx_Banka.PlaceholderText = "";
@@ -344,6 +349,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Adres.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Adres.HoverState.Parent = this.tx_Adres;
             this.tx_Adres.Location = new System.Drawing.Point(96, 401);
+            this.tx_Adres.MaxLength = 500;
             this.tx_Adres.Name = "tx_Adres";
             this.tx_Adres.PasswordChar = '\0';
             this.tx_Adres.PlaceholderText = "";
@@ -375,6 +381,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Mail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Mail.HoverState.Parent = this.tx_Mail;
             this.tx_Mail.Location = new System.Drawing.Point(96, 367);
+            this.tx_Mail.MaxLength = 100;
             this.tx_Mail.Name = "tx_Mail";
             this.tx_Mail.PasswordChar = '\0';
             this.tx_Mail.PlaceholderText = "";
@@ -406,6 +413,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Statu.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Statu.HoverState.Parent = this.tx_Statu;
             this.tx_Statu.Location = new System.Drawing.Point(96, 328);
+            this.tx_Statu.MaxLength = 50;
             this.tx_Statu.Name = "tx_Statu";
             this.tx_Statu.PasswordChar = '\0';
             this.tx_Statu.PlaceholderText = "";
@@ -437,6 +445,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_VergiNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_VergiNo.HoverState.Parent = this.tx_VergiNo;
             this.tx_VergiNo.Location = new System.Drawing.Point(96, 294);
+            this.tx_VergiNo.MaxLength = 50;
             this.tx_VergiNo.Name = "tx_VergiNo";
             this.tx_VergiNo.PasswordChar = '\0';
             this.tx_VergiNo.PlaceholderText = "";
@@ -468,6 +477,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_VergiDairesi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_VergiDairesi.HoverState.Parent = this.tx_VergiDairesi;
             this.tx_VergiDairesi.Location = new System.Drawing.Point(96, 260);
+            this.tx_VergiDairesi.MaxLength = 50;
             this.tx_VergiDairesi.Name = "tx_VergiDairesi";
             this.tx_VergiDairesi.PasswordChar = '\0';
             this.tx_VergiDairesi.PlaceholderText = "";
@@ -577,6 +587,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Soyad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Soyad.HoverState.Parent = this.tx_Soyad;
             this.tx_Soyad.Location = new System.Drawing.Point(96, 88);
+            this.tx_Soyad.MaxLength = 50;
             this.tx_Soyad.Name = "tx_Soyad";
             this.tx_Soyad.PasswordChar = '\0';
             this.tx_Soyad.PlaceholderText = "";
@@ -591,30 +602,30 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_CariListesi.AllowUserToDeleteRows = false;
             this.dgv_CariListesi.AllowUserToResizeColumns = false;
             this.dgv_CariListesi.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_CariListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_CariListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_CariListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_CariListesi.BackgroundColor = System.Drawing.Color.White;
             this.dgv_CariListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_CariListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_CariListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_CariListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_CariListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_CariListesi.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_CariListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_CariListesi.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgv_CariListesi.EnableHeadersVisualStyles = false;
             this.dgv_CariListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_CariListesi.Location = new System.Drawing.Point(1, 144);

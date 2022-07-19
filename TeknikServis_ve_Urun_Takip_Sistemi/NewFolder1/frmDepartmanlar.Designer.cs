@@ -34,6 +34,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_Departmanlar = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
+            this.tx_Aciklama = new Guna.UI2.WinForms.Guna2TextBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
@@ -43,8 +45,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tx_Ad = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tx_Aciklama = new Guna.UI2.WinForms.Guna2TextBox();
-            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.lbl_EnFazlaCalisaniOlanDepartman = new MetroFramework.Controls.MetroLabel();
             this.metroLabel19 = new MetroFramework.Controls.MetroLabel();
@@ -95,9 +95,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgv_Departmanlar.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgv_Departmanlar.EnableHeadersVisualStyles = false;
             this.dgv_Departmanlar.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(203)))), ((int)(((byte)(186)))));
             this.dgv_Departmanlar.Location = new System.Drawing.Point(0, 144);
             this.dgv_Departmanlar.Name = "dgv_Departmanlar";
+            this.dgv_Departmanlar.RowHeadersVisible = false;
             this.dgv_Departmanlar.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgv_Departmanlar.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_Departmanlar.Size = new System.Drawing.Size(991, 588);
@@ -148,6 +150,39 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Size = new System.Drawing.Size(343, 870);
             this.guna2GroupBox1.TabIndex = 5;
             this.guna2GroupBox1.Text = "Departman İşlem Menüsü";
+            // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(134, 88);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(62, 19);
+            this.metroLabel2.TabIndex = 18;
+            this.metroLabel2.Text = "Açıklama";
+            // 
+            // tx_Aciklama
+            // 
+            this.tx_Aciklama.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Aciklama.DefaultText = "";
+            this.tx_Aciklama.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Aciklama.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Aciklama.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Aciklama.DisabledState.Parent = this.tx_Aciklama;
+            this.tx_Aciklama.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Aciklama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Aciklama.FocusedState.Parent = this.tx_Aciklama;
+            this.tx_Aciklama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Aciklama.HoverState.Parent = this.tx_Aciklama;
+            this.tx_Aciklama.Location = new System.Drawing.Point(22, 110);
+            this.tx_Aciklama.MaxLength = 500;
+            this.tx_Aciklama.Multiline = true;
+            this.tx_Aciklama.Name = "tx_Aciklama";
+            this.tx_Aciklama.PasswordChar = '\0';
+            this.tx_Aciklama.PlaceholderText = "";
+            this.tx_Aciklama.SelectedText = "";
+            this.tx_Aciklama.ShadowDecoration.Parent = this.tx_Aciklama;
+            this.tx_Aciklama.Size = new System.Drawing.Size(301, 152);
+            this.tx_Aciklama.TabIndex = 17;
             // 
             // tx_ID
             // 
@@ -291,6 +326,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Ad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Ad.HoverState.Parent = this.tx_Ad;
             this.tx_Ad.Location = new System.Drawing.Point(96, 52);
+            this.tx_Ad.MaxLength = 50;
             this.tx_Ad.Name = "tx_Ad";
             this.tx_Ad.PasswordChar = '\0';
             this.tx_Ad.PlaceholderText = "";
@@ -298,38 +334,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Ad.ShadowDecoration.Parent = this.tx_Ad;
             this.tx_Ad.Size = new System.Drawing.Size(139, 28);
             this.tx_Ad.TabIndex = 1;
-            // 
-            // tx_Aciklama
-            // 
-            this.tx_Aciklama.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Aciklama.DefaultText = "";
-            this.tx_Aciklama.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Aciklama.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Aciklama.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Aciklama.DisabledState.Parent = this.tx_Aciklama;
-            this.tx_Aciklama.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Aciklama.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Aciklama.FocusedState.Parent = this.tx_Aciklama;
-            this.tx_Aciklama.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Aciklama.HoverState.Parent = this.tx_Aciklama;
-            this.tx_Aciklama.Location = new System.Drawing.Point(22, 110);
-            this.tx_Aciklama.Multiline = true;
-            this.tx_Aciklama.Name = "tx_Aciklama";
-            this.tx_Aciklama.PasswordChar = '\0';
-            this.tx_Aciklama.PlaceholderText = "";
-            this.tx_Aciklama.SelectedText = "";
-            this.tx_Aciklama.ShadowDecoration.Parent = this.tx_Aciklama;
-            this.tx_Aciklama.Size = new System.Drawing.Size(301, 152);
-            this.tx_Aciklama.TabIndex = 17;
-            // 
-            // metroLabel2
-            // 
-            this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(134, 88);
-            this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(62, 19);
-            this.metroLabel2.TabIndex = 18;
-            this.metroLabel2.Text = "Açıklama";
             // 
             // guna2Panel3
             // 

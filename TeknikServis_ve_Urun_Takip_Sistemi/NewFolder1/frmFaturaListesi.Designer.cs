@@ -29,11 +29,17 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_FaturaListesi = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.cbx_Personel = new MetroFramework.Controls.MetroComboBox();
+            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.tx_Alici = new Guna.UI2.WinForms.Guna2TextBox();
+            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.tx_VergiDairesi = new Guna.UI2.WinForms.Guna2TextBox();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.cbx_Cari = new MetroFramework.Controls.MetroComboBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
@@ -51,12 +57,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_SeriNo = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.tx_Seri = new Guna.UI2.WinForms.Guna2TextBox();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.tx_VergiDairesi = new Guna.UI2.WinForms.Guna2TextBox();
-            this.tx_Alici = new Guna.UI2.WinForms.Guna2TextBox();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
-            this.cbx_Personel = new MetroFramework.Controls.MetroComboBox();
-            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_FaturaListesi)).BeginInit();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -67,30 +67,30 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_FaturaListesi.AllowUserToDeleteRows = false;
             this.dgv_FaturaListesi.AllowUserToResizeColumns = false;
             this.dgv_FaturaListesi.AllowUserToResizeRows = false;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_FaturaListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_FaturaListesi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_FaturaListesi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_FaturaListesi.BackgroundColor = System.Drawing.Color.White;
             this.dgv_FaturaListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_FaturaListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_FaturaListesi.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_FaturaListesi.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_FaturaListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_FaturaListesi.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_FaturaListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_FaturaListesi.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_FaturaListesi.EnableHeadersVisualStyles = false;
             this.dgv_FaturaListesi.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_FaturaListesi.Location = new System.Drawing.Point(1, -3);
@@ -162,6 +162,90 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.Size = new System.Drawing.Size(267, 739);
             this.guna2GroupBox1.TabIndex = 5;
             this.guna2GroupBox1.Text = "Fatura İşlem Menüsü";
+            // 
+            // cbx_Personel
+            // 
+            this.cbx_Personel.FormattingEnabled = true;
+            this.cbx_Personel.ItemHeight = 23;
+            this.cbx_Personel.Location = new System.Drawing.Point(85, 266);
+            this.cbx_Personel.Name = "cbx_Personel";
+            this.cbx_Personel.Size = new System.Drawing.Size(139, 29);
+            this.cbx_Personel.Style = MetroFramework.MetroColorStyle.Red;
+            this.cbx_Personel.TabIndex = 23;
+            this.cbx_Personel.UseSelectable = true;
+            // 
+            // metroLabel10
+            // 
+            this.metroLabel10.AutoSize = true;
+            this.metroLabel10.Location = new System.Drawing.Point(3, 266);
+            this.metroLabel10.Name = "metroLabel10";
+            this.metroLabel10.Size = new System.Drawing.Size(61, 19);
+            this.metroLabel10.TabIndex = 22;
+            this.metroLabel10.Text = "Personel:";
+            // 
+            // tx_Alici
+            // 
+            this.tx_Alici.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_Alici.DefaultText = "";
+            this.tx_Alici.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_Alici.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_Alici.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Alici.DisabledState.Parent = this.tx_Alici;
+            this.tx_Alici.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_Alici.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Alici.FocusedState.Parent = this.tx_Alici;
+            this.tx_Alici.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_Alici.HoverState.Parent = this.tx_Alici;
+            this.tx_Alici.Location = new System.Drawing.Point(85, 179);
+            this.tx_Alici.MaxLength = 50;
+            this.tx_Alici.Name = "tx_Alici";
+            this.tx_Alici.PasswordChar = '\0';
+            this.tx_Alici.PlaceholderText = "";
+            this.tx_Alici.SelectedText = "";
+            this.tx_Alici.ShadowDecoration.Parent = this.tx_Alici;
+            this.tx_Alici.Size = new System.Drawing.Size(139, 28);
+            this.tx_Alici.TabIndex = 21;
+            // 
+            // metroLabel9
+            // 
+            this.metroLabel9.AutoSize = true;
+            this.metroLabel9.Location = new System.Drawing.Point(6, 179);
+            this.metroLabel9.Name = "metroLabel9";
+            this.metroLabel9.Size = new System.Drawing.Size(36, 19);
+            this.metroLabel9.TabIndex = 20;
+            this.metroLabel9.Text = "Alıcı:";
+            // 
+            // tx_VergiDairesi
+            // 
+            this.tx_VergiDairesi.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tx_VergiDairesi.DefaultText = "";
+            this.tx_VergiDairesi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tx_VergiDairesi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tx_VergiDairesi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_VergiDairesi.DisabledState.Parent = this.tx_VergiDairesi;
+            this.tx_VergiDairesi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tx_VergiDairesi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_VergiDairesi.FocusedState.Parent = this.tx_VergiDairesi;
+            this.tx_VergiDairesi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tx_VergiDairesi.HoverState.Parent = this.tx_VergiDairesi;
+            this.tx_VergiDairesi.Location = new System.Drawing.Point(85, 147);
+            this.tx_VergiDairesi.MaxLength = 50;
+            this.tx_VergiDairesi.Name = "tx_VergiDairesi";
+            this.tx_VergiDairesi.PasswordChar = '\0';
+            this.tx_VergiDairesi.PlaceholderText = "";
+            this.tx_VergiDairesi.SelectedText = "";
+            this.tx_VergiDairesi.ShadowDecoration.Parent = this.tx_VergiDairesi;
+            this.tx_VergiDairesi.Size = new System.Drawing.Size(139, 28);
+            this.tx_VergiDairesi.TabIndex = 19;
+            // 
+            // metroLabel8
+            // 
+            this.metroLabel8.AutoSize = true;
+            this.metroLabel8.Location = new System.Drawing.Point(227, 144);
+            this.metroLabel8.Name = "metroLabel8";
+            this.metroLabel8.Size = new System.Drawing.Size(37, 19);
+            this.metroLabel8.TabIndex = 18;
+            this.metroLabel8.Text = "Saat:";
             // 
             // cbx_Cari
             // 
@@ -346,7 +430,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Saat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Saat.HoverState.Parent = this.tx_Saat;
             this.tx_Saat.Location = new System.Drawing.Point(220, 113);
-            this.tx_Saat.MaxLength = 5;
             this.tx_Saat.Name = "tx_Saat";
             this.tx_Saat.PasswordChar = '\0';
             this.tx_Saat.PlaceholderText = "";
@@ -369,7 +452,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Tarih.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Tarih.HoverState.Parent = this.tx_Tarih;
             this.tx_Tarih.Location = new System.Drawing.Point(85, 113);
-            this.tx_Tarih.MaxLength = 9;
+            this.tx_Tarih.MaxLength = 10;
             this.tx_Tarih.Name = "tx_Tarih";
             this.tx_Tarih.PasswordChar = '\0';
             this.tx_Tarih.PlaceholderText = "";
@@ -432,90 +515,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Seri.ShadowDecoration.Parent = this.tx_Seri;
             this.tx_Seri.Size = new System.Drawing.Size(139, 28);
             this.tx_Seri.TabIndex = 2;
-            // 
-            // metroLabel8
-            // 
-            this.metroLabel8.AutoSize = true;
-            this.metroLabel8.Location = new System.Drawing.Point(227, 144);
-            this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(37, 19);
-            this.metroLabel8.TabIndex = 18;
-            this.metroLabel8.Text = "Saat:";
-            // 
-            // tx_VergiDairesi
-            // 
-            this.tx_VergiDairesi.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_VergiDairesi.DefaultText = "";
-            this.tx_VergiDairesi.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_VergiDairesi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_VergiDairesi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_VergiDairesi.DisabledState.Parent = this.tx_VergiDairesi;
-            this.tx_VergiDairesi.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_VergiDairesi.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_VergiDairesi.FocusedState.Parent = this.tx_VergiDairesi;
-            this.tx_VergiDairesi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_VergiDairesi.HoverState.Parent = this.tx_VergiDairesi;
-            this.tx_VergiDairesi.Location = new System.Drawing.Point(85, 147);
-            this.tx_VergiDairesi.MaxLength = 50;
-            this.tx_VergiDairesi.Name = "tx_VergiDairesi";
-            this.tx_VergiDairesi.PasswordChar = '\0';
-            this.tx_VergiDairesi.PlaceholderText = "";
-            this.tx_VergiDairesi.SelectedText = "";
-            this.tx_VergiDairesi.ShadowDecoration.Parent = this.tx_VergiDairesi;
-            this.tx_VergiDairesi.Size = new System.Drawing.Size(139, 28);
-            this.tx_VergiDairesi.TabIndex = 19;
-            // 
-            // tx_Alici
-            // 
-            this.tx_Alici.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tx_Alici.DefaultText = "";
-            this.tx_Alici.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tx_Alici.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tx_Alici.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Alici.DisabledState.Parent = this.tx_Alici;
-            this.tx_Alici.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tx_Alici.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Alici.FocusedState.Parent = this.tx_Alici;
-            this.tx_Alici.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tx_Alici.HoverState.Parent = this.tx_Alici;
-            this.tx_Alici.Location = new System.Drawing.Point(85, 179);
-            this.tx_Alici.MaxLength = 50;
-            this.tx_Alici.Name = "tx_Alici";
-            this.tx_Alici.PasswordChar = '\0';
-            this.tx_Alici.PlaceholderText = "";
-            this.tx_Alici.SelectedText = "";
-            this.tx_Alici.ShadowDecoration.Parent = this.tx_Alici;
-            this.tx_Alici.Size = new System.Drawing.Size(139, 28);
-            this.tx_Alici.TabIndex = 21;
-            // 
-            // metroLabel9
-            // 
-            this.metroLabel9.AutoSize = true;
-            this.metroLabel9.Location = new System.Drawing.Point(6, 179);
-            this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(36, 19);
-            this.metroLabel9.TabIndex = 20;
-            this.metroLabel9.Text = "Alıcı:";
-            // 
-            // cbx_Personel
-            // 
-            this.cbx_Personel.FormattingEnabled = true;
-            this.cbx_Personel.ItemHeight = 23;
-            this.cbx_Personel.Location = new System.Drawing.Point(85, 266);
-            this.cbx_Personel.Name = "cbx_Personel";
-            this.cbx_Personel.Size = new System.Drawing.Size(139, 29);
-            this.cbx_Personel.Style = MetroFramework.MetroColorStyle.Red;
-            this.cbx_Personel.TabIndex = 23;
-            this.cbx_Personel.UseSelectable = true;
-            // 
-            // metroLabel10
-            // 
-            this.metroLabel10.AutoSize = true;
-            this.metroLabel10.Location = new System.Drawing.Point(3, 266);
-            this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(61, 19);
-            this.metroLabel10.TabIndex = 22;
-            this.metroLabel10.Text = "Personel:";
             // 
             // frmFaturaListesi
             // 

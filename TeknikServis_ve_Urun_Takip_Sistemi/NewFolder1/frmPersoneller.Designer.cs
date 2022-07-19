@@ -29,9 +29,9 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.cbx_Departman = new MetroFramework.Controls.MetroComboBox();
             this.tx_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
@@ -46,6 +46,11 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.tx_Ad = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
             this.tx_Soyad = new Guna.UI2.WinForms.Guna2TextBox();
             this.dgv_Personel = new Guna.UI2.WinForms.Guna2DataGridView();
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
@@ -58,11 +63,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_Temizle = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Listele = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Guncelle = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Sil = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Ekle = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
@@ -172,6 +172,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Telefon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Telefon.HoverState.Parent = this.tx_Telefon;
             this.tx_Telefon.Location = new System.Drawing.Point(85, 243);
+            this.tx_Telefon.MaxLength = 20;
             this.tx_Telefon.Name = "tx_Telefon";
             this.tx_Telefon.PasswordChar = '\0';
             this.tx_Telefon.PlaceholderText = "";
@@ -194,6 +195,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Mail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Mail.HoverState.Parent = this.tx_Mail;
             this.tx_Mail.Location = new System.Drawing.Point(85, 192);
+            this.tx_Mail.MaxLength = 100;
             this.tx_Mail.Name = "tx_Mail";
             this.tx_Mail.PasswordChar = '\0';
             this.tx_Mail.PlaceholderText = "";
@@ -216,6 +218,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Fotograf.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Fotograf.HoverState.Parent = this.tx_Fotograf;
             this.tx_Fotograf.Location = new System.Drawing.Point(85, 137);
+            this.tx_Fotograf.MaxLength = 500;
             this.tx_Fotograf.Name = "tx_Fotograf";
             this.tx_Fotograf.PasswordChar = '\0';
             this.tx_Fotograf.PlaceholderText = "";
@@ -256,6 +259,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Ad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Ad.HoverState.Parent = this.tx_Ad;
             this.tx_Ad.Location = new System.Drawing.Point(85, 42);
+            this.tx_Ad.MaxLength = 50;
             this.tx_Ad.Name = "tx_Ad";
             this.tx_Ad.PasswordChar = '\0';
             this.tx_Ad.PlaceholderText = "";
@@ -295,6 +299,96 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.guna2GroupBox1.TabIndex = 4;
             this.guna2GroupBox1.Text = "Personel İşlem Menüsü";
             // 
+            // btn_Temizle
+            // 
+            this.btn_Temizle.CheckedState.Parent = this.btn_Temizle;
+            this.btn_Temizle.CustomImages.Parent = this.btn_Temizle;
+            this.btn_Temizle.FillColor = System.Drawing.Color.White;
+            this.btn_Temizle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Temizle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Temizle.HoverState.Parent = this.btn_Temizle;
+            this.btn_Temizle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_cart;
+            this.btn_Temizle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Temizle.Location = new System.Drawing.Point(70, 429);
+            this.btn_Temizle.Name = "btn_Temizle";
+            this.btn_Temizle.ShadowDecoration.Parent = this.btn_Temizle;
+            this.btn_Temizle.Size = new System.Drawing.Size(114, 40);
+            this.btn_Temizle.TabIndex = 14;
+            this.btn_Temizle.Text = "Temizle";
+            this.btn_Temizle.Click += new System.EventHandler(this.btn_Temizle_Click);
+            // 
+            // btn_Listele
+            // 
+            this.btn_Listele.CheckedState.Parent = this.btn_Listele;
+            this.btn_Listele.CustomImages.Parent = this.btn_Listele;
+            this.btn_Listele.FillColor = System.Drawing.Color.White;
+            this.btn_Listele.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Listele.ForeColor = System.Drawing.Color.Black;
+            this.btn_Listele.HoverState.Parent = this.btn_Listele;
+            this.btn_Listele.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.shopping_cart__2_;
+            this.btn_Listele.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Listele.Location = new System.Drawing.Point(128, 383);
+            this.btn_Listele.Name = "btn_Listele";
+            this.btn_Listele.ShadowDecoration.Parent = this.btn_Listele;
+            this.btn_Listele.Size = new System.Drawing.Size(114, 40);
+            this.btn_Listele.TabIndex = 13;
+            this.btn_Listele.Text = "Listele";
+            this.btn_Listele.Click += new System.EventHandler(this.btn_Listele_Click);
+            // 
+            // btn_Guncelle
+            // 
+            this.btn_Guncelle.CheckedState.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.CustomImages.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.FillColor = System.Drawing.Color.White;
+            this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
+            this.btn_Guncelle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Guncelle.Location = new System.Drawing.Point(8, 383);
+            this.btn_Guncelle.Name = "btn_Guncelle";
+            this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
+            this.btn_Guncelle.Size = new System.Drawing.Size(114, 40);
+            this.btn_Guncelle.TabIndex = 13;
+            this.btn_Guncelle.Text = "Güncelle";
+            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
+            // 
+            // btn_Sil
+            // 
+            this.btn_Sil.CheckedState.Parent = this.btn_Sil;
+            this.btn_Sil.CustomImages.Parent = this.btn_Sil;
+            this.btn_Sil.FillColor = System.Drawing.Color.White;
+            this.btn_Sil.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Sil.ForeColor = System.Drawing.Color.Black;
+            this.btn_Sil.HoverState.Parent = this.btn_Sil;
+            this.btn_Sil.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_from_cart__1_;
+            this.btn_Sil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Sil.Location = new System.Drawing.Point(142, 337);
+            this.btn_Sil.Name = "btn_Sil";
+            this.btn_Sil.ShadowDecoration.Parent = this.btn_Sil;
+            this.btn_Sil.Size = new System.Drawing.Size(114, 40);
+            this.btn_Sil.TabIndex = 13;
+            this.btn_Sil.Text = "Sil";
+            this.btn_Sil.Click += new System.EventHandler(this.btn_Sil_Click);
+            // 
+            // btn_Ekle
+            // 
+            this.btn_Ekle.CheckedState.Parent = this.btn_Ekle;
+            this.btn_Ekle.CustomImages.Parent = this.btn_Ekle;
+            this.btn_Ekle.FillColor = System.Drawing.Color.White;
+            this.btn_Ekle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_Ekle.ForeColor = System.Drawing.Color.Black;
+            this.btn_Ekle.HoverState.Parent = this.btn_Ekle;
+            this.btn_Ekle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
+            this.btn_Ekle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Ekle.Location = new System.Drawing.Point(8, 337);
+            this.btn_Ekle.Name = "btn_Ekle";
+            this.btn_Ekle.ShadowDecoration.Parent = this.btn_Ekle;
+            this.btn_Ekle.Size = new System.Drawing.Size(114, 40);
+            this.btn_Ekle.TabIndex = 13;
+            this.btn_Ekle.Text = "Ekle";
+            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
+            // 
             // tx_Soyad
             // 
             this.tx_Soyad.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -309,6 +403,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Soyad.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Soyad.HoverState.Parent = this.tx_Soyad;
             this.tx_Soyad.Location = new System.Drawing.Point(85, 87);
+            this.tx_Soyad.MaxLength = 50;
             this.tx_Soyad.Name = "tx_Soyad";
             this.tx_Soyad.PasswordChar = '\0';
             this.tx_Soyad.PlaceholderText = "";
@@ -323,31 +418,31 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.dgv_Personel.AllowUserToDeleteRows = false;
             this.dgv_Personel.AllowUserToResizeColumns = false;
             this.dgv_Personel.AllowUserToResizeRows = false;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
-            this.dgv_Personel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dgv_Personel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_Personel.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_Personel.BackgroundColor = System.Drawing.Color.White;
             this.dgv_Personel.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv_Personel.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgv_Personel.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableAlwaysIncludeHeaderText;
             this.dgv_Personel.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Personel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Personel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgv_Personel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv_Personel.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Personel.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgv_Personel.EnableHeadersVisualStyles = false;
             this.dgv_Personel.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
             this.dgv_Personel.Location = new System.Drawing.Point(12, 357);
@@ -490,96 +585,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.pictureBox1.Size = new System.Drawing.Size(202, 346);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            // 
-            // btn_Temizle
-            // 
-            this.btn_Temizle.CheckedState.Parent = this.btn_Temizle;
-            this.btn_Temizle.CustomImages.Parent = this.btn_Temizle;
-            this.btn_Temizle.FillColor = System.Drawing.Color.White;
-            this.btn_Temizle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Temizle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Temizle.HoverState.Parent = this.btn_Temizle;
-            this.btn_Temizle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_cart;
-            this.btn_Temizle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Temizle.Location = new System.Drawing.Point(70, 429);
-            this.btn_Temizle.Name = "btn_Temizle";
-            this.btn_Temizle.ShadowDecoration.Parent = this.btn_Temizle;
-            this.btn_Temizle.Size = new System.Drawing.Size(114, 40);
-            this.btn_Temizle.TabIndex = 14;
-            this.btn_Temizle.Text = "Temizle";
-            this.btn_Temizle.Click += new System.EventHandler(this.btn_Temizle_Click);
-            // 
-            // btn_Listele
-            // 
-            this.btn_Listele.CheckedState.Parent = this.btn_Listele;
-            this.btn_Listele.CustomImages.Parent = this.btn_Listele;
-            this.btn_Listele.FillColor = System.Drawing.Color.White;
-            this.btn_Listele.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Listele.ForeColor = System.Drawing.Color.Black;
-            this.btn_Listele.HoverState.Parent = this.btn_Listele;
-            this.btn_Listele.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.shopping_cart__2_;
-            this.btn_Listele.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Listele.Location = new System.Drawing.Point(128, 383);
-            this.btn_Listele.Name = "btn_Listele";
-            this.btn_Listele.ShadowDecoration.Parent = this.btn_Listele;
-            this.btn_Listele.Size = new System.Drawing.Size(114, 40);
-            this.btn_Listele.TabIndex = 13;
-            this.btn_Listele.Text = "Listele";
-            this.btn_Listele.Click += new System.EventHandler(this.btn_Listele_Click);
-            // 
-            // btn_Guncelle
-            // 
-            this.btn_Guncelle.CheckedState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.CustomImages.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.FillColor = System.Drawing.Color.White;
-            this.btn_Guncelle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Guncelle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Guncelle.HoverState.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.purchase;
-            this.btn_Guncelle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Guncelle.Location = new System.Drawing.Point(8, 383);
-            this.btn_Guncelle.Name = "btn_Guncelle";
-            this.btn_Guncelle.ShadowDecoration.Parent = this.btn_Guncelle;
-            this.btn_Guncelle.Size = new System.Drawing.Size(114, 40);
-            this.btn_Guncelle.TabIndex = 13;
-            this.btn_Guncelle.Text = "Güncelle";
-            this.btn_Guncelle.Click += new System.EventHandler(this.btn_Guncelle_Click);
-            // 
-            // btn_Sil
-            // 
-            this.btn_Sil.CheckedState.Parent = this.btn_Sil;
-            this.btn_Sil.CustomImages.Parent = this.btn_Sil;
-            this.btn_Sil.FillColor = System.Drawing.Color.White;
-            this.btn_Sil.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Sil.ForeColor = System.Drawing.Color.Black;
-            this.btn_Sil.HoverState.Parent = this.btn_Sil;
-            this.btn_Sil.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.remove_from_cart__1_;
-            this.btn_Sil.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Sil.Location = new System.Drawing.Point(142, 337);
-            this.btn_Sil.Name = "btn_Sil";
-            this.btn_Sil.ShadowDecoration.Parent = this.btn_Sil;
-            this.btn_Sil.Size = new System.Drawing.Size(114, 40);
-            this.btn_Sil.TabIndex = 13;
-            this.btn_Sil.Text = "Sil";
-            this.btn_Sil.Click += new System.EventHandler(this.btn_Sil_Click);
-            // 
-            // btn_Ekle
-            // 
-            this.btn_Ekle.CheckedState.Parent = this.btn_Ekle;
-            this.btn_Ekle.CustomImages.Parent = this.btn_Ekle;
-            this.btn_Ekle.FillColor = System.Drawing.Color.White;
-            this.btn_Ekle.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_Ekle.ForeColor = System.Drawing.Color.Black;
-            this.btn_Ekle.HoverState.Parent = this.btn_Ekle;
-            this.btn_Ekle.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.add_to_cart;
-            this.btn_Ekle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Ekle.Location = new System.Drawing.Point(8, 337);
-            this.btn_Ekle.Name = "btn_Ekle";
-            this.btn_Ekle.ShadowDecoration.Parent = this.btn_Ekle;
-            this.btn_Ekle.Size = new System.Drawing.Size(114, 40);
-            this.btn_Ekle.TabIndex = 13;
-            this.btn_Ekle.Text = "Ekle";
-            this.btn_Ekle.Click += new System.EventHandler(this.btn_Ekle_Click);
             // 
             // guna2PictureBox1
             // 

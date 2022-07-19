@@ -43,6 +43,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_UrunAdi = new Guna.UI2.WinForms.Guna2TextBox();
             this.cbx_Kategoriler = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
+            this.btn_Hide = new MetroFramework.Controls.MetroButton();
+            this.btn_Kapat = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // btn_Vazgeç
@@ -122,6 +124,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Stok.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Stok.HoverState.Parent = this.tx_Stok;
             this.tx_Stok.Location = new System.Drawing.Point(126, 283);
+            this.tx_Stok.MaxLength = 6;
             this.tx_Stok.Name = "tx_Stok";
             this.tx_Stok.PasswordChar = '\0';
             this.tx_Stok.PlaceholderText = "";
@@ -144,6 +147,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_SatisFiyat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_SatisFiyat.HoverState.Parent = this.tx_SatisFiyat;
             this.tx_SatisFiyat.Location = new System.Drawing.Point(126, 232);
+            this.tx_SatisFiyat.MaxLength = 10;
             this.tx_SatisFiyat.Name = "tx_SatisFiyat";
             this.tx_SatisFiyat.PasswordChar = '\0';
             this.tx_SatisFiyat.PlaceholderText = "";
@@ -166,6 +170,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_AlisFiyat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_AlisFiyat.HoverState.Parent = this.tx_AlisFiyat;
             this.tx_AlisFiyat.Location = new System.Drawing.Point(126, 177);
+            this.tx_AlisFiyat.MaxLength = 10;
             this.tx_AlisFiyat.Name = "tx_AlisFiyat";
             this.tx_AlisFiyat.PasswordChar = '\0';
             this.tx_AlisFiyat.PlaceholderText = "";
@@ -197,6 +202,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Marka.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Marka.HoverState.Parent = this.tx_Marka;
             this.tx_Marka.Location = new System.Drawing.Point(125, 133);
+            this.tx_Marka.MaxLength = 50;
             this.tx_Marka.Name = "tx_Marka";
             this.tx_Marka.PasswordChar = '\0';
             this.tx_Marka.PlaceholderText = "";
@@ -228,6 +234,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_UrunAdi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_UrunAdi.HoverState.Parent = this.tx_UrunAdi;
             this.tx_UrunAdi.Location = new System.Drawing.Point(126, 44);
+            this.tx_UrunAdi.MaxLength = 50;
             this.tx_UrunAdi.Name = "tx_UrunAdi";
             this.tx_UrunAdi.PasswordChar = '\0';
             this.tx_UrunAdi.PlaceholderText = "";
@@ -256,6 +263,34 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.metroLabel6.TabIndex = 31;
             this.metroLabel6.Text = "Kategoriler:";
             // 
+            // btn_Hide
+            // 
+            this.btn_Hide.AutoSize = true;
+            this.btn_Hide.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Hide.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.hide;
+            this.btn_Hide.Location = new System.Drawing.Point(437, 12);
+            this.btn_Hide.Name = "btn_Hide";
+            this.btn_Hide.Size = new System.Drawing.Size(16, 16);
+            this.btn_Hide.TabIndex = 35;
+            this.btn_Hide.UseCustomBackColor = true;
+            this.btn_Hide.UseCustomForeColor = true;
+            this.btn_Hide.UseSelectable = true;
+            this.btn_Hide.Click += new System.EventHandler(this.btn_Hide_Click);
+            // 
+            // btn_Kapat
+            // 
+            this.btn_Kapat.AutoSize = true;
+            this.btn_Kapat.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Kapat.BackgroundImage = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.close2;
+            this.btn_Kapat.Location = new System.Drawing.Point(459, 12);
+            this.btn_Kapat.Name = "btn_Kapat";
+            this.btn_Kapat.Size = new System.Drawing.Size(16, 16);
+            this.btn_Kapat.TabIndex = 34;
+            this.btn_Kapat.UseCustomBackColor = true;
+            this.btn_Kapat.UseCustomForeColor = true;
+            this.btn_Kapat.UseSelectable = true;
+            this.btn_Kapat.Click += new System.EventHandler(this.btn_Kapat_Click);
+            // 
             // YeniUrunEkleme
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -263,6 +298,8 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(487, 360);
+            this.Controls.Add(this.btn_Hide);
+            this.Controls.Add(this.btn_Kapat);
             this.Controls.Add(this.cbx_Kategoriler);
             this.Controls.Add(this.metroLabel6);
             this.Controls.Add(this.btn_Vazgeç);
@@ -302,5 +339,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
         private Guna.UI2.WinForms.Guna2TextBox tx_UrunAdi;
         private MetroFramework.Controls.MetroComboBox cbx_Kategoriler;
         private MetroFramework.Controls.MetroLabel metroLabel6;
+        private MetroFramework.Controls.MetroButton btn_Hide;
+        private MetroFramework.Controls.MetroButton btn_Kapat;
     }
 }

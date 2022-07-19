@@ -70,6 +70,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_SatisFiyat.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_SatisFiyat.HoverState.Parent = this.tx_SatisFiyat;
             this.tx_SatisFiyat.Location = new System.Drawing.Point(96, 225);
+            this.tx_SatisFiyat.MaxLength = 10;
             this.tx_SatisFiyat.Name = "tx_SatisFiyat";
             this.tx_SatisFiyat.PasswordChar = '\0';
             this.tx_SatisFiyat.PlaceholderText = "";
@@ -136,6 +137,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_SeriNo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_SeriNo.HoverState.Parent = this.tx_SeriNo;
             this.tx_SeriNo.Location = new System.Drawing.Point(96, 260);
+            this.tx_SeriNo.MaxLength = 10;
             this.tx_SeriNo.Name = "tx_SeriNo";
             this.tx_SeriNo.PasswordChar = '\0';
             this.tx_SeriNo.PlaceholderText = "";
@@ -309,6 +311,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Adet.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Adet.HoverState.Parent = this.tx_Adet;
             this.tx_Adet.Location = new System.Drawing.Point(97, 191);
+            this.tx_Adet.MaxLength = 6;
             this.tx_Adet.Name = "tx_Adet";
             this.tx_Adet.PasswordChar = '\0';
             this.tx_Adet.PlaceholderText = "";
@@ -331,6 +334,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Tarih.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Tarih.HoverState.Parent = this.tx_Tarih;
             this.tx_Tarih.Location = new System.Drawing.Point(96, 157);
+            this.tx_Tarih.MaxLength = 10;
             this.tx_Tarih.Name = "tx_Tarih";
             this.tx_Tarih.PasswordChar = '\0';
             this.tx_Tarih.PlaceholderText = "";
@@ -353,6 +357,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Personel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Personel.HoverState.Parent = this.tx_Personel;
             this.tx_Personel.Location = new System.Drawing.Point(97, 122);
+            this.tx_Personel.MaxLength = 50;
             this.tx_Personel.Name = "tx_Personel";
             this.tx_Personel.PasswordChar = '\0';
             this.tx_Personel.PlaceholderText = "";
@@ -384,6 +389,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_Musteri.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_Musteri.HoverState.Parent = this.tx_Musteri;
             this.tx_Musteri.Location = new System.Drawing.Point(96, 88);
+            this.tx_Musteri.MaxLength = 50;
             this.tx_Musteri.Name = "tx_Musteri";
             this.tx_Musteri.PasswordChar = '\0';
             this.tx_Musteri.PlaceholderText = "";
@@ -415,6 +421,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi.NewFolder1
             this.tx_UrunAd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tx_UrunAd.HoverState.Parent = this.tx_UrunAd;
             this.tx_UrunAd.Location = new System.Drawing.Point(96, 52);
+            this.tx_UrunAd.MaxLength = 50;
             this.tx_UrunAd.Name = "tx_UrunAd";
             this.tx_UrunAd.PasswordChar = '\0';
             this.tx_UrunAd.PlaceholderText = "";
