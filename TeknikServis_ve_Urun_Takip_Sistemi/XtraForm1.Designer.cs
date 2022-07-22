@@ -85,7 +85,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.btn_UrunListesiFormu = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -109,6 +108,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
+            this.btn_DetayliForm = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -168,9 +168,10 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.btn_YeniUrunSatis,
             this.btn_SatisListesi,
             this.btn_ArizaliUrunDetaylari,
-            this.btn_FaturaListesi});
+            this.btn_FaturaListesi,
+            this.btn_DetayliForm});
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 64;
+            this.ribbonControl.MaxItemId = 65;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -610,8 +611,7 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1,
-            this.ribbonPageGroup2,
-            this.ribbonPageGroup3});
+            this.ribbonPageGroup2});
             this.ribbonPage1.ImageOptions.Image = global::TeknikServis_ve_Urun_Takip_Sistemi.Properties.Resources.homepage;
             this.ribbonPage1.MergeOrder = 0;
             this.ribbonPage1.Name = "ribbonPage1";
@@ -635,11 +635,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             this.ribbonPageGroup2.ItemLinks.Add(this.bbiPrintPreview);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "Print and Export";
-            // 
-            // ribbonPageGroup3
-            // 
-            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
-            this.ribbonPageGroup3.Text = "ribbonPageGroup3";
             // 
             // btn_UrunListesiFormu
             // 
@@ -829,6 +824,12 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
+            // btn_DetayliForm
+            // 
+            this.btn_DetayliForm.Id = 64;
+            this.btn_DetayliForm.Name = "btn_DetayliForm";
+            this.btn_DetayliForm.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btn_DetayliForm_ItemClick);
+            // 
             // XtraForm1
             // 
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.True;
@@ -875,7 +876,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem btn_ArizaUrunAciklama;
         private DevExpress.XtraBars.BarButtonItem btn_QrCodeOlustur;
         private DevExpress.XtraBars.BarButtonItem barButtonItem12;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.Ribbon.RibbonPage btn_UrunListesiFormu;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
@@ -930,5 +930,6 @@ namespace TeknikServis_ve_Urun_Takip_Sistemi
         private DevExpress.XtraBars.BarButtonItem btn_SatisListesi;
         private DevExpress.XtraBars.BarButtonItem btn_ArizaliUrunDetaylari;
         private DevExpress.XtraBars.BarButtonItem btn_FaturaListesi;
+        private DevExpress.XtraBars.BarButtonItem btn_DetayliForm;
     }
 }
